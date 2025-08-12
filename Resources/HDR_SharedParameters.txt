@@ -1,0 +1,1758 @@
+# This is a Revit shared parameter file.
+# Do not edit manually.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	1	001_IFC
+GROUP	2	002_IFC_General
+GROUP	3	003_IFC_Dimensions
+GROUP	4	004_IFC_Export
+GROUP	5	005_IFC_FireProtection
+GROUP	50	050_NBS_Spec
+GROUP	100	100_General_ProjectInfo
+GROUP	101	101_General_Titleblock
+GROUP	102	102_General_ViewBrowser
+GROUP	103	103_General_Annotations
+GROUP	104	104_General_Classifications
+GROUP	105	105_General_ElementInformation
+GROUP	200	200_Architecture_Dimensions
+GROUP	300	300_MEP_ProjectInfo
+GROUP	301	301_MEP_MaterialFinishes
+GROUP	302	302_MEP_Calculations
+GROUP	303	303_MEP_BuildersWork
+GROUP	304	304_MEP_Schematics
+GROUP	305	305_MEP_ElementInformation
+GROUP	306	306_MEP_Strategy
+GROUP	400	400_Structure_Analysis
+GROUP	401	401_Structure_Concrete
+GROUP	402	402_Structure_Dimensions
+GROUP	403	403_Structure_Foundations
+GROUP	404	404_Structure_FireProtection
+GROUP	405	405_Structure_LoadingPlans
+GROUP	406	406_Structure_MaterialFinishes
+GROUP	407	407_Structure_Slabs
+GROUP	408	408_Structure_Steelwork
+GROUP	409	409_Structure_SteelworkConnections
+GROUP	410	410_Structure_Reinforcement
+GROUP	411	411_Structure_GraphicVisibility
+GROUP	420	420_Structure_General
+GROUP	500	500_HealthAndSafety_CDM
+GROUP	600	600_ModelHealthCheck_QA
+GROUP	700	700_Civils_Drainage
+GROUP	901	901_Architectural Openings
+GROUP	923	923_Electrical - Diagram
+GROUP	924	924_Electrical
+GROUP	925	925_Electrical - Loads
+GROUP	926	926_Instrumentation
+GROUP	927	927_Identity Data
+GROUP	928	928_Electrical - Lighting
+GROUP	929	929_Other
+GROUP	930	930_Dimensions
+GROUP	931	931_Mechanical - Air Flow
+GROUP	932	932_Mechanical
+GROUP	933	933_Plumbing
+GROUP	934	934_AffinityParameters
+GROUP	935	935_Energy Analysis
+GROUP	936	936_Mechanical - Loads
+GROUP	937	937_Structural
+GROUP	938	938_Model Properties
+GROUP	939	939_Overall Legend
+GROUP	940	940_Materials and Finishes
+GROUP	941	941_Construction
+GROUP	942	942_Graphics
+GROUP	943	943_Green Building Properties
+GROUP	944	944_Photometrics
+GROUP	945	945_Data
+GROUP	946	946_Phasing
+GROUP	947	947_Fire Protection
+GROUP	948	948_FLS Occupant Load
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USER MODIFIABLE	
+PARAM	8709d2b4-9122-4ce9-ad72-3195a604f431	Pset_Risk_AssessmentOfRisk	TEXT		2	1		1	
+PARAM	eaaa0a1b-0a37-46be-95f2-c7d92f8dd5e5	Pset_Risk_NatureOfRisk	TEXT		2	1		1	
+PARAM	e1bc1166-a487-44ca-bf17-bb69fb92d207	Pset_Risk_PreventiveMeasures	TEXT		2	1		1	
+PARAM	9039d765-fa01-40bf-b6f0-e444501c1950	Pset_Risk_RiskCause	TEXT		2	1		1	
+PARAM	7aa6d569-07a1-4124-9c8d-93cab2f74e82	Pset_Risk_RiskConsequence	TEXT		2	1		1	
+PARAM	2d3f75c9-d213-4338-a1a5-73fde6f21dc7	Pset_Risk_RiskGrade	TEXT		2	1		1	
+PARAM	381fc4b6-80ea-4bc7-8093-b9349f91e77c	Pset_Risk_RiskName	TEXT		2	1		1	
+PARAM	47d6b0ec-2717-4163-af5e-0b39d23a2695	Pset_Risk_RiskOwner	TEXT		2	1		1	
+PARAM	38d129e8-f743-456b-b2a0-7952e73f9593	Pset_Risk_RiskType	TEXT		2	1		1	
+PARAM	a1814d6e-98be-41cd-8b1b-bd809af0ac1b	IfcExportAs	TEXT		4	1		1	
+PARAM	d94eb345-e7be-4a28-86f9-062c3344471f	IfcExportType	TEXT		4	1		1	
+PARAM	4f527e35-03e7-4a48-a585-3beae9db34a1	NBSCertification	URL		50	1		1	
+PARAM	f3b4c178-53c0-41d2-aa02-5e75ba8d7ceb	NBSDescription	TEXT		50	1		1	
+PARAM	8f641f7c-8283-4bf8-ac56-9b01041a444b	NBSNote	TEXT		50	1		1	
+PARAM	3556bc54-2c6a-48bc-b6c3-6463ac73b598	NBSOfficeMasterTag	TEXT		50	1		1	
+PARAM	4300e8b6-63e5-4d7a-98a6-c4efac911f40	NBSReference	TEXT		50	1		1	
+PARAM	1d257c23-2c04-43fe-9bd6-b101ca05c3fb	Architect	TEXT		100	1		1	
+PARAM	33d5f039-532f-46f2-abc8-8bfc5e8456e3	Building Services Engineer	TEXT		100	1		1	
+PARAM	237b8aab-7184-4838-814d-569176c1258d	HDR_PrincipalFoundationType	TEXT		100	1		1	
+PARAM	071d3330-8344-4874-9501-dc03380259ca	HDR_Project_Address1	TEXT		100	1		1	
+PARAM	cbe0cc0d-98ac-4cac-8dc3-248f0c915ebc	HDR_Project_Address2	TEXT		100	1		1	
+PARAM	85d79caa-dda4-4298-8d1f-4bb7f80b0847	HDR_Project_AddressCountry	TEXT		100	1		1	
+PARAM	0e37ac2c-9dd0-4c90-b4c1-2925e211bc51	HDR_Project_AddressPostCode	TEXT		100	1		1	
+PARAM	8b23c8c2-0a2a-4f06-95a4-84586db920eb	HDR_Project_AddressTownCity	TEXT		100	1		1	
+PARAM	c801ac1e-bea4-498c-b1e2-acf94252e7d8	HDR_Project_AssetType	TEXT		100	1		1	
+PARAM	fdf33af7-8d02-4cd1-b6fc-3fa0236c6427	HDR_Project_Author	TEXT		100	1		1	
+PARAM	5742ff85-2062-4a8f-b54f-a0381cbe13a3	HDR_Project_BasementType	TEXT		100	1		1	
+PARAM	c536b9a6-99b0-4abc-a98c-273771850fe6	HDR_Project_BIMCoordinator	TEXT		100	1		1	
+PARAM	ca931b24-e0ab-4b11-8c94-f03b5724c5d7	HDR_Project_BIMManager	TEXT		100	1		1	
+PARAM	bc91b411-7b63-4122-bd44-c65a09271511	HDR_Project_BIMTechnician	TEXT		100	1		1	
+PARAM	49fd6614-ef64-4817-886b-fc697d835cfe	HDR_Project_Clientname1	TEXT		100	1		1	
+PARAM	3ebd9d50-23ed-48c1-9d90-dcfca0feb853	HDR_Project_Clientname2	TEXT		100	1		1	
+PARAM	25e59616-42a5-4372-b9ae-5673bdf7fd88	HDR_Project_Clientname3	TEXT		100	1		1	
+PARAM	ed3847c9-833e-47a4-b122-770e27e8c767	HDR_Project_CompanyName	TEXT		100	1		1	
+PARAM	23e8f157-78f7-4492-9981-c125aefea4d2	HDR_Project_Designer1	TEXT		100	1		1	
+PARAM	f03c6378-367f-4209-ba2a-be8d79a5c1a2	HDR_Project_Designer2	TEXT		100	1		1	
+PARAM	84272f47-1083-4394-947b-28b457dc9e7a	HDR_Project_Designer3	TEXT		100	1		1	
+PARAM	fe515acd-f908-4922-b3c6-58007847b8ca	HDR_Project_Discipline	TEXT		100	1		1	
+PARAM	b356c02a-44a4-46c6-ae13-1be2dde16701	HDR_Project_DisciplineDesignLead	TEXT		100	1		1	
+PARAM	15f43188-0769-4e40-a8ce-e5e79315687a	HDR_Project_FacilityName	TEXT		100	1		1	
+PARAM	b6d47ee8-ecee-4c17-b8a6-355a0c4e6c6b	HDR_Project_LeadVerifier	TEXT		100	1		1	
+PARAM	e67f57ac-0b26-44f1-9a00-a7241cd43dde	HDR_Project_ModelCreatedBy	TEXT		100	1		1	
+PARAM	4915cd79-11dd-4424-bde8-951f724e1500	HDR_Project_ModelCreationDate	TEXT		100	1		1	
+PARAM	f8116d2c-16e4-4fc2-9589-df814f030ef9	HDR_Project_ModelCurrentStatus	TEXT		100	1		1	
+PARAM	39f463e2-9ad2-46b4-95d1-07052163b8c6	HDR_Project_ModelFileName	TEXT		100	1		1	
+PARAM	76499455-ffb1-4e08-bb74-4e45bcf9447a	HDR_Project_ModelIssuedate	TEXT		100	1		1	
+PARAM	b0366ce8-d043-477f-956a-fb2ab60214ed	HDR_Project_ModelReference	TEXT		100	1		1	
+PARAM	2c34eb10-ae55-42da-bb43-a74d19c343da	HDR_Project_ModelVersion	TEXT		100	1		1	
+PARAM	466395ac-e883-47fd-a4e7-32ee72791126	HDR_Project_Name1	TEXT		100	1		1	
+PARAM	9bc3e27b-4065-456d-ac98-eedeea7f502c	HDR_Project_Name2	TEXT		100	1		1	
+PARAM	60a8364c-93e7-4323-983c-e828fb9c6383	HDR_Project_Name3	TEXT		100	1		1	
+PARAM	209502e1-1b7b-41fa-8a34-509f292dda3b	HDR_Project_PrincipalFoundationType	TEXT		100	1		1	
+PARAM	560bd48d-c4bb-485e-896e-572ee561e13f	HDR_Project_ProjectManager	TEXT		100	1		1	
+PARAM	19af7bfd-f530-465f-90eb-89e9f99a2aa9	HDR_Project_Sector	TEXT		100	1		1	
+PARAM	e237a72c-5cee-45f5-8c9a-5ed56b732437	HDR_Project_SuperstructureType1	TEXT		100	1		1	
+PARAM	74583e17-686e-4321-9c85-d4cbbe87f091	HDR_Project_SuperstructureType2	TEXT		100	1		1	
+PARAM	dbbb2807-396d-4113-ad0d-c52a907cccf6	HDR_Project_SuperstructureType3	TEXT		100	1		1	
+PARAM	4043e3bd-8caa-451d-b7fa-e198f1d9c0d2	HDR_Project_Type	TEXT		100	1		1	
+PARAM	b3c1e45c-74da-46a5-a828-842643b6da2d	HDR_Project_WorkType	TEXT		100	1		1	
+PARAM	b79ed40d-2c1f-44f2-bf00-3df73b8e6bda	Information Manager	TEXT		100	1		1	
+PARAM	96c6f521-110c-4889-9841-17b934d435b3	Internal Project Number	TEXT		100	1		1	
+PARAM	84e2e926-7fdf-4008-b132-c2e609b6c6c0	Last Audited	TEXT		100	1		1	
+PARAM	63827911-4eb7-4bb8-bb46-900f2e829a16	Last Compacted	TEXT		100	1		1	
+PARAM	e910513a-6c59-4fb0-9d2a-f2b183760dc8	Last Warnings Review	TEXT		100	1		1	
+PARAM	a689dfad-959e-4117-8f9a-2aeae17ba3b3	Project Indentifier	TEXT		100	1		1	
+PARAM	38ebe162-156d-42b9-9c01-241b09937aed	Revit Version	TEXT		100	1		1	
+PARAM	e3b7ea00-4104-4761-bea4-9d9ce930314f	Template_Version	TEXT		100	1		1	
+PARAM	003d06b4-df24-4271-8c7a-163fd9be2ebe	Titleblock_01Project	TEXT		101	1	A unique code for the project, as defined by the project team.	1	
+PARAM	7c03b9b8-5854-4dba-9cdb-0e4410ede974	Titleblock_02Originator	TEXT		101	1	The organisation or individual responsible for the document.	1	
+PARAM	5325ec5e-95d8-4b75-92cb-57719d4f4aac	Titleblock_03FunctionalBreakdown	TEXT		101	1	Represents the functional system or package breakdown	1	
+PARAM	a009185d-e415-4ad5-aa8c-62605d1743af	Titleblock_04SpatialBreakdown	TEXT		101	1	Identifies the spatial area or building level within the project.	1	
+PARAM	7fcb2d63-3fb8-4847-8b47-1e8cf7296a3d	Titleblock_05Form	TEXT		101	1	Specifies the type of information (e.g., model, drawing, specification, schedule, etc.).	1	
+PARAM	f11b7563-3dc4-4173-be4c-b13601f4f3bc	Titleblock_06Discipline	TEXT		101	1	The role or discipline responsible (e.g., Architect, Structural Engineer, MEP, etc.).	1	
+PARAM	dbbd4a38-2ad0-42a1-bc06-fb5ac9709fab	Titleblock_BannerStatus	TEXT		101	1		1	
+PARAM	e9747e30-461e-4264-8233-54e0f3dae5b1	Titleblock_Discipline	TEXT		101	1		1	
+PARAM	eb203b42-da17-4f81-a91f-68fe63236948	Titleblock_DrawingTitleLine1	TEXT		101	1		1	
+PARAM	59dbdfa4-6837-4336-a061-ba1713da8459	Titleblock_DrawingTitleLine2	TEXT		101	1		1	
+PARAM	33a9339e-dee1-4e94-8225-ac7db99befad	Titleblock_DrawingTitleLine3	TEXT		101	1		1	
+PARAM	0eae3c0b-b19c-472f-88a6-67f0668ef8e2	Titleblock_DrawingTitleLine4	TEXT		101	1		1	
+PARAM	d0479439-25cd-441b-910a-7043d810a0c8	Titleblock_Scale_Manual	TEXT		101	1		1	
+PARAM	2dbbefc2-a8e4-4848-ace9-08f20b3bd278	HDR_Sheet_Sort1	TEXT		102	1		1	
+PARAM	ab11874a-5303-4cf2-bd12-b32cf4dc0e36	HDR_Sheet_Sort2	TEXT		102	1		1	
+PARAM	13dda2af-7185-47e4-b947-5ebdba481a68	HDR_Sheet_Sort3	TEXT		102	1		1	
+PARAM	419a1452-7971-4a4c-b848-389cd515a0c0	HDR_View_Sort1	TEXT		102	1		1	
+PARAM	8a2c7b2d-07c1-46fe-8f09-c1bd0a53dd63	HDR_View_Sort2	TEXT		102	1		1	
+PARAM	b009e31c-60c0-4fc7-be50-cdde6ba4f1f7	HDR_View_Sort3	TEXT		102	1		1	
+PARAM	d2419913-cfac-48c8-a4ed-68cd9ba34d22	Classification.MasterFormat.Description	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	9ecb2267-95ee-4bfc-994c-21035d452bd0	Classification.MasterFormat.Number	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	bcc0bfdd-95e3-4f0f-85b1-ea2260840393	Classification.Uniclass.EF.Description	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	d440faa7-622e-4ee1-9f4e-22a5bedd7074	Classification.Uniclass.EF.Number	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	3411b8c3-fc0d-409f-ae20-30e70bc4f563	Classification.Uniclass.PM.Number	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	d47f96f3-7191-43b2-afc4-db4b5e4a8859	Classification.Uniclass.Pr.Description	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	8212e2e8-d020-4127-bada-a9cc7f5f4dcc	Classification.Uniclass.Pr.Number	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	53e1dbb9-9434-44ad-abcc-51bca479123d	Classification.Uniclass.Ss.Description	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	f16eb500-0976-4c80-b5d1-082470821ef8	Classification.Uniclass.Ss.Number	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	c5f2eb19-1956-4248-aacc-3db4381db8c2	Classification.UniFormat.2010.Description	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	0f2f64cb-8fd7-460f-bc56-2c849bc2614d	Classification.UniFormat.2010.Number	TEXT		104	1	Created and used by the Autodesk Classification Manager for Revit	1	
+PARAM	cd82ad75-42cb-489e-9316-5868a296a650	NRM1_Code	TEXT		104	1		1	
+PARAM	b2b49f01-463a-4dcd-9ce9-b2df17ee6c8b	NRM1_Description	TEXT		104	1		1	
+PARAM	b98b5197-0b3a-4547-bcf5-ed8f6bfe55e6	HDR_Element_ID	INTEGER		105	1	Populated by Dynamo script	1	
+PARAM	127d562d-b35f-44f3-8456-124b65105a1e	HDR_Element_InstanceRef	TEXT		105	1		1	
+PARAM	1c020484-0874-4fe9-9f02-de37df6c8c6d	HDR_Element_InstanceRefDescription	TEXT		105	1		1	
+PARAM	0049c0c6-7d38-4e68-a524-8c5a61412797	HDR_Element_TypeRef	TEXT		105	1		1	
+PARAM	a6ff8d91-4712-4d50-b040-10f1650609b2	HDR_Element_TypeRefDescription	TEXT		105	1		1	
+PARAM	52df08ef-a212-4107-b21e-ad4cc44fc29c	HDR_Project_ElectricalDesignLead	TEXT		300	1		1	
+PARAM	89729856-7a8b-4408-b615-76362bf89caf	HDR_Project_MechanicalDesignLead	TEXT		300	1		1	
+PARAM	771165a3-eabf-4179-9639-ea53508c14bd	HDR_Project_PublicHealthDesignLead	TEXT		300	1		1	
+PARAM	8f17e59f-c51d-4091-94b4-6efa5a7d2a8f	HDR_AccessClearance_Material	MATERIAL		301	1		1	
+PARAM	c35ff31c-b8df-491a-9205-554b2ae0737c	HDR_Element_Material	MATERIAL		301	1		1	
+PARAM	c0bf3aa9-650a-4f2b-911c-ef76ccc97bcd	HDR_Calculation_IndexRun	YESNO		302	1		1	
+PARAM	7b5a5450-3242-4e66-88f1-88ac6b5d850b	HDR_CalculationAir_Flow	HVAC_AIR_FLOW		302	1		1	
+PARAM	e7dc0548-6c50-4806-ba9b-218e12a8a099	HDR_CalculationAir_FlowExhaust	HVAC_AIR_FLOW		302	1		1	
+PARAM	41f6c223-fc28-4801-b93b-3343bdfdfcfb	HDR_CalculationAir_FlowExtract	HVAC_AIR_FLOW		302	1		1	
+PARAM	ae91bfd9-03df-41b8-9424-9213b2be1d74	HDR_CalculationAir_FlowFA	HVAC_AIR_FLOW		302	1		1	
+PARAM	bbfee255-ecfb-48cd-9603-3c1f443eb8d8	HDR_CalculationAir_FlowSupply	HVAC_AIR_FLOW		302	1		1	
+PARAM	5c7aa8cc-8c34-4aa1-8781-f2c1cd2380c4	HDR_CalculationAir_PressureDrop	HVAC_PRESSURE		302	1		1	
+PARAM	a8e83fee-ac05-4952-aad1-a534470d0e54	HDR_CalculationAir_PressureDropExhaust	HVAC_PRESSURE		302	1		1	
+PARAM	e3f506fa-f7e7-4e1b-8d88-9bf90de5f4ae	HDR_CalculationAir_PressureDropExtract	HVAC_PRESSURE		302	1		1	
+PARAM	41826656-936a-4d54-a7d5-ab4621cf90ec	HDR_CalculationAir_PressureDropFA	HVAC_PRESSURE		302	1		1	
+PARAM	d6538de3-3483-4a51-b61a-4fc8651bce2b	HDR_CalculationAir_PressureDropSupply	HVAC_PRESSURE		302	1		1	
+PARAM	c450083b-4cbe-407d-91dd-8b2a6dce01a5	HDR_CalculationDrainage_FrequencyFactor	NUMBER		302	1		1	
+PARAM	a652565e-3894-40b4-9ebd-ec6728a4c19d	HDR_CalculationDrainage_HasASP	YESNO		302	1		1	
+PARAM	32c0c66e-105b-4f18-ba00-468874260442	HDR_CalculationWater_AreaServed	AREA		302	1		1	
+PARAM	a1b1d77d-365c-4d99-99f6-fe88132b2838	HDR_CalculationWater_FixtureUnit	FIXTUREUNIT		302	1		1	
+PARAM	ca353632-d3c4-4b1b-9e66-6644723b8cb9	HDR_CalculationWater_FixtureUnitCWS	FIXTUREUNIT		302	1		1	
+PARAM	0f965f9a-654e-4dce-a507-470c17aa8e61	HDR_CalculationWater_FixtureUnitDrainage	FIXTUREUNIT		302	1		1	
+PARAM	e1faac42-056e-48fd-a280-c570a93aa2d0	HDR_CalculationWater_FixtureUnitHWS	FIXTUREUNIT		302	1		1	
+PARAM	7a12465b-b84f-4fee-9b55-88e316eb6176	HDR_CalculationWater_Flow	PIPING_FLOW		302	1		1	
+PARAM	9c3aa621-e8ec-47bd-8092-ae5ec2f43088	HDR_CalculationWater_FlowCooling	PIPING_FLOW		302	1		1	
+PARAM	67bcc548-910e-4fe9-8390-cb4018a97d6f	HDR_CalculationWater_FlowHeating	PIPING_FLOW		302	1		1	
+PARAM	1285d2ef-0d67-42c5-9222-925de8ae7101	HDR_CalculationWater_FlowIntensity	PIPING_FLOW		302	1		1	
+PARAM	0854ce2f-1aca-4525-9a51-f2fd6309f0da	HDR_CalculationWater_FlowMax	PIPING_FLOW		302	1		1	
+PARAM	8e80b9ca-d3bd-4a87-bbf0-d35ca7a1ed33	HDR_CalculationWater_FlowMin	PIPING_FLOW		302	1		1	
+PARAM	aa9d6141-0579-4b16-8c85-4afeacba6fad	HDR_CalculationWater_FlowPreHeating	PIPING_FLOW		302	1		1	
+PARAM	bb9e7a5f-780f-4cf5-aed0-866378ee0f5c	HDR_CalculationWater_PressureDrop	PIPING_PRESSURE		302	1		1	
+PARAM	750ea274-f7e0-468e-8b47-1c11c4a81d8a	HDR_CalculationWater_PressureDropCooling	PIPING_PRESSURE		302	1		1	
+PARAM	9d252e2d-73b6-4fc0-9be4-c927ca0a572f	HDR_CalculationWater_PressureDropHeating	PIPING_PRESSURE		302	1		1	
+PARAM	58408caf-2d7b-4626-8570-aede22fbe425	HDR_CalculationWater_PressureDropPreHeating	PIPING_PRESSURE		302	1		1	
+PARAM	99da1d0d-01d3-4fc9-beee-7359f5ddb9c1	HDR_CalculationWater_RainfallIntensity	NUMBER		302	1		1	
+PARAM	e5006c5e-109c-4a2d-b804-344de2c84477	HDR_InFittingCalculation_OnOff	YESNO		302	1		1	
+PARAM	256694be-06c9-4780-9605-89cd105b4287	HDR_InFittingCalculation_Status	TEXT		302	1		1	
+PARAM	6c054e05-75c7-4c32-adf9-6c71d800db63	HDR_Penetration_ArchHasApproved	YESNO		303	1		1	
+PARAM	a7256744-1a43-44c3-a529-ca8a1d8ca220	HDR_Penetration_CreatedDate	TEXT		303	1		1	
+PARAM	9d4a7787-21b6-4677-8a55-5a8a9f5bde27	HDR_Penetration_Depth	LENGTH		303	1		1	
+PARAM	e7c643a0-5aac-4cc0-a5f1-890c3b7ee208	HDR_Penetration_Discipline	TEXT		303	1		1	
+PARAM	e34bfbd0-c117-4181-9bed-3d8d75454b4c	HDR_Penetration_IsVertical	YESNO		303	1		1	
+PARAM	f333f0f1-6ed2-4d5c-96d8-1b6ba28983a3	HDR_Penetration_MEPHasApproved	YESNO		303	1		1	
+PARAM	1c45c221-3783-4fdf-bfe1-0270417fcef7	HDR_Penetration_StructureHasApproved	YESNO		303	1		1	
+PARAM	ac6170c0-edef-4982-bcce-daf6bd824b2e	HDR_Service_AirPressure	TEXT		304	1		1	
+PARAM	15d78371-6161-44bb-8d01-09003de85010	HDR_Service_Diameter	TEXT		304	1		1	
+PARAM	9e49adbd-f4d6-4fd0-b70e-3defb499fb51	HDR_Service_DischargeUnits	TEXT		304	1		1	
+PARAM	413abdad-8e6e-4e10-89ad-7af45a52ceeb	HDR_Service_Fall	TEXT		304	1		1	
+PARAM	14749114-6e27-4b23-ada9-4cbf411142c4	HDR_Service_FlowRate	TEXT		304	1		1	
+PARAM	ab9eb163-a673-4565-9d31-0e17b92d9f5e	HDR_Service_FlowRateSmoke	TEXT		304	1		1	
+PARAM	f39a0b3a-8b65-472d-b472-d7710d72898f	HDR_Service_FrequencyFactor	TEXT		304	1		1	
+PARAM	4730f87b-ea7e-4c15-8787-f2dc31a26f88	HDR_Service_Height	TEXT		304	1		1	
+PARAM	e5049398-219a-4a89-8e2b-2c636755c9b4	HDR_Service_LoadingUnits	TEXT		304	1		1	
+PARAM	23c319fb-3a6e-4fda-a4f5-582ab025a4d6	HDR_Service_PressureDrop	TEXT		304	1		1	
+PARAM	eb4b0e23-cab7-4605-a0b0-9e0e1f259fe2	HDR_Service_PressureDropSmoke	TEXT		304	1		1	
+PARAM	313b27ac-d873-4105-b7e9-63e7b53677a6	HDR_Service_ProportionalDepthOfFlow	TEXT		304	1		1	
+PARAM	5569f891-b769-46d2-aa2f-0a8b1bdec76a	HDR_Service_RoofAreaDrained	TEXT		304	1		1	
+PARAM	09259d5e-3fcc-4df8-af7d-d1c60a2ead71	HDR_Service_VariableSystemMinVolume	TEXT		304	1		1	
+PARAM	2279b4d7-d261-4f68-a1af-3cd1a5817572	HDR_Service_Velocity	TEXT		304	1		1	
+PARAM	87765dc5-2c01-445a-b028-f914ece38fc8	HDR_Service_VelocitySmoke	TEXT		304	1		1	
+PARAM	d12e03b0-8219-41da-96d9-61b109a5ded1	HDR_Service_VolumeOfAir	TEXT		304	1		1	
+PARAM	3cd0f4cd-46d4-4ab9-a265-a773dee1018e	HDR_Service_Width	TEXT		304	1		1	
+PARAM	46c71014-4a71-493a-b1f4-504795d999a1	HDR_SmartSchematic_Enabled	YESNO		304	1		1	
+PARAM	a607e647-7576-4f50-97cd-afeba2894bcb	HDR_SmartSchematic_LinkId	TEXT		304	1		1	
+PARAM	d247ff2f-b0f5-4415-ab34-b2951b0e41c7	HDR_Unit_Height	LENGTH		304	1		1	
+PARAM	38909a23-9f7c-4f63-82e9-eca2e45e547d	HDR_Unit_Label	TEXT		304	1		1	
+PARAM	b4d2718e-a8a8-4e49-a6a2-eac61674cab4	HDR_Unit_Length	LENGTH		304	1		1	
+PARAM	b1552fe8-bd3f-4a88-9e71-e40c527674d4	HDR_Unit_Reference	TEXT		304	1		1	
+PARAM	8685ab1a-ea92-4bed-a22b-66ffe3524a3d	HDR_Unit_Width	LENGTH		304	1		1	
+PARAM	18413ee1-9022-44b3-a9da-185e241ccdc0	HDR_AccessClearance_Back	LENGTH		305	1		1	
+PARAM	faef480a-a09e-4937-972b-4b1c9e850b30	HDR_AccessClearance_Bottom	LENGTH		305	1		1	
+PARAM	d5b7ff0f-2e77-49df-b52b-065d9e4b4472	HDR_AccessClearance_Front	LENGTH		305	1		1	
+PARAM	6f4d7b22-b7d7-4118-badf-f36b43c2559f	HDR_AccessClearance_Left	LENGTH		305	1		1	
+PARAM	7f110013-5af3-42c8-ba72-bcdf9ce5f024	HDR_AccessClearance_Right	LENGTH		305	1		1	
+PARAM	0ae9ff46-d889-434a-b0ea-ee3ee63191e2	HDR_AccessClearance_Top	LENGTH		305	1		1	
+PARAM	098b133a-2d6a-475a-99a1-6014923c343c	HDR_Electrical_Load	ELECTRICAL_APPARENT_POWER		305	1		1	
+PARAM	44ff4798-a436-414e-a675-d1902a0e2ee1	HDR_Electrical_LoadClassification	LOADCLASSIFICATION		305	1		1	
+PARAM	fdf21f7a-81d3-4dc9-b97e-890d2cdf0ff7	HDR_Electrical_Poles	NOOFPOLES		305	1		1	
+PARAM	fb5f225f-2f5e-43c3-b33e-ca57d9b3f86e	HDR_Electrical_PowerFactor	NUMBER		305	1		1	
+PARAM	671f452e-254e-4097-ba9d-a80679b44dab	HDR_Electrical_Voltage	ELECTRICAL_POTENTIAL		305	1		1	
+PARAM	bfa497ea-50e3-4598-a35d-e1165ee57b59	HDR_Element_CheckedBy	TEXT		305	1		1	
+PARAM	781a44b2-29bb-4aa5-bd8e-e8ac345c9bf0	HDR_Element_CheckedOn	TEXT		305	1		1	
+PARAM	e910988b-db65-45ac-9344-738b530e16d8	HDR_Element_CreatedBy	TEXT		305	1		1	
+PARAM	0ab171cf-ccf1-4672-97d1-a29ff13c60df	HDR_Element_CreatedOn	TEXT		305	1		1	
+PARAM	ff7f21ac-60b8-4eb0-b2f3-e6450cb42deb	HDR_Element_Label	TEXT		305	1		1	
+PARAM	1facd14c-a0ac-4bee-982b-d89e48800a54	HDR_Element_OperatingWeight	TEXT		305	1		1	
+PARAM	0e8403d1-ec1c-455a-9688-d33580ac6410	HDR_Element_OverallDiameter	LENGTH		305	1		1	
+PARAM	cbdef497-be91-4d0d-acfb-58da66a728e0	HDR_Element_OverallHeight	LENGTH		305	1		1	
+PARAM	5dabba5f-50dd-4b02-962e-05e0f368ea65	HDR_Element_OverallLength	LENGTH		305	1		1	
+PARAM	5385d9e1-401f-4801-b4ab-e25d45f347cb	HDR_Element_OverallWidth	LENGTH		305	1		1	
+PARAM	5db7f378-06f6-4551-8a69-ce055683260c	HDR_Element_Reference	TEXT		305	1		1	
+PARAM	7edc5ef6-8a31-4b15-8e28-ed576f8afc88	HDR_Element_ShippingWeight	TEXT		305	1		1	
+PARAM	0b7fca52-bbd9-4515-ad64-29f5a56243b3	HDR_Element_Version	TEXT		305	1		1	
+PARAM	4a0f84cf-f250-405e-89aa-bb222e31e0e0	HDR_Space_Cooling	TEXT		306	1		1	
+PARAM	af81c007-59c7-43c0-b712-1254bd010c9d	HDR_Space_CoolingRef	TEXT		306	1		1	
+PARAM	d01d0845-f00e-498d-8a82-ab53b71df00c	HDR_Space_CoolingTemp	TEXT		306	1		1	
+PARAM	b4e7f614-d29a-4cd4-ad9b-4f85d118e556	HDR_Space_DataOutletSingle	TEXT		306	1		1	
+PARAM	5cd2452d-b1ad-45b8-bc65-26d2d02c4b35	HDR_Space_DataOutletTwin	TEXT		306	1		1	
+PARAM	5b540375-3832-4c58-96a2-6acb72e6aeed	HDR_Space_FireAlarm	TEXT		306	1		1	
+PARAM	e9135e70-f959-44c2-9033-e464a0596d7a	HDR_Space_Heating	TEXT		306	1		1	
+PARAM	0f05a3ab-d0ed-442c-8cd1-d487ac64d353	HDR_Space_HeatingRef	TEXT		306	1		1	
+PARAM	6deaa3ef-93e2-4c95-93c5-bcf24b3c278a	HDR_Space_HeatingTemp	TEXT		306	1		1	
+PARAM	13f1ae96-97dd-4c08-a57f-3d9abcf52fd8	HDR_Space_InductionLoop	TEXT		306	1		1	
+PARAM	7386f9c0-c350-41d2-8aab-0c98c9e0c4d3	HDR_Space_ITHubRoomRef	TEXT		306	1		1	
+PARAM	ab71e091-9d7b-47e9-ae12-e19debe9bc5e	HDR_Space_Lighting	TEXT		306	1		1	
+PARAM	eee55c0e-58ec-4ed8-a9ab-1848f402fb25	HDR_Space_LightingControl	TEXT		306	1		1	
+PARAM	8a4bb27c-871a-41c1-95fd-7e4cfd12b82c	HDR_Space_LightingEmergency	TEXT		306	1		1	
+PARAM	ea910cac-4262-40f4-aca7-402c24a4cb63	HDR_Space_LightingFixture	TEXT		306	1		1	
+PARAM	95084ee9-c6cc-4296-9654-b40c11af438c	HDR_Space_NoiseLevelExternal	TEXT		306	1		1	
+PARAM	951e3aa8-d8b6-4653-9ea1-4761244352a3	HDR_Space_NoiseLevelMEP	TEXT		306	1		1	
+PARAM	be996018-5baf-433d-89da-15d408f9489c	HDR_Space_NurseCall	TEXT		306	1		1	
+PARAM	e97de916-a8cd-4b6c-b00b-48adcc8b15eb	HDR_Space_Pressure	TEXT		306	1		1	
+PARAM	4241f011-08d6-43a4-8cd7-44c6a6c90e83	HDR_Space_RiskCategory	TEXT		306	1		1	
+PARAM	61bd0e6b-842d-4ac6-949d-2197bd9d60d7	HDR_Space_SmallPowerCleanersSocket	TEXT		306	1		1	
+PARAM	1159a2bf-2360-4894-8869-1b5e0f938d03	HDR_Space_SmallPowerCommando	TEXT		306	1		1	
+PARAM	e8667b84-6f2b-484d-9f2f-5be8338a1554	HDR_Space_SmallPowerFCU	TEXT		306	1		1	
+PARAM	ac51a18e-1d5b-4246-9fc8-e47350a8b92a	HDR_Space_SmallPowerFloorBox	TEXT		306	1		1	
+PARAM	60593915-7ba5-46ab-a362-61d32813f8a0	HDR_Space_SmallPowerIsolator1P	TEXT		306	1		1	
+PARAM	c5974d9d-ffee-4680-b183-c6823e222c25	HDR_Space_SmallPowerIsolator3P	TEXT		306	1		1	
+PARAM	1262df81-209a-4ceb-baeb-8951bf4b744d	HDR_Space_SmallPowerSingleSocket	TEXT		306	1		1	
+PARAM	085e7ab0-7400-450b-bd7f-bf1767567118	HDR_Space_SmallPowerTwinSocket	TEXT		306	1		1	
+PARAM	01bf6194-3495-43d5-87d3-377525b3d457	HDR_Space_SmallPowerTwinSocketUSB	TEXT		306	1		1	
+PARAM	f412871a-fbd1-4929-8277-1e74d231749d	HDR_Space_Ventilation	TEXT		306	1		1	
+PARAM	b6ef956b-32b9-404c-ab8c-59e704681ae9	HDR_Space_VentilationAHURef	TEXT		306	1		1	
+PARAM	17aaf3aa-66da-4c19-a0ec-11bc4ad82a7d	HDR_Space_VentilationExhaustACH	TEXT		306	1		1	
+PARAM	87c038f9-61ca-4cf4-888f-27a67ef2bd94	HDR_Space_VentilationExhaustRef	TEXT		306	1		1	
+PARAM	19a1ad65-29b6-4e44-9eba-80ddbfe0e18d	HDR_Space_VentilationExtractACH	TEXT		306	1		1	
+PARAM	4f5df132-3a26-4727-abaf-0c51e75dd8f3	HDR_Space_VentilationExtractRef	TEXT		306	1		1	
+PARAM	f5f1ab15-57f4-40c1-80e0-d018ef0f2d1a	HDR_Space_VentilationMinFA	TEXT		306	1		1	
+PARAM	91cce202-4fc7-4cd5-acee-eed5f17fcc2f	HDR_Space_VentilationSupplyACH	TEXT		306	1		1	
+PARAM	e68af314-0c67-420a-b22b-7a4001845650	HDR_Space_VentilationSupplyRef	TEXT		306	1		1	
+PARAM	d3eafa4f-526d-40c2-9453-21c24f161ef0	ConnectionEnd1_Moment_MyyMajor	MOMENT		400	1		1	
+PARAM	1ab78ce4-d427-455b-a431-b8a04f42ccb1	ConnectionEnd1_Moment_MzzMinor	MOMENT		400	1		1	
+PARAM	61daf9fe-ea20-4d7f-b3da-3b671a1f4684	ConnectionEnd1_Shear_VyMinor	FORCE		400	1		1	
+PARAM	d695f47e-4496-4ba9-b6fb-c8b06beff026	ConnectionEnd1_Shear_VzMajor	FORCE		400	1		1	
+PARAM	3717a9ad-d08d-48f7-9918-6a454d8b629b	ConnectionEnd1_Torsion_Mxx	MOMENT		400	1		1	
+PARAM	1aceadfc-4830-4f4b-97d8-9784f441a1b9	ConnectionEnd1_Type	TEXT		400	1		1	
+PARAM	5799e11b-15a8-46d4-b908-23a248a29a9b	ConnectionEnd2_Axial_FxMax	FORCE		400	1		1	
+PARAM	593c883a-f593-4930-933b-56ee718f62c5	ConnectionEnd2_Axial_FxMin	FORCE		400	1		1	
+PARAM	793f827a-f8ce-4854-b991-dcb51f3e73ce	ConnectionEnd2_Moment_MyyMajor	MOMENT		400	1		1	
+PARAM	6b560178-1cec-4d58-9d0d-3814ea2a5a69	ConnectionEnd2_Moment_MzzMinor	MOMENT		400	1		1	
+PARAM	9ae07dde-f7ad-4e46-92d7-a74a8ef92913	ConnectionEnd2_Shear_VyMinor	FORCE		400	1		1	
+PARAM	465b93aa-c143-4a0a-804d-98fc97935094	ConnectionEnd2_Shear_VzMajor	FORCE		400	1		1	
+PARAM	ef47b976-349e-4548-bba5-20c6a9f47a09	ConnectionEnd2_Torsion_Mxx	MOMENT		400	1		1	
+PARAM	6285051f-984f-4815-b23d-176ef4d44a8a	ConnectionEnd2_Type	TEXT		400	1		1	
+PARAM	7fc2d069-3ec7-42bc-b089-833ec2d05700	Cy1	LENGTH		400	1		1	
+PARAM	770bb421-5bd5-45a2-9141-2c3081d6e2a7	Cy2	LENGTH		400	1		1	
+PARAM	937305cc-b90e-400c-a2d8-6f786c79066e	Deflection	LENGTH		400	1		1	
+PARAM	08768a87-cb96-4b0f-9ed1-134069dd9cb7	Deformation	LENGTH		400	1		1	
+PARAM	950aa56b-a1a6-4d79-b0c3-7cea32bf0092	ForcePerMetre	FORCE		400	1		1	
+PARAM	3fc1314c-0d1c-4ba9-8295-57331078b853	Load_Imposed_AxialZ	FORCE		400	1		1	
+PARAM	b91df8e4-0ccf-4f79-9db8-ea89b6143c43	Load_Imposed_ShearXY	FORCE		400	1		1	
+PARAM	f53030f2-413e-4225-bcbf-9933fcf1dfd7	Load_Permanent_AxialZ	FORCE		400	1		1	
+PARAM	be4e9dd7-c3a1-4a3c-9178-8c5baf0117e9	Load_Permanent_ShearXY	FORCE		400	1		1	
+PARAM	8800a87f-42a2-4811-a757-d681bcbd62a7	Load_Variable_DynamicHorizQk	FORCE		400	1		1	
+PARAM	ad6be16e-a023-444f-b3d3-fffa7580f758	Load_Variable_HorizQk	FORCE		400	1		1	
+PARAM	54053036-0dee-4d7c-95ee-fe4881595a26	Load_Variable_SeismicHorizAed	FORCE		400	1		1	
+PARAM	5da31cea-f600-4233-8f74-d543bfcb2c59	Moment	MOMENT		400	1		1	
+PARAM	2d5e5f2d-4509-4fc1-8c1d-5405e829954b	PileLoad_Permanent_HorizGk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	9ff1cc59-55f9-4f4f-a0f1-53d394001b55	PileLoad_Permanent_VertGk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	471b5305-3fe2-4d41-bbe2-94fece72c05b	PileLoad_Tension_VertTk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	71741640-40d6-48f8-acf9-a4d5fec88c62	PileLoad_Variable_HorizEarth	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	00e1fb97-e404-4598-adfe-5688be677728	PileLoad_Variable_HorizSnowQki	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	65c9711b-b540-4327-8e51-3b133ee77885	PileLoad_Variable_HorizWindQk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	73caac43-8f47-40ac-8fae-559486fcad5a	PileLoad_Variable_ImposedHorizQk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	1f96bdd9-ad7c-4892-b8b5-3b1f7050fbf7	PileLoad_Variable_ImposedVertQk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	7f7d8555-9b4b-4e7c-9490-7ba7dda6a01a	PileLoad_Variable_VertEarth	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	c6fd75d3-a55e-4eb4-8d8d-49b36d9c2a30	PileLoad_Variable_VertSnowQki	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	aeeb91fe-1f38-42c1-8f28-0f97d28d1eb3	PileLoad_Variable_VertWindQk	FORCE		400	1	Pile Load - Eurocode 	1	
+PARAM	a0f247c9-43cf-4926-87dc-d15037e58ac7	Shear	FORCE		400	1		1	
+PARAM	15dab63b-99a6-4f0e-b1f9-285efe0abafd	Shear_VyMinor	FORCE		400	1		1	
+PARAM	f957e726-f619-45cc-acb3-5e3d6dc24f10	Shear_VzMajor	FORCE		400	1		1	
+PARAM	dab260f4-eea8-4bdc-a780-98b72cabbffe	Shear_X	FORCE		400	1		1	
+PARAM	0933bc62-96d6-44fa-93c5-b9076552ff82	Shear_Y	FORCE		400	1		1	
+PARAM	4dd771c5-bd1a-4b7b-ab2d-ccd21046e530	SurchargeLoads	LENGTH		400	1		1	
+PARAM	39a4b1e2-3aff-40dc-a046-a9fff98fa7c4	TieForce	FORCE		400	1		1	
+PARAM	31b7d523-d6ba-4e14-9e9c-443b486b995b	Torsion	MOMENT		400	1		1	
+PARAM	7e057b56-b46e-4f86-884c-45a43e8c8bb9	a1	ANGLE		401	1		1	
+PARAM	218d022c-4510-40c2-b874-43624b7525be	a2	ANGLE		401	1		1	
+PARAM	c8d5839a-5f1a-417c-85d3-5958953a94ae	Chamfer	YESNO		401	1		1	
+PARAM	686af3eb-d8f3-4b45-b276-480ab6362b5e	Chamfer_Depth	LENGTH		401	1		1	
+PARAM	2e6bf2e7-fd37-49c7-b752-028088d5b439	Chamfer_Width	LENGTH		401	1		1	
+PARAM	8a72a564-f81c-4b24-9dfc-f799b00f59c2	ConcreteColumn_Diameter	LENGTH		401	1		1	
+PARAM	f0ff4245-e901-415e-92cb-efb6178278c9	ConcreteColumn_Length	LENGTH		401	1		1	
+PARAM	c867c729-a331-4950-92fd-6518a05c1ddf	ConcreteColumn_Remarks	TEXT		401	1		1	
+PARAM	9cece88c-d2ce-4357-9465-86ba0a96c863	ConcreteColumn_Width	LENGTH		401	1		1	
+PARAM	52370a7d-7e8b-4d72-ab80-48df9a21a2f4	ConcreteType	TEXT		401	1		1	
+PARAM	56f0185a-0fbb-4912-b3bd-a8e946062277	Corbel_Angle	ANGLE		401	1		1	
+PARAM	ff782cb8-01df-4d16-ac5a-3f5bc4afd5e4	Corbel_Depth	LENGTH		401	1		1	
+PARAM	2fc40dc3-6972-402d-ae66-08f6d83d562c	Corbel_Length	LENGTH		401	1		1	
+PARAM	6f6b9377-a385-4d7a-a5d8-279194774dec	Corbel_Width	LENGTH		401	1		1	
+PARAM	12264f40-5388-4431-99be-b490acc6bada	CoreRef	TEXT		401	1		1	
+PARAM	cbf63da2-d581-4a09-be1e-0d1565693d19	Encasement_Depth	LENGTH		401	1		1	
+PARAM	f2530b54-6763-4cc5-b693-cf75e08df43c	Encasement_DepthCover	LENGTH		401	1		1	
+PARAM	bcc786f9-7da5-4f04-9fb0-80a330d89919	Encasement_Material	MATERIAL		401	1		1	
+PARAM	bffb7435-3a01-4b96-82f9-e8dfe46f85b5	Encasement_Width	LENGTH		401	1		1	
+PARAM	d8f527cf-07dc-4d20-831b-718d9664884f	Encasement_WidthCover	LENGTH		401	1		1	
+PARAM	c5cb6619-899f-41c2-801c-48853f64766a	MassFill_Depth	LENGTH		401	1		1	
+PARAM	ed989347-e1eb-4260-ac17-5ac2e2b680c5	MassFill_Length	LENGTH		401	1		1	
+PARAM	520901d9-645f-48c0-b947-8c533abef503	MassFill_Width	LENGTH		401	1		1	
+PARAM	59f9c999-cddf-493f-ab10-8f77343c02ae	PenetrationType	TEXT		401	1		1	
+PARAM	08fc2972-3910-4dac-9a6f-25ad6b15d996	Rebate_Depth	LENGTH		401	1		1	
+PARAM	30f52ccf-d9d2-4077-a93e-7a35d2cbc0b0	Rebate_Width	LENGTH		401	1		1	
+PARAM	2356c6db-bd72-43f6-a9cd-9e5067f14466	Recess_Angle	ANGLE		401	1		1	
+PARAM	0f78b2ed-8e57-4063-b999-ff5f284e3eb4	Recess_Depth	LENGTH		401	1		1	
+PARAM	29dc7041-1cf0-4e45-af77-3dcd71654d03	Recess_Length	LENGTH		401	1		1	
+PARAM	eef62f62-6648-4acf-a6b3-5b63deda2aee	Recess_Width	LENGTH		401	1		1	
+PARAM	d2e52aaf-70f5-493e-acba-79f1476a864a	ScheduleLevel	TEXT		401	1		1	
+PARAM	080a79b1-d91e-4931-8117-64169cfba9b7	Structural_Thickness	LENGTH		401	1		1	
+PARAM	dbd7bbe8-eca1-43de-8383-e50d47642bbb	Wall_Ref	TEXT		401	1		1	
+PARAM	cd3fe742-844c-4c4c-b755-93eefe601234	Wall_Type	TEXT		401	1		1	
+PARAM	423ec1dc-b3fe-49d1-929a-736ec8210f4f	Wall_Width	LENGTH		401	1		1	
+PARAM	43ed3cc4-1125-4a49-82d8-59fe000e87d0	Angle	ANGLE		402	1		1	
+PARAM	ff2d002a-876b-401e-9870-ea9d40d439fe	Apex_Depth	LENGTH		402	1		1	
+PARAM	4d01b55f-281d-47ed-aba4-dfde6a5e3127	Apex_Height	LENGTH		402	1		1	
+PARAM	5f190812-3e66-433c-ae36-b83c27a729c6	Area	AREA		402	1		1	
+PARAM	a1af2f86-bf6c-4b39-bf66-1354c1e8ea74	b1	LENGTH		402	1		1	
+PARAM	b2e05945-aaf8-4235-8050-c975578186de	b2	LENGTH		402	1		1	
+PARAM	765fed11-eb56-4728-84e9-c937235dbb66	b3	LENGTH		402	1		1	
+PARAM	9f29b546-38ba-4501-a76a-fde740d637e8	CCLength	LENGTH		402	1		1	
+PARAM	41a391c4-d89c-4ef6-b70a-6bccc6b933a2	ClearOpening_Height	LENGTH		402	1		1	
+PARAM	64140b1d-e148-45aa-b48c-f3e034d53ada	ClearOpening_Width	LENGTH		402	1		1	
+PARAM	696f7b67-6982-41a9-9a7e-35b6ea0f9451	Column_Height	LENGTH		402	1		1	
+PARAM	0a64b973-43cd-49b6-adac-22b75b9644e6	d1	LENGTH		402	1		1	
+PARAM	e5cce426-8797-4c4d-9c06-5519715b01c6	d2	LENGTH		402	1		1	
+PARAM	0b5dfe8c-1a8e-4f98-8709-a8c08b0fb553	d3	LENGTH		402	1		1	
+PARAM	9ff5d176-dc1b-4f2f-b1b3-6d772ce1d655	Depth	LENGTH		402	1		1	
+PARAM	80edbcc0-ea68-4ba5-ad31-df0fb07efe38	Diameter	LENGTH		402	1		1	
+PARAM	01ebf503-b10e-40ee-9f5f-44d52eb74b8d	DimensionB	LENGTH		402	1		1	
+PARAM	d60be7ac-ae86-4e95-bce3-4474c70278ca	DimensionC	LENGTH		402	1		1	
+PARAM	74cd728e-4bda-4071-af53-78ef084f848f	EndOffset_A	LENGTH		402	1		1	
+PARAM	b868202b-3037-47de-9da8-1b080794e20c	EndOffset_B	LENGTH		402	1		1	
+PARAM	77544f70-e176-46a3-bde3-d1f1d352502f	HalfWidth	LENGTH		402	1		1	
+PARAM	57b291ad-6764-404a-997a-0ff33c80ba90	Height	LENGTH		402	1		1	
+PARAM	669567e7-ca4a-4e2d-be3f-85ad69945ccc	Hole_Size	LENGTH		402	1		1	
+PARAM	f79e9ff4-9695-425c-b6e0-eeb1185c698f	Length	LENGTH		402	1		1	
+PARAM	9273d629-878a-4c71-9e98-3ed011c36792	Lift Pit_Wall Thickness_Back	LENGTH		402	1		1	
+PARAM	32da9f41-a984-47e8-a1f5-fd68a180ba6e	Lift Pit_Wall Thickness_Front	LENGTH		402	1		1	
+PARAM	8d4afc88-2008-4c48-b41a-bab166ec970f	Lift Pit_Wall Thickness_Left	LENGTH		402	1		1	
+PARAM	8a7ecda0-cedf-4a80-aad7-f1aecaf05757	Lift Pit_Wall Thickness_Right	LENGTH		402	1		1	
+PARAM	cc01c4d6-4c4a-46bf-a1f2-ad07460c448c	r1	LENGTH		402	1		1	
+PARAM	35f51a86-78b2-43ea-949c-9da089e04001	r2	LENGTH		402	1		1	
+PARAM	ff3ec270-6e35-4175-b1ee-62c7338b472e	Radius	LENGTH		402	1		1	
+PARAM	4a258106-f934-4b90-a305-d7a5c2465ccd	Thickness	LENGTH		402	1		1	
+PARAM	196b4814-006d-49a8-a647-0569a1073fdf	Total_Area	AREA		402	1		1	
+PARAM	16118c50-7acd-405d-9c6b-c47798119320	Total_Thickness	LENGTH		402	1		1	
+PARAM	c9aebc82-d703-4ac2-a4a9-33da977076d1	Volume	VOLUME		402	1		1	
+PARAM	d45f41cf-f9d1-4a0a-b23e-52d5ae22dc1c	w1	LENGTH		402	1		1	
+PARAM	7162075b-5903-4c4f-813b-8e9ca1133108	w2	LENGTH		402	1		1	
+PARAM	1dd65c89-33a3-45ce-bf4a-487717d216f7	w3	LENGTH		402	1		1	
+PARAM	c2ae37e7-70f4-4f1f-a311-6d4b833af5ec	Weight	WEIGHT_PER_UNIT_LENGTH		402	1		1	
+PARAM	9a9b9ab7-8d6f-4cd3-bf5e-01dcdce9163b	Width	LENGTH		402	1		1	
+PARAM	97adcb1d-2a0d-4b80-8bc6-0a1899dca84c	Foundation_Ref	TEXT		403	1		1	
+PARAM	2af69409-2b0c-4b69-a537-32c6c324da36	Foundation_Type	TEXT		403	1		1	
+PARAM	305bd856-b3eb-4aa0-b751-b67a7c57a90b	Foundation_VolumeTotal	VOLUME		403	1	Total Volume of the foundation (Piles and Cap)	1	
+PARAM	e40f7c69-0b3e-4930-b1ac-765032211f52	Pad_Length	LENGTH		403	1		1	
+PARAM	272ecac3-583d-4e54-a3c4-7f9b53344726	Pad_Material	MATERIAL		403	1		1	
+PARAM	aedf7679-1dc6-4a8b-9d9c-2fde2356ec42	Pad_Thickness	LENGTH		403	1		1	
+PARAM	19ad0608-e5f2-4aa9-b967-09d4f07763aa	Pad_Width	LENGTH		403	1		1	
+PARAM	d07d5407-7ade-4724-b2a3-dc6a1561b513	Pile_AngleOffset	LENGTH		403	1		1	
+PARAM	7d9fba0b-c11b-4117-bbe8-02ecc1883dcb	Pile_Area	AREA		403	1		1	
+PARAM	88a066bb-5cc6-48a2-8a9d-d4b7847db73b	Pile_AreaFemale	AREA		403	1		1	
+PARAM	493035e0-d8fb-433e-84ec-9e0005719914	Pile_Count	INTEGER		403	1		1	
+PARAM	10c1bf24-579e-47b8-b6f5-aa0a42f646e6	Pile_Crs	LENGTH		403	1		1	
+PARAM	fcb492de-e020-44fd-a7f2-345c45e307c9	Pile_CrsLength	LENGTH		403	1		1	
+PARAM	03582707-8ab0-4c58-ba2b-399715c34c41	Pile_CrsLengthRatio	NUMBER		403	1		1	
+PARAM	50113fcc-d7e3-4fe7-ad7e-3941458c5c3f	Pile_CrsRatio	NUMBER		403	1		1	
+PARAM	f697da2c-7a86-4817-b64c-93eb806527cf	Pile_CrsWidth	LENGTH		403	1		1	
+PARAM	2426d3fd-d14a-42e4-965a-64c20dcae47f	Pile_CrsWidthRatio	NUMBER		403	1		1	
+PARAM	61daeb2e-b7f8-468b-8251-5ac49c5aa82a	Pile_Diameter	LENGTH		403	1		1	
+PARAM	255341bc-48af-4ced-a83d-69b6954c65ea	Pile_Embedment	LENGTH		403	1		1	
+PARAM	8707ee60-0402-4cb4-81aa-66ac19a95732	Pile_EmbedmentArea	AREA		403	1		1	
+PARAM	424097d2-c36d-4699-9742-d3be53e85787	Pile_EmbedmentVolume	VOLUME		403	1		1	
+PARAM	b418080d-e90c-4ad1-8873-3e64da58997b	Pile_Female	YESNO		403	1		1	
+PARAM	606e0ae3-9d14-4104-853e-57bb9a0d1401	Pile_Length	LENGTH		403	1		1	
+PARAM	f6ec4eba-06b8-42c2-95eb-143596dbbe13	Pile_LengthFemale	LENGTH		403	1		1	
+PARAM	16f3eeec-d36e-46dd-9324-2cf03ab9af96	Pile_LengthMale	LENGTH		403	1		1	
+PARAM	2b00b92c-b8fb-4aa5-b8e3-59077f69216f	Pile_Male	YESNO		403	1		1	
+PARAM	40195749-e3ba-4b1a-8665-603dfa94fb18	Pile_Material	MATERIAL		403	1		1	
+PARAM	77659e7f-d1c0-43c7-9fbd-3fc81745e2ee	Pile_MaterialFemale	MATERIAL		403	1		1	
+PARAM	866d5fa8-9bd6-4989-aa62-9aa316deffa9	Pile_MaterialMale	MATERIAL		403	1		1	
+PARAM	e496aca8-39b8-4a8c-92b1-29932065f17d	Pile_Ref	TEXT		403	1		1	
+PARAM	b9879a49-0cf5-4f67-aacd-1459edb63e15	Pile_Size	LENGTH		403	1		1	
+PARAM	1a6936be-8f82-4424-87c9-78052d97e3ee	Pile_SizeFemale	LENGTH		403	1		1	
+PARAM	75e660e2-ba6c-469e-9699-de16310c13a7	Pile_SizeMale	LENGTH		403	1		1	
+PARAM	6b1e98c2-9e39-4417-bd68-162891b5b46d	Pile_Volume	VOLUME		403	1		1	
+PARAM	949c7235-5c80-4f6d-a6f9-bba833586fe0	Pile_VolumeFemale	VOLUME		403	1		1	
+PARAM	35ab3099-3de1-41f8-af1c-df040b67762d	Pile_VolumeMale	VOLUME		403	1		1	
+PARAM	ace825d7-c893-47fb-8199-1e6ef4cdca53	Pile_VolumeTotal	VOLUME		403	1	Total Volume of all piles in the pile cap	1	
+PARAM	51003cc0-67ec-4cb3-bff8-1bcf3fba04d6	PileCap_Apothem	LENGTH		403	1		1	
+PARAM	bd575b0d-4c29-4d22-82cb-ce9dd4e03f06	PileCap_Area	AREA		403	1		1	
+PARAM	2ea71e0f-34ca-4cd3-a032-9bb7753f08fc	PileCap_Centre	LENGTH		403	1		1	
+PARAM	074fac1b-9806-4888-8363-98e6440ee11e	PileCap_Depth	LENGTH		403	1		1	
+PARAM	98e9f712-908a-458c-a738-33787d12b8fd	PileCap_EdgeBack	LENGTH		403	1		1	
+PARAM	2a8d2a74-573d-418f-bba4-946babb9009e	PileCap_EdgeDistance	LENGTH		403	1		1	
+PARAM	5183c8bb-7d6f-40da-8eee-05c1f9eac15d	PileCap_EdgeFront	LENGTH		403	1		1	
+PARAM	56088352-7377-4cc4-bfe7-0410a1200f3d	PileCap_EdgeLeft	LENGTH		403	1		1	
+PARAM	edaf2b63-142e-4a6d-a92b-185d4335a586	PileCap_EdgeRight	LENGTH		403	1		1	
+PARAM	777704f9-8a3a-42b6-a6a3-8ebe8a5fdec0	PileCap_Length	LENGTH		403	1		1	
+PARAM	08064bab-14a9-45d2-852b-6ce6ada33d10	PileCap_Material	MATERIAL		403	1		1	
+PARAM	d1dc0d0b-a151-489c-921f-bae7a2c30e16	PileCap_Perimeter	LENGTH		403	1		1	
+PARAM	88b171e2-d2b0-4351-9429-db7aed3bf608	PileCap_Ref	TEXT		403	1		1	
+PARAM	5aa7c615-99ca-4550-8992-bbd9abbd926e	PileCap_SideLength	LENGTH		403	1		1	
+PARAM	17e6def1-fd5a-48bf-bd10-a7254a5e650f	PileCap_Standard	YESNO		403	1		1	
+PARAM	3da362c8-79d7-464a-a38d-47dfdd30ef09	PileCap_Thickness	LENGTH		403	1		1	
+PARAM	d46c7e07-ff8e-4ce5-aff4-d0d7a1bd6134	PileCap_Volume	VOLUME		403	1		1	
+PARAM	a93c9f7d-3fa4-4c7d-a4d0-e8431d8fe561	PileCap_Width	LENGTH		403	1		1	
+PARAM	01e34264-a870-46c3-a733-18ecdd10c9c5	SheetPile_Length	LENGTH		403	1		1	
+PARAM	ab64b309-fee6-4347-99e9-6b7d3f4aa5fd	Strip_Length	LENGTH		403	1		1	
+PARAM	916b8f7c-9989-4a53-8694-066910fdf128	Strip_Thickness	LENGTH		403	1		1	
+PARAM	258b956d-6ba5-4053-938d-634926df50d8	Strip_Width	LENGTH		403	1		1	
+PARAM	863773b4-2dc5-4bbe-a151-d471171103ff	Total_Volume	VOLUME		403	1		1	
+PARAM	9ab7b3dd-8777-464a-a025-315adf5c1fc1	CriticalTemperature	TEXT		404	1		1	
+PARAM	1781277e-99d8-46ba-954c-0565ef86c85a	FireProtected	YESNO		404	1		1	
+PARAM	98392fc8-8500-4f51-8d53-76e4e50865b3	FireRating	TEXT		404	1		1	
+PARAM	1cc3add5-18da-4426-8bbb-594f73d8b61d	FireResistancePeriod	TEXT		404	1		1	
+PARAM	e54714c5-c9a6-4233-b32b-0c4fec3c0110	IntumescentPaint	TEXT		404	1		1	
+PARAM	609748a9-0b78-4870-9602-746e0ecf4526	ProtectiveCoatingType	TEXT		404	1		1	
+PARAM	fa018c88-e107-497a-8875-efaac499abed	SidesExposed	TEXT		404	1		1	
+PARAM	66892a52-ff48-48a3-8888-e816274b2206	Load_Description	TEXT		405	1		1	
+PARAM	9146d469-23d6-4880-8166-29c86dbfb466	Load_Name	TEXT		405	1		1	
+PARAM	c666e566-da8c-450e-bd50-6b6374bcd7a3	Load_Reference	TEXT		405	1		1	
+PARAM	611e9ae3-9d8a-4308-82b8-4faff9b69abe	LoadDead_kNm2	FORCE		405	1		1	
+PARAM	7b2158a3-76bc-44a1-be51-357164e19634	LoadLive_kNm2	FORCE		405	1		1	
+PARAM	dabe7c03-4941-4367-b0a1-0e63fd8f95cd	DCClass	TEXT		406	1		1	
+PARAM	712e0e14-ba23-4221-b609-70f18cb1805c	EZ_A1-A3	NUMBER		406	1		1	
+PARAM	154fe13f-7f38-4e32-a9a0-5db875003b4b	EZ_A4	NUMBER		406	1		1	
+PARAM	2ea142f1-7bd6-427e-a155-00100f4e325c	EZ_C2	NUMBER		406	1		1	
+PARAM	366d16fe-6975-44c7-a6ae-c9c27cafd389	EZ_C2-C4	NUMBER		406	1		1	
+PARAM	e9b0fa4e-7f63-4180-aa06-6defac1d3f44	EZ_C3-C4	NUMBER		406	1		1	
+PARAM	ce829041-a40e-42b9-afda-99c89a6b5d32	EZ_D	NUMBER		406	1		1	
+PARAM	9ddc0858-e8dd-4339-81ae-1b4dc1a16d09	EZ_Sequestration	NUMBER		406	1		1	
+PARAM	a55bfa2c-2fa6-4843-9362-3a6e8a8452e3	EZ_TotalA1-A5w	NUMBER		406	1		1	
+PARAM	9a796cd5-ca53-4389-a6a8-f367a302b3f2	EZ_TotalA-C	NUMBER		406	1		1	
+PARAM	21e9f573-a764-4336-bfdc-cdcfd2c40b18	EZ_WF	NUMBER		406	1		1	
+PARAM	b422aa28-80fa-4373-9f9a-0a3079ec8310	SoffitFinish	TEXT		406	1		1	
+PARAM	ab5739a8-0c55-4374-b858-f808d7896411	Structural Material	MATERIAL		406	1		1	
+PARAM	fcde4658-e7a3-4e33-b58d-ae16090cd381	Structural_Material_StrengthGrade	TEXT		406	1		1	
+PARAM	59510976-0352-43f1-9aa7-6bb2e64ab2cb	Structural_Material_SubGrade	TEXT		406	1		1	
+PARAM	61fd73ff-264f-42d6-9918-745fd21beb9c	SurfaceFinish	TEXT		406	1		1	
+PARAM	958deecd-b6ea-41dd-87fb-6c8fcc0f6c92	BeamBlock_BeamVolumePerMetre2	VOLUME		407	1	Volume per metre square	1	
+PARAM	ac0fe19c-75a4-4ae5-94bd-0ed80e672edb	BeamBlock_BeamVolumeTotal	VOLUME		407	1	Total volume of beam only	1	
+PARAM	dbc76fb9-5a12-4db8-86dc-04730d1645dc	BeamBlock_BlockVolumePerMetre2	VOLUME		407	1	Volume per metre square	1	
+PARAM	8cef78c4-7942-4372-ab5a-ef7f8ce514e9	BeamBlock_BlockVolumeTotal	VOLUME		407	1	Total volume of block only	1	
+PARAM	948c4d32-54c8-4319-9731-c2691551bd51	CompositeDeck_ConcreteRatio	NUMBER		407	1	Ratio Of Concrete For Composite Deck	1	
+PARAM	e1629c11-8a55-4507-8eae-74062009ae8a	CompositeDeck_ConcreteVolumePerMetre2	VOLUME		407	1	Concrete Volume Per Metre Square	1	
+PARAM	c0529d85-c20a-49f8-a30c-16d1120b2b7f	CompositeDeck_ConcreteVolumeTotal	VOLUME		407	1	Total Concrete Volume For Composite Deck	1	
+PARAM	5592e70b-2287-499a-b429-9f70a834fc94	CompositeDeck_CrossSectionArea	AREA		407	1	Cross Section Area Of Profiled Composite deck	1	
+PARAM	7f1ab08c-b3fa-4ba6-9393-d0bb08cdbf49	CompositeDeck_SteelRatio	NUMBER		407	1	Ratio Of Steel For Composite Deck	1	
+PARAM	ac25374d-f2b1-4947-a990-cad9fc155f92	CompositeDeck_SteelVolumePerMetre2	VOLUME		407	1	Steel Volume Per Metre Square	1	
+PARAM	5b04b8aa-1b35-4678-a398-5edc5ea716bc	CompositeDeck_SteelVolumeTotal	VOLUME		407	1	Total Steel Volume For Composite Deck	1	
+PARAM	e5718f60-6a64-4896-9fcb-c0a06d5c69ef	DeckGauge	TEXT		407	1	Composite Deck Gauge	1	
+PARAM	8ff2d26c-dea2-4271-9b0e-9d40278f0c6f	PrecastThickness	LENGTH		407	1		1	
+PARAM	87bab2ff-d4f7-4256-9915-b79516924f16	Propping	TEXT		407	1		1	
+PARAM	afc8a816-813d-4784-8250-b7f037dd7838	SlabDeckType	TEXT		407	1		1	
+PARAM	a7feb6fa-15a5-4af3-8a50-cb62ef0a7852	Sloped	YESNO		407	1		1	
+PARAM	1a8dd330-5807-4d61-9970-19a43daecc02	TopThickness	LENGTH		407	1		1	
+PARAM	19d48422-8cd3-458d-a14c-e6d0f1079153	A	AREA		408	1		1	
+PARAM	78dc7e86-b28b-4e2f-b5f4-9d30af7eb3ee	B	LENGTH		408	1		1	
+PARAM	baddc18d-a361-453b-8266-1df8403c9045	Bearing_Material	MATERIAL		408	1		1	
+PARAM	14348378-547d-4ade-8c29-b147c16ccba0	Bearing_Type	TEXT		408	1		1	
+PARAM	785e9060-fb18-474a-b477-b00f7e81fc26	bft	LENGTH		408	1		1	
+PARAM	adae4a01-0b83-435d-8738-bb6b6340dbfe	bfw	LENGTH		408	1		1	
+PARAM	54b6beb5-0d00-4631-ae0e-999f281d5f19	BtmFlange_Thickness	LENGTH		408	1		1	
+PARAM	465adcb5-caa5-4ddc-95aa-2fbb3782e046	BtmFlange_Width	LENGTH		408	1		1	
+PARAM	9ac59936-5fe0-450c-a539-a7237da211b2	BtmUnit_Depth	LENGTH		408	1		1	
+PARAM	e8ace07b-ca9f-4a18-9ea5-5935a69ed836	BtmUnit_Thickness	LENGTH		408	1		1	
+PARAM	3d4a6cde-a4e1-494d-9857-dcfa4119212e	BtmUnit_Width	LENGTH		408	1		1	
+PARAM	e8046d1e-4e95-47fa-8dde-afd27c053925	Cell_Diameter	LENGTH		408	1		1	
+PARAM	5d2e9338-b71b-4af2-b3c0-213578520c31	Cell_Pitch	LENGTH		408	1		1	
+PARAM	9ccd63e4-fe9e-40b8-90d4-47562013d889	CEMarkingExecutionClass	TEXT		408	1		1	
+PARAM	2ccabe73-4540-4946-89cb-c9b0be0da188	cw	LENGTH		408	1		1	
+PARAM	7d1d7aaf-095b-4940-a138-e2c821a4e8c5	Cx	LENGTH		408	1		1	
+PARAM	2d59a77e-34ca-490b-bb45-01da5414e6c7	Cy	LENGTH		408	1		1	
+PARAM	cc125534-6205-41be-a8ef-51e1845ffc47	D	LENGTH		408	1		1	
+PARAM	7e607e5b-cd6c-4e6f-ae7d-4b12fe6b2b82	dw	LENGTH		408	1		1	
+PARAM	385c08c0-dc5a-46b8-8898-860646613432	EndExtension	LENGTH		408	1		1	
+PARAM	3ef82594-6c70-4141-a263-681a60f97212	FlangeThickness	LENGTH		408	1		1	
+PARAM	5e6181a1-a1e8-4366-a91d-05b5dd3bf8ab	HDR Ref	TEXT		408	1		1	
+PARAM	7b1db85c-392c-4add-9212-2f1fdcd644ba	Length_CutBack	LENGTH		408	1		1	
+PARAM	bf3c3635-b459-4ad1-8b93-48d809ed3597	Length_Nodal	LENGTH		408	1		1	
+PARAM	4331c7e1-5694-4a50-a218-ce6d93333806	M	NUMBER		408	1		1	
+PARAM	84e973cc-c864-4b93-9adf-72528cc97678	MovementX	TEXT		408	1		1	
+PARAM	498e59e2-0cee-47dc-b086-55cd0040261c	MovementY	TEXT		408	1		1	
+PARAM	7e695d1d-ca96-4ff4-805a-cd010a63c735	PlaceCWidth	LENGTH		408	1		1	
+PARAM	a1ae283a-d586-43db-8121-a86653c6a127	Plate_Offset	LENGTH		408	1		1	
+PARAM	671866a6-d0ea-450f-b9ae-95b6f8dbf01d	PlateA_Depth	LENGTH		408	1		1	
+PARAM	d7a7beee-944a-4b75-8fa4-8b9a4ec0c3f8	PlateA_Thickness	LENGTH		408	1		1	
+PARAM	35bb5387-91f0-4c5a-ae1a-a6bbfa23927d	PlateA_Width	LENGTH		408	1		1	
+PARAM	09ef53d0-ac1d-4065-83ce-d3b20b4987b2	PlateB_Depth	LENGTH		408	1		1	
+PARAM	6b48289c-a041-4043-9f5e-9e890d5b198d	PlateB_Thickness	LENGTH		408	1		1	
+PARAM	51629b17-1848-4e61-90e3-5aea8de5e492	PlateB_Width	LENGTH		408	1		1	
+PARAM	4b97d71c-642f-4d67-9822-91e73aaad30f	PlateC_Depth	LENGTH		408	1		1	
+PARAM	49dc283a-15cc-4fcc-8cc4-caf49429078a	PlateC_Thickness	LENGTH		408	1		1	
+PARAM	0fda9c75-4060-4af1-a032-00e6168562d2	PlateC_Width	LENGTH		408	1		1	
+PARAM	ff8a0c83-99ef-47ad-9039-d0b1ba4dfeb6	PlateD_Depth	LENGTH		408	1		1	
+PARAM	a21de60b-b483-4e15-880d-ff7932c37ab2	PlateD_Thickness	LENGTH		408	1		1	
+PARAM	364d2bc7-8d80-43b5-a8ba-db35d37d96df	PlateD_Width	LENGTH		408	1		1	
+PARAM	b6a37e22-6334-44b9-b833-97f9356f6959	Section British Standard	YESNO		408	1		1	
+PARAM	be377be1-7853-4e51-8406-c987d159837f	Section Name	TEXT		408	1		1	
+PARAM	f9f577a8-d0ae-4ac8-864f-0b4a089b7fd0	Section Standard Production	YESNO		408	1		1	
+PARAM	2238ad65-3c44-4f66-801d-67f2dbf5f080	Section Weight	WEIGHT_PER_UNIT_LENGTH		408	1		1	
+PARAM	a65a7654-3041-4aa3-ad52-d42653639d57	Section Weight per m	UNIT_WEIGHT		408	1		1	
+PARAM	84686111-bdb9-4bc6-9f30-2fde312ebda3	SectionBtm	FAMILYTYPE	-2000151	408	1		1	
+PARAM	46587942-bf4f-4083-a503-b144f1e6c1b9	SectionBtmDepth	LENGTH		408	1		1	
+PARAM	ddb98f0f-3678-4223-867a-311bec02ab74	SectionBtmName	TEXT		408	1		1	
+PARAM	18e08328-85e5-4732-b014-07e0034fa413	SectionHeight	LENGTH		408	1		1	
+PARAM	de95770a-25f9-4c0a-a4c9-3344f577009b	SectionLength	LENGTH		408	1		1	
+PARAM	7bc959d7-9265-490a-9f8b-02978d43a0ac	SectionName	TEXT		408	1		1	
+PARAM	49069a79-6dff-4200-b2fd-35391864160b	SectionRegularProduction	YESNO		408	1		1	
+PARAM	ed57b7f6-3d9a-49ae-b90b-deb042eebcc2	SectionTop	FAMILYTYPE	-2000151	408	1		1	
+PARAM	809e8a2d-baf8-44db-b282-a08de24a6347	SectionTopDepth	LENGTH		408	1		1	
+PARAM	f583dcb2-191d-4bc3-af8f-70bb30ce5f3e	SectionTopName	TEXT		408	1		1	
+PARAM	fb982dac-f06b-4ace-bab1-575a65ff1e8a	SectionType	TEXT		408	1		1	
+PARAM	c658c168-d8df-4c4a-9093-6e7147381770	ShearStuds_Count	NUMBER		408	1		1	
+PARAM	0b15b77c-1136-4d02-8f9d-dc89e2eb75a3	ShearStuds_Pattern	TEXT		408	1		1	
+PARAM	f915a4af-a55c-4417-b036-ae3e6679b720	ShearStuds_Spacing	TEXT		408	1		1	
+PARAM	e5b90389-ba28-4dfe-9dd9-762ddd547c19	ShearStuds_Type	TEXT		408	1		1	
+PARAM	d188fc8f-9efb-419a-9dee-1710b7f9613a	StartExtension	LENGTH		408	1		1	
+PARAM	3c74a2ff-d327-43e3-803d-23fb2047308e	Steel Grade	TEXT		408	1		1	
+PARAM	d80910fa-ae3c-4562-9ba3-72fcd185fe73	Stud_Crs	LENGTH		408	1		1	
+PARAM	408a1027-a104-4803-b084-54a72484b212	Stud_CrsDepth	LENGTH		408	1		1	
+PARAM	5610e7e8-e73f-4e43-84ca-8e1ae5008d37	Stud_CrsWidth	LENGTH		408	1		1	
+PARAM	1966207b-604f-4478-84d2-20288e738b18	Stud_Diameter	LENGTH		408	1		1	
+PARAM	5fa39474-087f-4b3e-98dd-3615df304e6f	Stud_HeadDepth	LENGTH		408	1		1	
+PARAM	73e24b7a-9584-44b8-8acc-aaee9caddc2a	Stud_HeadDiameter	LENGTH		408	1		1	
+PARAM	3a14b393-9350-4b6b-97df-2f3d3af26d32	Stud_Length	LENGTH		408	1		1	
+PARAM	fa5ee573-8c0b-402f-ac58-dac297f48351	Stud_Name	TEXT		408	1		1	
+PARAM	976687db-fb39-42f7-83da-2776595ba5c4	Stud_Qty	INTEGER		408	1		1	
+PARAM	7b59d25b-b0e0-4542-ad34-5ac2bfde7985	Stud_QtyDepth	INTEGER		408	1		1	
+PARAM	75768949-4c83-4f66-bcc4-8f810cdc86ff	Stud_QtyWidth	INTEGER		408	1		1	
+PARAM	e2334055-3072-420e-a3f7-03cf8919d479	T	LENGTH		408	1		1	
+PARAM	cc0d8a5d-8e3f-4b13-8549-937829ee2163	tft	LENGTH		408	1		1	
+PARAM	850c3cd4-3766-47f6-b543-f01844253a48	tfw	LENGTH		408	1		1	
+PARAM	e463b08e-8528-46f4-a65b-67eda3a2ef13	TopFlange_Thickness	LENGTH		408	1		1	
+PARAM	3e654ddb-2a29-4e7a-b6f7-69804d555838	TopFlange_Width	LENGTH		408	1		1	
+PARAM	263a13ce-4117-4918-a437-4920891c0b7a	TopUnit_Depth	LENGTH		408	1		1	
+PARAM	f42541f0-81b7-49af-ad39-0b877c28c0e2	TopUnit_Thickness	LENGTH		408	1		1	
+PARAM	970268a3-64d8-4d61-aa85-d35a8c928910	TopUnit_Width	LENGTH		408	1		1	
+PARAM	a731fdb5-134d-44e9-ae27-a93b5fc59bf3	tw	LENGTH		408	1		1	
+PARAM	a62a16b3-31b7-4901-ba89-5db29e79c942	W	MASS_PER_UNIT_LENGTH		408	1		1	
+PARAM	36c800b7-e75a-46bb-94b1-700d0456738c	Web_Crs	LENGTH		408	1		1	
+PARAM	18d71cb2-675a-4af5-8858-7d37b9b5b554	Web_Depth	LENGTH		408	1		1	
+PARAM	0c2a8f28-503b-4855-9f43-f95225b06b57	Web_Fillet	LENGTH		408	1		1	
+PARAM	ce1c711f-8097-4f95-897c-e384b74cf03e	Web_Thickness	LENGTH		408	1		1	
+PARAM	f5bd32ea-d2cb-43e2-8cda-ed98c17d8e25	Weight_CutLength	YESNO		408	1		1	
+PARAM	f1d8bb99-828e-4654-8b33-60727f3def12	Weight_Length	YESNO		408	1		1	
+PARAM	30cafdcd-5430-4dbe-ad2a-0c6d101c27c5	Weight_Volume	YESNO		408	1		1	
+PARAM	f3406bdb-99d5-42f5-b2e4-b6ff5833cc22	Anchor_Crs	LENGTH		409	1		1	
+PARAM	8122e475-f012-46bb-940d-963e0d832ec8	Anchor_Diameter	LENGTH		409	1		1	
+PARAM	1c108c9d-7aa9-44e7-8154-38af0e2a7489	Anchor_Qty	INTEGER		409	1		1	
+PARAM	e8ddf900-32cc-45fe-b264-48589c52f4bc	Bar_Diameter	LENGTH		409	1		1	
+PARAM	a97365e6-455b-4f4a-abaf-8edec6ca9c00	Bar_Projection	LENGTH		409	1		1	
+PARAM	9c87932a-86ba-4f71-8f37-7e585950193e	Bar_Qty	INTEGER		409	1		1	
+PARAM	4a979514-d1c5-41cd-8cb4-854f67679dbd	Bolt_Diameter	LENGTH		409	1		1	
+PARAM	6ac6dd0a-ab1b-41f9-9c34-24bf5dcf81c9	Bolt_Grade	MATERIAL		409	1		1	
+PARAM	32eca133-afa2-4ce9-924e-dfc00f6d083a	Bolt_Length	LENGTH		409	1		1	
+PARAM	b3f8cdf5-25b8-48d3-a7d2-b192ae753e67	Bolt_Size	FAMILYTYPE	-2009030	409	1		1	
+PARAM	772adfc8-5714-446a-8852-e52a2dbe91ae	Bolt_SQHD_Size	LENGTH		409	1		1	
+PARAM	8fa64c48-29f6-4e5d-84d9-4d47d93cca89	Bolt_SQHD_Thk	LENGTH		409	1		1	
+PARAM	677bc02a-1baa-4705-8e3a-2829a8d173e4	Bolt_ThreadLength	LENGTH		409	1		1	
+PARAM	fd6fa26c-636c-4f49-b51d-206a27d4b524	BoltCrs_Length	LENGTH		409	1		1	
+PARAM	94425103-9ee1-46cc-8242-fa8952327948	BoltCrs_Width	LENGTH		409	1		1	
+PARAM	8fc3b98d-2a9c-4411-a9f6-fef58d02e1b2	EdgeDistance	LENGTH		409	1		1	
+PARAM	cd5b0e33-2a69-4fe3-8267-aa4808a561ec	EdgeDistance_Btm	LENGTH		409	1		1	
+PARAM	727fdf92-8954-48f1-8bf4-cf9a61db1c94	EdgeDistance_Left	LENGTH		409	1		1	
+PARAM	99f6aa23-e31a-4547-bcab-bd7192b7059c	EdgeDistance_Right	LENGTH		409	1		1	
+PARAM	bd0c7b10-90ce-44a9-8086-c51f9cedf8b2	EdgeDistance_Top	LENGTH		409	1		1	
+PARAM	91446fdc-712c-460b-ae71-e6d461689597	Grout_HoleCrs	LENGTH		409	1		1	
+PARAM	f1609ea5-7efe-4553-9354-84c94a45d699	Grout_HoleDiameter	LENGTH		409	1		1	
+PARAM	1c3a32b1-cadd-4b24-a0c4-4cb832fbc1d0	Grout_Thickness	LENGTH		409	1		1	
+PARAM	f177611f-fa30-4c12-88c4-7322c3754852	Hole_Crs	LENGTH		409	1		1	
+PARAM	72f8c71c-a771-4364-9a9a-a8e9c34e9d68	Hole_CrsDepth	LENGTH		409	1		1	
+PARAM	f3200c4b-bec0-4b44-900d-343ce70c0518	Hole_CrsWidth	LENGTH		409	1		1	
+PARAM	7de93696-b0ae-4203-915a-10c1ac0c028d	Hole_Depth	LENGTH		409	1		1	
+PARAM	cb1481f6-2523-4042-ba87-d9c1970cd89c	Hole_Diameter	LENGTH		409	1		1	
+PARAM	de2d5733-02fe-4662-a511-0219c8359be8	Hole_Gauge	LENGTH		409	1		1	
+PARAM	f72d1d10-bf76-48b6-979e-a78e583092f6	NotchDepth	LENGTH		409	1		1	
+PARAM	63ab619d-1ba5-40ec-8939-1931f660ce6c	NotchLength	LENGTH		409	1		1	
+PARAM	9f0e6abb-5e78-47df-baec-12f890e6c5c1	NutGrade	MATERIAL		409	1		1	
+PARAM	aefcb98b-7426-4f0b-a5ac-84b8998b9e03	Plate_Chamfer	LENGTH		409	1		1	
+PARAM	8a21bb3a-a421-43e9-b45a-1e19f39ec2ec	Plate_Depth	LENGTH		409	1		1	
+PARAM	00cf2287-0298-4cf5-87fc-d981ee064a0d	Plate_Description	TEXT		409	1		1	
+PARAM	0dd03ed6-9fd7-49e0-85b7-f05821493f96	Plate_Length	LENGTH		409	1		1	
+PARAM	382555b6-3016-4285-ac69-77a3613e1dd3	Plate_Thickness	LENGTH		409	1		1	
+PARAM	ef3ad448-5f7c-46c0-956f-8bb63f638142	Plate_Width	LENGTH		409	1		1	
+PARAM	96ae9d77-fba7-49f4-96d4-ed2a274ad945	SteelComponent_Name	TEXT		409	1		1	
+PARAM	b09f1653-9bd4-4ae0-ad89-08de3a7337a8	SteelComponent_Type	TEXT		409	1		1	
+PARAM	f535bcd5-7825-42bb-bd85-c1a3d3fce3f0	Stiffener_Chamfer	LENGTH		409	1		1	
+PARAM	16c12cb8-105d-4853-a3c9-e215adcb9c26	Stiffener_Crs	LENGTH		409	1		1	
+PARAM	3f8542c1-fef3-4647-9fee-562c416aa5be	Stiffener_Depth	LENGTH		409	1		1	
+PARAM	3c3f66d6-e572-40d3-ac16-47e50b9b0109	Stiffener_Offset	LENGTH		409	1		1	
+PARAM	1eb9653f-ef42-4471-bdcc-c7aeb66ed099	Stiffener_Qty	INTEGER		409	1		1	
+PARAM	12bb6847-d2d2-4f4d-bebd-f616a5be8146	Stiffener_Thickness	LENGTH		409	1		1	
+PARAM	15eae08a-03ca-40bb-b6bc-56228faab03f	Stiffener_Width	LENGTH		409	1		1	
+PARAM	a3ce1a55-2739-431e-af39-d05474f50be4	WasherPlateSize	FAMILYTYPE	-2009030	409	1		1	
+PARAM	16a615c6-e13d-4f3d-ae77-4c096fee94f1	Weld_Length	LENGTH		409	1		1	
+PARAM	58a14a5b-fca2-459a-bcc4-334179c069da	Weld_Size	LENGTH		409	1		1	
+PARAM	f51d2b64-8635-48d9-bbf9-b0ad5ac43116	Weld_Type	TEXT		409	1		1	
+PARAM	479c1bc0-db21-45ef-8836-e293baa9a7b2	Is_Reinforced	YESNO		410	1		1	
+PARAM	aa6aac04-4011-44a4-8d27-f2e6571caac2	MainRF	TEXT		410	1		1	
+PARAM	886a537a-c009-41cb-84ca-cdead9c86e6a	MainRF_B1	TEXT		410	1		1	
+PARAM	5de76ff2-052f-4844-930f-6dc65704fd18	MainRF_B2	TEXT		410	1		1	
+PARAM	f4c843ba-4177-42c9-921a-f08d142177d6	MainRF_B3	TEXT		410	1		1	
+PARAM	a3ccdb2e-4203-46d6-b8cc-9a12eaf1136c	MainRF_T1	TEXT		410	1		1	
+PARAM	c23bccc5-ad59-4175-a59f-1c66773b92a1	MainRF_T2	TEXT		410	1		1	
+PARAM	bbbbdf44-9455-4ef8-b4b9-6e6b69692930	MainRF_T3	TEXT		410	1		1	
+PARAM	5d64383d-c9f6-4f52-af60-0de46b4417d4	MainRF_T4	TEXT		410	1		1	
+PARAM	f5486e34-2ac8-426b-b44c-d12bdb3657e5	RebarDensity	MASS_DENSITY		410	1		1	
+PARAM	6e85967c-0a79-4a70-b31e-db448a6fd1f1	RF_Allowance	NUMBER		410	1		1	
+PARAM	6b3d3e97-7ff4-4162-8814-45a5eaf50881	RF_AllowanceArea	NUMBER		410	1		1	
+PARAM	dfed62d4-4b86-491f-af64-bf29af909e61	RF_AllowanceVolume	NUMBER		410	1		1	
+PARAM	b85b4b12-9a34-4a90-a2ce-af0a1b611b62	RF_Comments	TEXT		410	1		1	
+PARAM	d0c9e0ca-9862-40e5-9fbe-f1f9b779dcbc	RF_CrossSectionArea	AREA		410	1		1	
+PARAM	9d046a7e-715e-4759-bef7-620b950f32b5	RF_Mass	NUMBER		410	1		1	
+PARAM	2581a458-5628-4b6a-bfa0-3f24004f4ae1	RF_ShapeCode	TEXT		410	1		1	
+PARAM	35ca2cc3-c23e-40ce-a6a2-f86afd6d30b4	RF_Type	TEXT		410	1		1	
+PARAM	f8588bf8-d71f-4734-abfd-544d6d438768	Starter	TEXT		410	1		1	
+PARAM	85974144-0c28-4c20-914f-56f032373a56	Ties_S1	TEXT		410	1		1	
+PARAM	d061c43b-acf7-44bb-95a5-315b57ad050f	Ties_S2	TEXT		410	1		1	
+PARAM	1c23e8f1-3f39-4b01-a7b3-8cfb8320edfd	Tolerance	TEXT		410	1		1	
+PARAM	66e095cf-e72e-49ab-a0a9-e637b21e593b	Web_Bars	TEXT		410	1		1	
+PARAM	1f45a111-317a-4666-b325-4ceccb939398	Centre	YESNO		411	1		1	
+PARAM	6ba7e65f-191d-4fc8-b4d2-56f3750ba95b	CoG	YESNO		411	1		1	
+PARAM	0dad2f70-ec04-4fd5-aead-055660eb6139	CoGx	YESNO		411	1		1	
+PARAM	c439acc3-c61b-43ab-b096-bfc33a7ccbc6	CoGy	YESNO		411	1		1	
+PARAM	dab165de-0cfb-48f2-a973-5c52731a1725	Edge	YESNO		411	1		1	
+PARAM	27f049d9-30d5-4202-b7a7-ce36f0c38aab	Elevation	YESNO		411	1		1	
+PARAM	11e8638d-08fa-402f-92a5-f27dba15eb62	Elevation_Back	YESNO		411	1		1	
+PARAM	9857d645-bf01-4253-9dc9-b0649ebf2d46	Elevation_Front	YESNO		411	1		1	
+PARAM	5c18dece-69d5-473f-9deb-dbfe3ee64673	Flip	YESNO		411	1		1	
+PARAM	4db52bc0-86eb-4ca7-861b-5a93b13ed06c	Plan	YESNO		411	1		1	
+PARAM	8664a0e4-29c3-4c36-a62d-4bd14071f74c	PlanOver	YESNO		411	1		1	
+PARAM	6759e03e-e9b0-41ec-9a71-eb4b35132a6c	PlanUnder	YESNO		411	1		1	
+PARAM	f66878fd-38b0-44b0-88f1-b217fa504c1d	Section	YESNO		411	1		1	
+PARAM	a14db2f2-eb64-4228-8741-2849a0e3ef09	ShapeImage	IMAGE		411	1		1	
+PARAM	a8784d70-adbf-47d8-9dc1-2e9788ea49f5	ASTMRef	TEXT		420	1		1	
+PARAM	b2370c6b-2fb5-4463-9fe8-20ef1a517aa2	Baseplate_Information	TEXT		420	1		1	
+PARAM	9aee235f-7fed-495e-abdd-7928970d33e8	Baseplate_Ref	TEXT		420	1		1	
+PARAM	738ed647-6777-4775-a60d-e20a131ff840	Blinding	TEXT		420	1		1	
+PARAM	e8a611b9-92a1-4796-9e38-ef6d4972ede2	CastIn_Products	YESNO		420	1		1	
+PARAM	dfc215be-da87-4179-a02c-d933df22c6f8	CastIn_Services	YESNO		420	1		1	
+PARAM	cc44c221-d85e-444d-902b-5730cb7cc9e8	Column_StructuralUsage	TEXT		420	1		1	
+PARAM	2e088e86-4ed3-4e5a-8ac8-d0bf03b135c8	Combustable	YESNO		420	1		1	
+PARAM	59a5ea24-7f48-4521-a28e-50141b947acd	ComponentNumber	TEXT		420	1		1	
+PARAM	088e9492-647a-4ee3-8e65-76d48d1df336	Configuration	TEXT		420	1		1	
+PARAM	59e03c93-832c-4622-bbd3-6e2691d0b6a4	ConnectionRef	TEXT		420	1		1	
+PARAM	6305e497-497c-4213-bf7e-50c9d3eec35f	ContainsServices	YESNO		420	1		1	
+PARAM	ae4f44cb-ec89-4bde-83eb-90d7fe0d7120	Coordinates_Project_X	TEXT		420	1		1	
+PARAM	4fb718d5-cee6-49ff-8fa2-5f643692e481	Coordinates_Project_Y	TEXT		420	1		1	
+PARAM	8098f744-5596-429f-9452-d9073097b894	Coordinates_Project_Z	TEXT		420	1		1	
+PARAM	8cf78554-0514-490f-98ea-b9172771e509	Coordinates_ScriptLastExecuted	TEXT		420	1	Date of last Coordinate script execution	1	
+PARAM	c9ab7902-d561-43b2-9b89-02caa3576759	Coordinates_Survey_X	TEXT		420	1		1	
+PARAM	90b98ea0-f688-42db-8b9e-6030575f9207	Coordinates_Survey_Y	TEXT		420	1		1	
+PARAM	bd53428b-f60f-4a63-932d-52a7459700f9	Coordinates_Survey_Z	TEXT		420	1		1	
+PARAM	b783dccb-b57d-46fc-a22a-23a108c09b66	Copyright	TEXT		420	1		1	
+PARAM	0e73881e-bf38-4009-bc97-eaf5ae0f9f1a	Decoration	TEXT		420	1		1	
+PARAM	6bc33d62-d8a1-48cd-8462-15440bc41c22	Description	TEXT		420	1		1	
+PARAM	3d37d8b3-ddea-45ea-b5a8-8acaad73bf17	DoorNumber	TEXT		420	1		1	
+PARAM	caf976c4-634b-4711-92f0-cb2e251b2f51	DrainSize	LENGTH		420	1		1	
+PARAM	a0d9c9d6-dbad-41e5-aaa5-88c429b04887	ElectronicLock	YESNO		420	1		1	
+PARAM	b5568faf-2e50-488e-945e-6fee43cf7cd5	ElementGUID	TEXT		420	1		1	
+PARAM	4ca87405-227b-4316-a186-6f439778f426	ElementNumber	TEXT		420	1		1	
+PARAM	31298e62-6e4c-43ee-89f0-310490fabfb3	EmbodiedCarbon_ValueReinforcement	NUMBER		420	1		1	
+PARAM	f0366de1-acba-4d79-b688-0a802453f95f	EngineersComments	TEXT		420	1		1	
+PARAM	60c2f307-b4f9-4d65-8abe-6c80b1cd2445	ExposureClassification	TEXT		420	1		1	
+PARAM	f2f9b2fa-8950-4aea-b96f-a0f0b6b3bf02	EZ_Volume	VOLUME		420	1	Volume populated using Dynamo script for use with Eco.Zero Measure	1	
+PARAM	e36b44b2-9f31-4ba0-b8b1-32c94779ed98	FlammabilityRating	TEXT		420	1		1	
+PARAM	fd4e61ee-aa53-4364-9b2f-ad4c1d0d468a	Floor	YESNO		420	1		1	
+PARAM	31a7b749-05d6-43ca-a58d-f23c0e6bfc6c	Glass_Material	MATERIAL		420	1		1	
+PARAM	48d23749-3446-4ce7-88e8-e72d22930ca5	Glass_Thickness	TEXT		420	1		1	
+PARAM	68f0ece1-6eef-46c0-9e6c-4e790f0ff94c	Glass_Type	TEXT		420	1		1	
+PARAM	dbc2797a-e341-4f15-a773-bcca64d35d5d	Gross_Volume	VOLUME		420	1	Volume excluding holes and cutbacks	1	
+PARAM	11c5660b-b11e-46ec-9655-262adc6a2caa	Gross_Weight	MASS		420	1	Weight exluding holes and cutbacks	1	
+PARAM	2bfb2509-6086-478e-9a63-568fcba0c62e	Holes	YESNO		420	1		1	
+PARAM	41bdede3-0fce-4391-90d0-60765350859b	Is_Composite	YESNO		420	1		1	
+PARAM	e2690fa5-242b-407d-8188-c85dbf0a31e8	Is_ContractorDesigned	YESNO		420	1		1	
+PARAM	0aba2eac-6137-4971-bfb1-a6af0d9c1cc6	Is_Designed	YESNO		420	1		1	
+PARAM	1336cb1a-b48d-4e85-a080-e12470e8e5c1	Is_External	YESNO		420	1		1	
+PARAM	6f3d69a3-147c-48b8-8151-d0aee00b190a	Is_LoadBearing	YESNO		420	1		1	
+PARAM	9c3e33f4-eb62-4d00-b5dc-698770dc210d	Is_Substructure	YESNO		420	1		1	
+PARAM	b6f57af9-f679-4881-82b5-ef88de89d47b	IssueDate	TEXT		420	1		1	
+PARAM	12ca25e2-c68f-4ded-9d47-3046fbd8f8f6	Joint_Type	TEXT		420	1		1	
+PARAM	309bec08-d807-4d1d-91ae-bcd6e55b2ad2	Joint_Width	LENGTH		420	1		1	
+PARAM	c71dd395-2599-4bce-ae04-caf8d4948f4f	Location	TEXT		420	1		1	
+PARAM	8cd6317f-abb1-4f92-b952-15e08aa038bd	LOD	INTEGER		420	1		1	
+PARAM	faffc512-1fd5-4bb8-bea6-d8c0df630dba	LOI	INTEGER		420	1		1	
+PARAM	a60ae651-22b1-449a-9bb9-283171baed75	MaterialDensity	MASS_DENSITY		420	1	Density of Material	1	
+PARAM	d5718aab-5354-4b84-a6fe-2ccf17ce4df7	NominalWeight	MASS_PER_UNIT_LENGTH		420	1	Weight of Section per Metre Length	1	
+PARAM	0ae00b0b-f988-49ad-aae2-1fd0b191fad5	Object_Code	TEXT		420	1		1	
+PARAM	7ca11e3c-2693-452b-bf05-e47f961ae9cf	Object_No	INTEGER		420	1		1	
+PARAM	7f7e9a20-fb87-408e-916c-8599b310eb62	Panel_Material	MATERIAL		420	1		1	
+PARAM	17880844-4841-4b4f-9fec-e108101e495a	Panel_Type	TEXT		420	1		1	
+PARAM	efc7d575-9fb4-407c-9881-c1b9a5aac10d	Redline_Action	TEXT		420	1		1	
+PARAM	b9f1abe8-7762-4e55-b66e-47f5bbbf1ea5	Redline_Comments	TEXT		420	1		1	
+PARAM	c7980236-07b5-4e96-8fb5-69f7e1079414	Redline_Date	TEXT		420	1		1	
+PARAM	3cb1185f-f6c8-48e7-b096-90e31689f916	Redline_Initials	TEXT		420	1		1	
+PARAM	dd063f6f-d821-4ac5-8ae2-6f5c7659e944	Redline_Status	FAMILYTYPE	-2000150	420	1		1	
+PARAM	58583017-35fb-47af-b88c-755b70ad70c5	Reference	TEXT		420	1		1	
+PARAM	9803207e-a695-4d87-9d9e-1e397008cd20	ResponseFactor	NUMBER		420	1		1	
+PARAM	c7b3672e-6400-4803-a3de-aa1ed6339958	RevitID	TEXT		420	1		1	
+PARAM	55ee793c-da01-48cb-afd4-09eef118cfe4	Risk_Description	TEXT		420	1		1	
+PARAM	97186ec6-f44e-42f4-8a1e-e8e8287810f1	Risk_ReferenceNo	TEXT		420	1		1	
+PARAM	be5c0228-a221-4db1-be31-83c44446f05e	Risk_RegisterNo	TEXT		420	1		1	
+PARAM	d156e497-521e-44b8-b5d2-d19896578978	SectionArea	SECTION_AREA		420	1	Area of Section	1	
+PARAM	043ed676-c054-4dd3-b071-dcc1d5b5f214	SectionKeyName	TEXT		420	1		1	
+PARAM	ce28df72-ee11-40f2-b979-d9d4e2ebb508	SecurityRating	TEXT		420	1		1	
+PARAM	43c616fd-4552-4b35-b1dc-8721c7b2f8ee	Service_HoleCrs	LENGTH		420	1		1	
+PARAM	22f8e58e-846e-4746-b7ee-e2817b88dfee	Service_HoleDepth	LENGTH		420	1		1	
+PARAM	1f0170c1-d68f-45e3-aaef-92f3250de6af	Service_HoleDiameter	LENGTH		420	1		1	
+PARAM	eba18f84-9101-409c-9522-44ccee89a54f	Service_HoleLength	LENGTH		420	1		1	
+PARAM	8f89ff13-d7f3-4c88-9c8f-f5fc32b49273	Service_HoleType	TEXT		420	1		1	
+PARAM	35704b2a-b77c-47b4-bb92-850bae48b97c	Service_HoleWidth	LENGTH		420	1		1	
+PARAM	20f3eef5-1a55-4933-8c93-1b42286a07cf	SmokeControl	YESNO		420	1		1	
+PARAM	01afc081-f3dc-4fc3-9cbb-f23ec0a55da0	Structural_Tolerance	TEXT		420	1		1	
+PARAM	5cdcd035-969c-4db3-ae79-2621c3893396	SurfaceArea	SECTION_AREA		420	1	Surface Area * Length	1	
+PARAM	73bf7e23-8867-4f9d-8b8d-2fbc1120ad0b	SurfaceArea_PerMetre	SECTION_AREA		420	1	Surface Area Per Metre	1	
+PARAM	a44b7fd3-e08c-4d3d-a3c5-33508a3502b8	SurfaceSpreadOfFlame	TEXT		420	1		1	
+PARAM	e6ecea64-70f2-438b-af1c-ace4f04c9f89	ThermalTransmittance	NUMBER		420	1		1	
+PARAM	204e06c1-c4e1-4dc8-94ef-fb1202111c9c	TSheetCode	TEXT		420	1		1	
+PARAM	2fff31e7-7071-487e-a020-7e1860a0c07c	URL	URL		420	1		1	
+PARAM	97571499-ce19-4d9b-9544-3c22dcbff160	Waterproofing_GasProtection	TEXT		420	1		1	
+PARAM	9cde586f-423e-4b0f-bdb8-7f92bbaf2038	Agreed Mitigation	TEXT		500	1	Agreed mitigation	1	
+PARAM	8933ee6f-c8bf-44f8-a21c-7eb5e8aafe0e	Associated Activity	TEXT		500	1	Activity, Process, Task, Job type, Package or Project associated. This may be a name, category description or plan/Gantt or entity reference	1	
+PARAM	3d2bf92a-bf36-4236-aacd-dc3f5cc27373	Associated Location	TEXT		500	1	Location, space, level, region, zone, or site associated. This may be a name, category, description or drawing or entity reference	1	
+PARAM	82c16c72-598d-4d98-baf9-434f01f5f0b2	Associated Product	TEXT		500	1	Product, material, type, Component, System or Facility associated. This may be a name, category, description or spec/bill or entity reference	1	
+PARAM	bf7aac01-a2d4-47b1-b03c-0dcf5f240c06	Date Raised	TEXT		500	1	Date entry first logged 	1	
+PARAM	571f32ca-46db-47a6-acb3-feff1da73889	Date Review	TEXT		500	1	Date entry last reviewed or due	1	
+PARAM	686f0964-076b-41ce-a59b-0ea4c16770f0	Date Updated 	TEXT		500	1	Date entry last updated 	1	
+PARAM	09a1de47-f976-4b37-9eda-c6dfde4a90cd	Level Of Risk	TEXT		500	1	Grade of the risk given the agreed mitigation. 	1	
+PARAM	c8244106-20d7-4810-bc9b-ee327c302f68	Owner Discipline	TEXT		500	1	Name of relevant sub-discipline or sub-contract or trade	1	
+PARAM	80dc5c9a-b015-491e-beaa-2971c1054ecc	Proposed Mitigation	TEXT		500	1	Proposed / Possible / un-planned moderation/mitigation	1	
+PARAM	79908a0a-2b6d-4ba9-a553-9aaa4d98fdd1	Risk Assessment Methodology	TEXT		500	1	Name of risk matrix or other methodology	1	
+PARAM	39a23244-bdee-4c44-b4ce-3a802d229807	Risk Category	TEXT		500	1	Description of the context or hazard, omitting the associated location, product and process	1	
+PARAM	f05b32fd-9c94-42da-a016-8f3f845a7268	Risk Consequence	TEXT		500	1	Grade of the consequence given the agreed mitigation	1	
+PARAM	8b92005d-f5c9-47b3-8363-4e4ff6cf900e	Risk Description	TEXT		500	1	Shallow or deep classification of risk or ‘context’	1	
+PARAM	67a55213-4a16-4f92-8865-e9fbd9287ca9	Risk Documentation	TEXT		500	1	Documentation of any detailed risk analysis on which the entry is based	1	
+PARAM	f2c70b95-f8a1-4dd2-b922-e611c305e5f0	Risk Factor	NUMBER		500	1	Risk Likelihood x Risk Consequence	1	
+PARAM	bf8138b1-9640-4f58-a8b7-e3c51adb2034	Risk Likelihood 	TEXT		500	1	Grade of the likelihood, given the agreed mitigation	1	
+PARAM	44cd22a8-51bc-45a4-8b50-61503c858662	RiskHigh	FAMILYTYPE	-2000150	500	0		1	
+PARAM	db1615af-ba6b-4d00-9725-6441270bd78e	RiskLow	FAMILYTYPE	-2000150	500	0		1	
+PARAM	4620aa3d-88f8-425e-9400-ac223f3651b6	RiskModerate	FAMILYTYPE	-2000150	500	0		1	
+PARAM	7e724db4-5b0b-4e4e-995f-70e93e40b0b2	RiskName	TEXT		500	1	Short unique name, of the context or risk entry, unique to the project or library	1	
+PARAM	38631a91-6c42-4bfb-a873-5c2d1aed183a	RiskVeryHigh	FAMILYTYPE	-2000150	500	0		1	
+PARAM	77040890-b748-4385-9db2-d38754cd01ce	Approved Content	YESNO		600	1		1	
+PARAM	089755ab-0194-4d4e-82ae-71665624d1b6	CadImportScore	INTEGER		600	1		1	
+PARAM	decaec47-52b1-4a87-a2e3-cdfa5bb41e1a	CADImports-Red	YESNO		600	1		1	
+PARAM	d3890c0b-b628-4f8a-a63e-351d39e984bf	CADImports-Yellow	YESNO		600	1		1	
+PARAM	9d12c584-4ddc-4a15-a036-9d7efa466220	CadLinkScore	INTEGER		600	1		1	
+PARAM	22d352c3-e9d0-4d4e-b146-8f9f21ee3896	CADLinks-Red	YESNO		600	1		1	
+PARAM	18331447-1d20-4dec-bbf9-4edddbb1a969	CADLinks-Yellow	YESNO		600	1		1	
+PARAM	6f4872f2-1043-437d-bc2e-31ebae4bdccd	ClipScore	INTEGER		600	1		1	
+PARAM	af7727ef-38e3-4fda-b5a4-6475d84683a6	DesignOptionScore	INTEGER		600	1		1	
+PARAM	18badc16-18a2-4c54-8d98-daf244eec2ab	DesignOptions-Red	YESNO		600	1		1	
+PARAM	4c673519-38bc-49fe-b16e-30da2dfce40e	DesignOptions-Yellow	YESNO		600	1		1	
+PARAM	25aae3f3-67bb-4fb6-a9ec-80aa0dec5179	Duplicate-Red	YESNO		600	1		1	
+PARAM	640acf47-14be-418b-b0e0-958cbe1552de	Duplicate-Yellow	YESNO		600	1		1	
+PARAM	fe13157d-3a52-47ee-9623-ffae283ffa62	ErrorCount-Red	YESNO		600	1		1	
+PARAM	447d30ae-c681-4640-9496-f8157d99d583	ErrorCount-Yellow	YESNO		600	1		1	
+PARAM	35eb4d47-582e-401a-aa7d-665181100166	GroupScore	INTEGER		600	1		1	
+PARAM	ad86aa20-fd3c-46c2-aab9-138c215ac2d3	HC_ApprovedContent	INTEGER		600	1		1	
+PARAM	9f314e9d-c6ed-4c22-a92f-78a96061ef84	HC_AreaofRooms	NUMBER		600	1		1	
+PARAM	a1da79d7-4cbf-4810-911f-eacc050af5d2	HC_AreaofRoomsSqf	NUMBER		600	1		1	
+PARAM	f16182d0-242a-4bf7-a1e6-bad30099df5d	HC_CADImports	NUMBER		600	1		1	
+PARAM	4ad658f3-960a-41cd-b222-c572cd86a8f9	HC_CADLinks	NUMBER		600	1		1	
+PARAM	699f497b-705c-446e-b99b-ddf763bffcb4	HC_ClippingDisabled	NUMBER		600	1		1	
+PARAM	4b618c83-df6c-4c9b-9381-2176a03639ea	HC_DateAndTime	TEXT		600	1		1	
+PARAM	244bf217-cbfc-433c-80ca-2df98f95de82	HC_DesignOptions	NUMBER		600	1		1	
+PARAM	38249d3d-88da-4a93-8faa-7547cd5c20b2	HC_DuplicateElements	NUMBER		600	1		1	
+PARAM	165afdb1-82c0-4ddc-893d-fdd0f70e429d	HC_ErrorCount	NUMBER		600	1		1	
+PARAM	7e3def23-9b6c-495a-8197-b13ffeee641d	HC_FillPatterns	INTEGER		600	1		1	
+PARAM	b4144fb5-b6c2-4030-ad8e-03bbf0dff505	HC_GroupInstances	NUMBER		600	1		1	
+PARAM	8025f199-57ce-4c83-87ef-31d94b4750d1	HC_GroupTypes	NUMBER		600	1		1	
+PARAM	2478ad93-d2dd-4f13-bc73-c7dc91e16d03	HC_Images	NUMBER		600	1		1	
+PARAM	323e285a-d390-47fb-bf8a-f4f6c2479e88	HC_InplaceFamilies	NUMBER		600	1		1	
+PARAM	6e1fdcb4-9170-49b4-8311-cc5181860d5f	HC_LinePatterns	INTEGER		600	1		1	
+PARAM	d04d3c4b-3462-4c9e-98b3-9047d2232ac8	HC_LineStyles	INTEGER		600	1		1	
+PARAM	35002ace-c254-4fc1-8c70-a79654cc96ce	HC_LoadedFamilies	NUMBER		600	1		1	
+PARAM	94cdf981-6400-4488-b889-a048eb2fa5c7	HC_Materials	INTEGER		600	1		1	
+PARAM	f4145c9d-902e-4787-99ee-5cba6a6aae1b	HC_ModelSize	NUMBER		600	1		1	
+PARAM	59ee3698-7751-4f9c-8a76-12efb1b8e17b	HC_ProjectBasePointAngleToTrueNorth	ANGLE		600	1		1	
+PARAM	b0f04ac3-f94b-43f4-8c48-9637614fac17	HC_ProjectBasePointElev	NUMBER		600	1		1	
+PARAM	fff5a581-1d85-4459-bf39-4f9f3a703cc8	HC_ProjectBasePointElevImperial	NUMBER		600	1		1	
+PARAM	42c5d059-5ecf-48ee-85f4-8a23cf41fa65	HC_ProjectBasePointElevMetric	NUMBER		600	1		1	
+PARAM	bef8065b-cd3a-4f8a-8d17-c20afd954df9	HC_ProjectBasePointEW	NUMBER		600	1		1	
+PARAM	bdb3a0ad-7dea-48d3-b5bd-7e4ee35f95aa	HC_ProjectBasePointEWImperial	NUMBER		600	1		1	
+PARAM	4aa5288f-ff96-447b-a70c-8da9706c2aed	HC_ProjectBasePointEWMetric	NUMBER		600	1		1	
+PARAM	76811a94-eb37-4086-8b06-dc1385db414e	HC_ProjectBasePointNS	NUMBER		600	1		1	
+PARAM	a50ed90a-3aa1-4e5b-8ded-0daf3f28024a	HC_ProjectBasePointNSImperial	NUMBER		600	1		1	
+PARAM	d28631c4-ff0d-44c1-b293-94f93f4ae583	HC_ProjectBasePointNSMetric	NUMBER		600	1		1	
+PARAM	dd534afe-4c46-47b5-8553-5424dc5e6b55	HC_Rooms	NUMBER		600	1		1	
+PARAM	c3ee6aef-79ec-4f44-b1d9-42ddedb02e90	HC_SurveyPointElev	NUMBER		600	1		1	
+PARAM	a3178ba9-da7e-4354-8663-9b7f9822d838	HC_SurveyPointElevImperial	NUMBER		600	1		1	
+PARAM	82148483-096a-4a50-a966-85e6d964137d	HC_SurveyPointElevMetric	NUMBER		600	1		1	
+PARAM	427d800c-64c4-43d1-86f9-159db45f498d	HC_SurveyPointEW	NUMBER		600	1		1	
+PARAM	9f254895-ecd4-43cc-afa3-64c26ed4da98	HC_SurveyPointEWImperial	NUMBER		600	1		1	
+PARAM	89ad66b3-6108-4e29-87ac-85475b6d7600	HC_SurveyPointEWMetric	NUMBER		600	1		1	
+PARAM	d8cb3c5a-7485-40f8-9312-227cfc8c0fc4	HC_SurveyPointNS	NUMBER		600	1		1	
+PARAM	ecc20e0a-d932-4be0-a625-e62bb8c34da5	HC_SurveyPointNSImperial	NUMBER		600	1		1	
+PARAM	a6b52614-2e29-4840-a5ee-7e55561c8de4	HC_SurveyPointNSMetric	NUMBER		600	1		1	
+PARAM	6e392813-d629-4082-83b5-e709c1e39ba8	HC_TotalSheets	NUMBER		600	1		1	
+PARAM	7a2ebaad-95dc-4d4c-b4b9-006a3180608c	HC_TotalViews	NUMBER		600	1		1	
+PARAM	31732836-7042-4778-93d1-6ef6ab8bca4c	HC_UnenclosedRooms	NUMBER		600	1		1	
+PARAM	9da998cb-6dc1-4c88-bf94-329d47eff4cf	HC_UnplacedRooms	NUMBER		600	1		1	
+PARAM	45df4ad6-a1af-47e0-9bfc-2d0310c498f3	HC_UnusedFamilies_Percentage	NUMBER		600	1		1	
+PARAM	8c300f30-825e-4d6a-bf6a-11f99a7ac428	HC_UnusedGroups	NUMBER		600	1		1	
+PARAM	73865b6d-0330-43a7-b209-2ceb635cdd37	HC_ViewsNotOnSheet	NUMBER		600	1		1	
+PARAM	a37fc71f-b7ba-4295-9f7d-26bede8cb3f8	HC_ViewsWithNoVT	NUMBER		600	1		1	
+PARAM	b1634122-89cc-42d4-b73c-9da46491131a	HC_Worksets	NUMBER		600	1		1	
+PARAM	edc846bf-5d44-481e-97a1-c8bd85f83e1c	Images-Red	YESNO		600	1		1	
+PARAM	85373ffe-4133-4e0d-913f-49aa3fbe0227	ImagesScore	INTEGER		600	1		1	
+PARAM	a8eb1cf0-45b9-42d9-9fa2-ceeca57c6e76	Images-Yellow	YESNO		600	1		1	
+PARAM	5b7f01f4-5c19-4728-b9cf-3791baacb62b	Imperial	YESNO		600	1		1	
+PARAM	101ef0b4-521d-4de2-8f1d-b54c1543d57c	InpaceFamiles-Yellow	YESNO		600	1		1	
+PARAM	4fef0b71-0d98-4196-bc01-738ec2e351ad	InplaceFamilies_HealthCheck	NUMBER		600	1		1	
+PARAM	a409aabc-203f-4667-a676-78df415e8c4c	InplaceFamilies-Red	YESNO		600	1		1	
+PARAM	05ed99e1-ea05-417f-aea6-648e885f001b	InplaceFamiliesScore	INTEGER		600	1		1	
+PARAM	1c4e278f-f25f-4245-890f-6a8b4f048d2b	Legend	YESNO		600	1		1	
+PARAM	b0754f0b-7435-4b4d-b6e5-c41bec8bcc57	Metric	YESNO		600	1		1	
+PARAM	6b660167-0952-4ed3-9a7a-5f96a1e49951	Model Health Assesment	YESNO		600	1		1	
+PARAM	632863d4-c24b-49fd-9b33-f402f0e64ad7	ModelSize-Red	YESNO		600	1		1	
+PARAM	c13ffe01-7392-4308-92d0-9f314d640c29	ModelSizeScore	INTEGER		600	1		1	
+PARAM	f6531a28-b327-4ab8-884a-b776c89cbea6	ModelSize-Yellow	YESNO		600	1		1	
+PARAM	088aa0aa-b949-4c7e-8548-6f3219fa1fc1	Notes	YESNO		600	1		1	
+PARAM	1e1fbad6-35ee-4c6e-8573-094711f4c8ca	ProjectHealth	NUMBER		600	1		1	
+PARAM	daf26344-3927-420b-b57a-5dbce1484226	ProjectHealth_Slider	LENGTH		600	1		1	
+PARAM	7b2618be-d06d-42c9-9898-95ed8c258a9f	ProjectHealthBase	NUMBER		600	1		1	
+PARAM	be3cb039-5712-4988-affc-1e2d89da6532	SheetScore	INTEGER		600	1		1	
+PARAM	fbd29fcc-46d2-459a-bd7b-c313324dbe35	TemplateScore	INTEGER		600	1		1	
+PARAM	5ebbf1f8-2b72-49f0-8c68-cfdf1943050c	TotalScore	NUMBER		600	1		1	
+PARAM	adfaebef-06fe-4e8e-9a02-3e8332a40fe1	UnenclosedRoom_HealthCheck	INTEGER		600	1		1	
+PARAM	31ab31d4-2980-4c05-b5e2-613fe1edf22d	UnenclosedRooms-Red	YESNO		600	1		1	
+PARAM	b941b316-cf44-4d59-ae49-f6271be85aad	UnenclosedRoomsScore	INTEGER		600	1		1	
+PARAM	cb76c07c-6879-4140-b670-18d969fa2cf5	UnenclosedRooms-Yellow	YESNO		600	1		1	
+PARAM	ae50045a-8249-4321-bdb1-4fd45064ef2b	UnplacedRoom_HealthCheck	INTEGER		600	1		1	
+PARAM	a20a9404-2787-44a3-9490-a0c042535220	UnplacedRoomsScore	INTEGER		600	1		1	
+PARAM	7726b14b-5334-4cae-a85c-301bec573397	UnplaceRooms-Red	YESNO		600	1		1	
+PARAM	0d5a5bc3-7835-4f6d-88c2-db8fd6117f9b	UnplaceRooms-Yellow	YESNO		600	1		1	
+PARAM	d941df44-68d2-4f5f-9ab3-21ad687cc569	UnusedFamilies-Red	YESNO		600	1		1	
+PARAM	29221a00-bcea-4730-81bc-73e684fb1eaf	UnusedFamiliesScore	INTEGER		600	1		1	
+PARAM	abd1e8f8-8583-45e9-9a97-c5033485b7bf	UnusedFamilies-Yellow	YESNO		600	1		1	
+PARAM	b03b3f0e-74ab-4bf3-b4a5-80a16f599006	UnusedGroups_Target	INTEGER		600	1		1	
+PARAM	867e9663-24e3-4feb-9f59-7df80c0442ec	UnusedGroups-Red	YESNO		600	1		1	
+PARAM	c8fcfa68-3f59-4884-a53a-ac22bc56b44a	UnusedGroups-Yellow	YESNO		600	1		1	
+PARAM	aa75d8c0-1b22-4828-9d16-efbb805059ed	ViewNotonSheet-Red	YESNO		600	1		1	
+PARAM	271bb891-21f8-40fa-a864-baf2b4772bbf	ViewNotonSheet-Yellow	YESNO		600	1		1	
+PARAM	d8cb8d24-1397-4c33-b917-0e0e3eaf3289	ViewsNotClipped-Red	YESNO		600	1		1	
+PARAM	caf1ed2e-2d17-4b68-a8dc-ddd7597583b8	ViewsNotClipped-Yellow	YESNO		600	1		1	
+PARAM	f756bc60-9821-4cac-9969-04afa57dd1a7	ViewsNotOnSheets_Target	INTEGER		600	1		1	
+PARAM	3036e54a-916d-40df-a42d-a59202f1adad	ViewswithoutTemplate-Red	YESNO		600	1		1	
+PARAM	beee9ed5-9c4d-47b6-833c-5682acbfa1bf	ViewswithoutTemplate-Yellow	YESNO		600	1		1	
+PARAM	63d829c8-b658-45a7-b27b-5acc08621c9e	WarningCountScore	INTEGER		600	1		1	
+PARAM	4d246770-872c-4592-b077-2f5741744e37	WorksetScore	INTEGER		600	1		1	
+PARAM	0db974d8-a32a-4bc0-9d49-9fcc760bcafa	Worksets-Red	YESNO		600	1		1	
+PARAM	c9ebf0bc-6bdb-451b-bbfc-66b80bcd6553	Worksets-Yellow	YESNO		600	1		1	
+PARAM	a7f1345b-afbb-4e93-b643-c3e409edaa4c	Chamber_DN	LENGTH		700	1	Chamber Internal Diameter	1	
+PARAM	02b11551-a563-4899-9f04-9233992c1032	Head Detail	TEXT		901	1		1	
+PARAM	9e45a95c-232e-496e-82cb-3a2e8fab2571	Jamb Detail	TEXT		901	1		1	
+PARAM	0879affe-d206-4f31-97f5-c8e0d1e2f5dd	Sill Detail	TEXT		901	1		1	
+PARAM	14d57ca6-61b0-4f71-ba31-81e8c8d5a6dd	CONTROLLER TYPE	TEXT		923	1		1	
+PARAM	66bfcc56-7d84-4ed2-900b-7d904e80b195	CURRENT RATING	TEXT		923	1		1	
+PARAM	75068b46-f087-4292-a5d2-b914f4513698	DIAGRAM	TEXT		923	1		1	
+PARAM	732b1d79-f2c8-475d-b066-bdd82c8a8480	FRAME SIZE	TEXT		923	1		1	
+PARAM	54285b02-96db-47c2-a7f5-404c71959086	FUSE SIZE	TEXT		923	1		1	
+PARAM	73c1e4ea-2060-470c-a5f4-3324e69029a4	MISC_DATA	TEXT		923	1		1	
+PARAM	26692cd0-7489-4cf3-829e-2a767af5b3f3	MOTOR HP_DIA	TEXT		923	1		1	
+PARAM	6fc682da-36bb-4d62-9bf2-d7c07b42c19c	NEMA SIZE_DIA	TEXT		923	1		1	
+PARAM	4683f33f-d4a9-420e-b10a-b9b7988027b3	NON-MTR LOAD	TEXT		923	1		1	
+PARAM	7eec236b-d811-4b44-8a27-227444b9fc6d	NUMBER OF FUSES	TEXT		923	1		1	
+PARAM	64f10574-43c6-428a-92f3-0b9765bf0ecb	NUMBER OF WIRES	TEXT		923	1		1	
+PARAM	b48d6608-c1f6-4e2c-9da1-11a9adec5465	PHASE_DIA	TEXT		923	1		1	
+PARAM	167d09bd-215d-4de2-b746-fd6ff1e5d9ea	POLES	TEXT		923	1		1	
+PARAM	01282fbb-b551-4afd-9bd3-a3348bfdce50	STARTER TYPE_DIA	TEXT		923	1		1	
+PARAM	b7c63038-c92f-4b13-a6c2-e83999d55494	TRIP RATING	TEXT		923	1		1	
+PARAM	bb8759a0-2a04-4785-98fd-309bbae1b5c5	TRIP UNIT	TEXT		923	1		1	
+PARAM	56e8c0aa-6412-41dc-bdba-8841e36f0e84	TYPE	TEXT		923	1		1	
+PARAM	287b83a7-e4db-436c-95e5-b9997f05b1c5	VOLTAGE_DIA	TEXT		923	1		1	
+PARAM	7490d982-fba7-43f9-8ef5-79f031617204	XFMR SIZE	TEXT		923	1		1	
+PARAM	a1c28367-57f8-4cd0-aabc-c32ac892a9b2	200 Percent Neutral	YESNO		924	1		1	
+PARAM	5d29bc99-46cd-422b-94d0-b1badd033303	Basin Heater Frequency	ELECTRICAL_FREQUENCY		924	1		1	
+PARAM	8b37e0c9-4bd3-4c33-b0d2-456a19506a75	Basin Heater Phase	NOOFPOLES		924	1		1	
+PARAM	845bd48b-1e6f-4bd4-9184-78f8992b4d87	Basin Heater Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	200408c2-2cae-4f27-9682-8f744561fe45	BMCS Control Interface	TEXT		924	1		1	
+PARAM	b6de2a9d-89ba-45ec-8e8e-bf68ff0de5bc	Boiler Blower Phase	NOOFPOLES		924	1		1	
+PARAM	f8eee174-7c9d-442b-9b11-f1abc3fcd5e1	Boiler Blower Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	9896186f-4a34-4a01-9cc4-3d28e93cf439	Boiler Burner Phase	NOOFPOLES		924	1		1	
+PARAM	2fae171b-0f0f-4583-94f8-ff3ff8fadf34	Boiler Burner Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	edd9d16d-55a8-40b2-be8f-36ae24c5ac73	Bypass Required	YESNO		924	1		1	
+PARAM	738ca382-6662-4395-b0fc-48c29da97eb5	Circuit Number	TEXT		924	1		1	
+PARAM	f87dcc56-c0fc-4b57-bd4b-479dec0a9d82	Circuit Number 1	TEXT		924	1		1	
+PARAM	19b675fc-8ac0-4d5c-8ecb-2e72f94ab6be	Circuit Number 2	TEXT		924	1		1	
+PARAM	583ac036-09f8-48ce-9e8d-1ddbd21b1f47	Conduit Tag	TEXT		924	1		1	
+PARAM	951e8d0e-e1b9-41cf-8fcb-4cd16fdeda96	Control Zone	TEXT		924	1		1	
+PARAM	21b74661-3f63-487a-b468-149367e80a14	Control Zone 1	TEXT		924	1		1	
+PARAM	8d750069-3b5c-4aec-8601-6a2c84b4c806	Control Zone 2	TEXT		924	1		1	
+PARAM	5b524d66-7005-4b50-8847-ca0c75c50d71	Control Zone 3	TEXT		924	1		1	
+PARAM	d56ae9dc-3a21-42fa-a13b-f5bb40ed3b3d	Control Zone 4	TEXT		924	1		1	
+PARAM	864f00a0-eb79-4735-b94f-cfec5e6ab5dd	Data Count	INTEGER		924	1		1	
+PARAM	1e32dd12-6b2b-4614-9d8a-a06b769f7841	Disconnect Fuse Size	ELECTRICAL_CURRENT		924	1		1	
+PARAM	39b7de4a-34d6-4388-b05d-efd179a9148b	Disconnect Size	ELECTRICAL_CURRENT		924	1		1	
+PARAM	ef74a7c8-997e-4bb8-80ab-edceb7fa352d	Electrical Disconnect	YESNO		924	1		1	
+PARAM	08f48f01-3130-4757-a577-7c141705f136	Electrical Panel	TEXT		924	1		1	
+PARAM	97c22a47-58b4-4f62-9aa1-7d86a79b1530	Electrical Panel 1	TEXT		924	1		1	
+PARAM	a08098df-0592-4dd6-8d60-a70adf0afef3	Electrical Panel 2	TEXT		924	1		1	
+PARAM	123a8146-95b0-4eab-849c-7333b79bc9cf	Feeder Size	TEXT		924	1		1	
+PARAM	353f987c-5499-45c3-8ea4-04f509f5c5b9	Frequency	ELECTRICAL_FREQUENCY		924	1		1	
+PARAM	94ed7ae7-e847-419d-ae80-739c2e8d59b2	Heating Element Frequency	ELECTRICAL_FREQUENCY		924	1		1	
+PARAM	8434f908-b04e-40ab-a78b-d71232b6e016	Heating Element Phase	NOOFPOLES		924	1		1	
+PARAM	eddd2098-8868-4030-9c43-7a1d5a9f20cc	Heating Element Quantity	INTEGER		924	1		1	
+PARAM	01c74a84-28e8-4086-b669-12114d718c67	Heating Element Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	35bf5e8f-5a24-4c42-aba3-3f9647134ff2	Housing Type	TEXT		924	1		1	
+PARAM	15ff1efc-dbad-46c7-88cd-9e69def49d58	Integral SPD	YESNO		924	1		1	
+PARAM	89abf458-8517-49b0-9260-e6274e4343f3	Load Classification	LOADCLASSIFICATION		924	1		1	
+PARAM	5494815a-b6a7-4163-96ca-96fbd4bb3b47	Motor Frequency	ELECTRICAL_FREQUENCY		924	1		1	
+PARAM	9066b18f-8e2a-45c7-95f2-ee18e2d204b7	Motor Phase	NOOFPOLES		924	1		1	
+PARAM	0f5bd3ec-e8c6-4e1b-a851-1d8d503c47b0	Motor Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	cec2e9cb-9151-4b72-a3a6-2ebda7e2b2d4	Number of Poles	NOOFPOLES		924	1		1	
+PARAM	ebfbd37c-a4b8-4680-b478-1ca813bf8a94	Panelboard Spare Percent	ELECTRICAL_DEMAND_FACTOR		924	1		1	
+PARAM	304f3745-d47b-47b9-8e84-063e4ce95bb5	Panelboard Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	697795fb-88ee-4cc9-93e4-e363ae8be74b	Phase	NOOFPOLES		924	1		1	
+PARAM	82899894-6eaa-45c6-8d5e-1c181deea6b8	Plan Symbol	FAMILYTYPE	-2000150	924	1		1	
+PARAM	0b538507-88db-4d93-9a9c-6903adcc42a6	Power Factor	NUMBER		924	1		1	
+PARAM	837c32a5-cad7-4a13-9b51-1cca44791283	Relay Panel	TEXT		924	1		1	
+PARAM	e1868355-dddf-4c1f-bc65-9efdb3592676	Relay Panel 1	TEXT		924	1		1	
+PARAM	5a0b392c-0c08-486f-a37c-307479c226b2	Relay Panel 2	TEXT		924	1		1	
+PARAM	f74cc84a-74f2-43a3-bf3f-95ab8d310e39	Service Entrance Label	YESNO		924	1		1	
+PARAM	39841259-867a-44e2-9d2f-8548049292a1	Space Switch Designation	TEXT		924	1		1	
+PARAM	9480af41-8695-4ff3-9444-6dcb907b4766	Spray Pump Frequency	ELECTRICAL_FREQUENCY		924	1		1	
+PARAM	84adfb1c-0f10-45a4-902f-7ac2b5359261	Spray Pump Phase	NOOFPOLES		924	1		1	
+PARAM	717f5c2f-72fa-4d4c-a061-f731b6574fb1	Spray Pump Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	b525b13d-0c6d-4e28-850c-4fadd8060f96	Starter Size	TEXT		924	1		1	
+PARAM	9992902d-e00d-4985-a8e5-d02db7cfaa58	Voice Count	INTEGER		924	1		1	
+PARAM	ee1f8bb8-e503-49a8-bd5b-170d64400d82	Voltage	ELECTRICAL_POTENTIAL		924	1		1	
+PARAM	bc48153c-0e6a-49db-949c-02bc58e87eb4	Actual Total Power	ELECTRICAL_POWER		925	1		1	
+PARAM	a1c4f25a-1260-41a5-bac8-97556a57b236	Apparent Load	ELECTRICAL_APPARENT_POWER		925	1		1	
+PARAM	f06784a7-7866-4785-84a1-2ef334892363	Basin Heater Power	ELECTRICAL_POWER		925	1		1	
+PARAM	6b862cf6-17da-4f52-a708-82db120411e4	Boiler Blower HP	ELECTRICAL_POWER		925	1		1	
+PARAM	1360f611-45c7-4860-a36e-cab23757a90e	Boiler Burner Electrical Load	ELECTRICAL_POWER		925	1		1	
+PARAM	27c4de92-c02b-4d1d-bb7b-e09c2ab460c2	BRAKE HORSEPOWER	TEXT		925	1		1	
+PARAM	f6e865a8-c0f8-4699-9eeb-d22dff650801	Compressor Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	d6b012c3-e515-47ea-917b-a2250e525c2a	Compressor HP	ELECTRICAL_POWER		925	1		1	
+PARAM	2454c0ca-cb66-4f99-a543-2a181668b475	Compressor Power	ELECTRICAL_POWER		925	1		1	
+PARAM	d95a9536-f832-4960-aee4-afba623fa68e	Compressor Rated Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	e14d6ee1-46d1-4df0-8297-53570545163f	Condenser Fan HP	ELECTRICAL_POWER		925	1		1	
+PARAM	11bd701e-add1-4ac8-8493-6646bdc18245	Condenser Fan Power	ELECTRICAL_POWER		925	1		1	
+PARAM	334498a6-43e1-4ee8-8602-5dda9dde979d	Cooling Nominal Input Power	ELECTRICAL_POWER		925	1		1	
+PARAM	66f7253d-92e2-47eb-925e-06d3651d5fa5	Cooling Tower Fan HP	ELECTRICAL_POWER		925	1		1	
+PARAM	a4c0ff47-e3cb-46c0-bee6-6bf1529292d0	Cooling Tower Fan Power	ELECTRICAL_POWER		925	1		1	
+PARAM	b1593c76-29bc-4c9e-be1b-caa949961bfb	Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	9afa161e-de87-460a-8066-a10e1587e7e9	Design Total Power	ELECTRICAL_POWER		925	1		1	
+PARAM	16943441-0138-4726-971d-ab7bf34858e5	Exhaust Fan Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	894818a4-429f-4f5b-a208-dd489db008fe	Exhaust Fan HP	ELECTRICAL_POWER		925	1		1	
+PARAM	f41c6867-1c6e-4e4c-9a81-b67e72793de6	Exhaust Fan Power	ELECTRICAL_POWER		925	1		1	
+PARAM	29f0f861-1f21-4557-9c76-98724ee4402f	Fan Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	9ec6814e-3ac4-4db6-ba19-2313ad9b7790	Fan HP	ELECTRICAL_POWER		925	1		1	
+PARAM	52b3c512-1e11-4124-8740-4c7b21d159b6	Fan Power	ELECTRICAL_POWER		925	1		1	
+PARAM	0efd307a-80c8-4856-8f5e-bd21e6158fa8	Final Watts	ELECTRICAL_WATTAGE		925	1		1	
+PARAM	fd1b01e9-cb87-4e48-bdde-fabbd67d4676	Final Watts 1	ELECTRICAL_WATTAGE		925	1		1	
+PARAM	ab84b752-25b0-4bd0-9081-9ab995b985ce	Final Watts 2	ELECTRICAL_WATTAGE		925	1		1	
+PARAM	847df998-d351-44b2-b85d-0078e357cb56	Full Load Amps	TEXT		925	1		1	
+PARAM	97e02bf9-0e22-41da-854f-cff85dd8b099	Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	ea6bb97f-91d1-4275-9618-9072e9fd2175	Heating Element Power	ELECTRICAL_POWER		925	1		1	
+PARAM	f0cff73e-a02b-44ab-a951-3f1431584e18	Heating Nominal Input Power	ELECTRICAL_POWER		925	1		1	
+PARAM	532baf87-29f4-42d8-980a-d0535668a2f1	Horsepower	TEXT		925	1		1	
+PARAM	407a74ae-eecd-45e1-bb21-77b6bc493367	Instantaneous Current Flow	ELECTRICAL_CURRENT		925	1		1	
+PARAM	bff8deba-b753-4bdf-922e-b20eb6e13666	Locked Rotor Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	f01d6af5-a0ea-48d5-9f65-08a640226fbd	Maximum Overcurrent Device Type	TEXT		925	1		1	
+PARAM	4cb51377-dc4d-4d9c-ba53-3856aff6ef64	Maximum Overcurrent Protection	ELECTRICAL_CURRENT		925	1		1	
+PARAM	e56f2f04-58ff-4786-9d0e-977ceeea6ac5	Minimum Circuit Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	4e327446-c03a-4339-9ec5-8557ce5a2f3f	Motor Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	a077855c-cad6-4cdf-bf55-640d3d9c6889	Motor HP	ELECTRICAL_POWER		925	1		1	
+PARAM	547f3008-5817-4466-90d1-532a51e6d3fb	Over Current Device Amp Size	TEXT		925	1		1	
+PARAM	7c32a6c6-76e1-409a-8f66-fd1e1f949678	Over Current Device Rating	TEXT		925	1		1	
+PARAM	81b52edc-5f0f-4ca5-8046-94332303de3e	Over Current Device Type	TEXT		925	1		1	
+PARAM	147865e2-5329-438a-b37f-3affebc5937f	Pump Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	3d8a4923-98a6-4d64-86fe-af81762285d4	Pump HP	ELECTRICAL_POWER		925	1		1	
+PARAM	f513b80f-aed9-476f-882b-7bdd70ff236b	Pump Power	ELECTRICAL_POWER		925	1		1	
+PARAM	4cd3ab13-eb96-4ec5-b874-1ea2f7a7ab8e	Rated Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	bfbb6e1c-3714-4f69-beb7-29c5a113337d	Return Fan Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	2fe7616f-d9ae-4e25-91f9-76db07a12b83	Return Fan HP	ELECTRICAL_POWER		925	1		1	
+PARAM	110fb944-3a5d-43ec-815f-13f867c1a32b	Return Fan Power	ELECTRICAL_POWER		925	1		1	
+PARAM	4edba17d-2b48-41e0-acab-902ca54884e8	Spray Pump HP	ELECTRICAL_POWER		925	1		1	
+PARAM	e40bd7fb-0f08-4c40-935b-d2047ad78b31	Sump Heater Power	ELECTRICAL_POWER		925	1		1	
+PARAM	3e09961e-72c6-49f4-beea-bbac4f4adc24	Supply Fan Full Load Current	ELECTRICAL_CURRENT		925	1		1	
+PARAM	478d7173-f09e-4899-aba7-6c8dbf672405	Supply Fan HP	ELECTRICAL_POWER		925	1		1	
+PARAM	857732fb-7721-4d42-9d8c-6ab16ccae883	Supply Fan Power	ELECTRICAL_POWER		925	1		1	
+PARAM	adb0a28a-5d47-46b6-8537-7f48720f12b1	VFD	YESNO		925	1		1	
+PARAM	ef0bc33d-6b50-4655-948c-abd8b7d1e925	VFD Rated Output	ELECTRICAL_CURRENT		925	1		1	
+PARAM	7183a079-6261-4363-8450-cb807d1b873c	Watts	ELECTRICAL_WATTAGE		925	1		1	
+PARAM	81e96380-bc25-4c8a-93ba-7e460fbc834c	Watts 1	ELECTRICAL_WATTAGE		925	1		1	
+PARAM	fa1142e2-d5ce-4fb7-9bfc-200ad6db57c0	Watts 2	ELECTRICAL_WATTAGE		925	1		1	
+PARAM	34d2aad3-271f-44e2-9f4a-18365e0febf3	Instrumentation ID	TEXT		926	1		1	
+PARAM	68368611-93ff-4896-ad29-6dc7f458261c	Loop ID	TEXT		926	1		1	
+PARAM	5a252ceb-34c7-45f6-b2ad-9d48c0e07996	Acceptable Manufacturers	TEXT		927	1		1	
+PARAM	59ceac8b-b227-4772-bfcf-dfc5acff84ba	Accessories	TEXT		927	1		1	
+PARAM	c43e0f5b-1121-44a9-8f07-42cc88038dd8	ADA Compliant	YESNO		927	1		1	
+PARAM	70084551-51c1-4ea5-9d5f-579841b36c25	Application	TEXT		927	1		1	
+PARAM	abcc4c4b-b817-4daa-b720-794ba4544c78	Area Served	TEXT		927	1		1	
+PARAM	d0bb040b-352d-4450-8a2d-20db34ca3783	ARI Number	TEXT		927	1		1	
+PARAM	e4d25670-9541-43df-a1ff-34913c30226e	Building Number	TEXT		927	1		1	
+PARAM	9cb68b9b-cdbc-49a6-86ac-b03f188f1cb6	Campus ID	TEXT		927	1		1	
+PARAM	2fab1c0f-f787-4343-a149-c03098bd1098	Control Protocol	TEXT		927	1		1	
+PARAM	ea5261b6-e5f2-4d03-95b4-3f034a2ea693	Department Number	TEXT		927	1		1	
+PARAM	612f068b-0e89-4dda-a656-0d961d27595d	Designation	TEXT		927	1		1	
+PARAM	d3f7c6c9-ad59-4b3c-abb7-78f764f80362	EPA Rating	TEXT		927	1		1	
+PARAM	13a66e75-31c0-4829-a110-5d2de0b6b9c9	Equipment Configuration	TEXT		927	1		1	
+PARAM	e0f9fc05-4edd-446a-b700-cd468bbbc0eb	Equipment Description	TEXT		927	1		1	
+PARAM	5fb684ba-8d67-4161-be61-6bf1d2dd446c	Equipment Served	TEXT		927	1		1	
+PARAM	63372841-100d-47cb-868c-0558228b49a3	Equipment Type	TEXT		927	1		1	
+PARAM	2dc31903-bfc1-4ac0-a439-b063143f847e	Family User Guide	URL		927	1		1	
+PARAM	7ab14fbd-efe1-4c83-8ece-454c3fac8323	Final Cost	CURRENCY		927	1		1	
+PARAM	7b1868ba-3af1-47f7-aff6-bd9f155b2e31	HDR-Discipline	TEXT		927	1		1	
+PARAM	5233fb7b-8942-41b5-826b-71707bcb9116	HDRID	TEXT		927	1		1	
+PARAM	0f1c5822-a322-4794-aae3-804c512b3e29	HDR-Series	TEXT		927	1		1	
+PARAM	46593ca6-ae16-43c7-b270-f56d1ed6884d	HDR-Sheet Use	TEXT		927	1		1	
+PARAM	1c82fb64-61cd-46cc-a18e-5863976d6de0	HDR-Sort Code	TEXT		927	1		1	
+PARAM	c7c8e24f-2a86-4fb4-8366-d334f3073d55	HDR-View Classification	TEXT		927	1		1	
+PARAM	4f41f88e-9962-48c6-aa94-a7789a9bfa08	HDR-Volume	TEXT		927	1		1	
+PARAM	1dedb153-4d5c-4fa4-ad3f-ab91f8207f04	Label 1	TEXT		927	1		1	
+PARAM	842918ad-289e-4794-bb15-2f8e203a6811	Label 2	TEXT		927	1		1	
+PARAM	de75f9c5-b58b-43e0-9ef6-791699000487	Label 3	TEXT		927	1		1	
+PARAM	2f523620-8721-4078-bdab-cd942dedffe6	Label 4	TEXT		927	1		1	
+PARAM	7ac9bde1-2de1-4203-9698-b143164aeeaf	Lamp Ordering Code	TEXT		927	1		1	
+PARAM	f134d1f2-546c-4a07-a7ec-7834a8a10c36	Lamp Type	TEXT		927	1		1	
+PARAM	2353c413-7fa1-45af-a464-8487f5cde75f	Legend ID	TEXT		927	1		1	
+PARAM	adfdda25-50cb-4d33-903b-526c53f176fa	Louver Type	TEXT		927	1		1	
+PARAM	93284297-0cc4-4009-9600-e72da93a98e1	Media Type	TEXT		927	1		1	
+PARAM	1192e588-14fc-4e36-bf7c-872860c06bd1	Model Name	TEXT		927	1		1	
+PARAM	fbaec894-1f7c-4f9f-b548-4c5ca0bd8b52	Mounting Type	TEXT		927	1		1	
+PARAM	1db56063-33d8-4f77-8918-7079e490abd5	Multiple Structure Name	TEXT		927	1		1	
+PARAM	69bdf42d-6913-4831-8f89-2d11928e77e3	Operating Weight	FORCE		927	1		1	
+PARAM	0d29bf1f-0ee2-4144-b66c-be3b4a353db6	Path ID	TEXT		927	1		1	
+PARAM	42e61154-a5a7-42f0-b597-17dc3c5e3c2e	Point of Shipment	TEXT		927	1		1	
+PARAM	bebe8438-711e-408e-8dab-f04a0006302a	Power Source Type	TEXT		927	1		1	
+PARAM	bddc75f4-8e27-4afc-add0-de7358bbf6d3	Product Documentation Link	URL		927	1		1	
+PARAM	5102b873-5fab-45b7-a2d0-f83ddee8d345	Product Name	TEXT		927	1		1	
+PARAM	c5f25d97-91ad-48c8-96e2-99eac6fbb3f1	Product Page URL	URL		927	1		1	
+PARAM	f0fc9581-4053-443d-ae7b-b0e4346b66f8	Project Disciplines	TEXT		927	1		1	
+PARAM	4f7c6de5-08f5-46b0-a43d-de25165eb6ad	Project Information Link	URL		927	1		1	
+PARAM	8152a668-0af3-4760-9348-ea4c3f359635	Refrigerant Used	TEXT		927	1		1	
+PARAM	c1f56e0c-3f63-47c5-8f36-cafe21a942a8	Room Name Abbreviation	TEXT		927	1		1	
+PARAM	e9650a34-a2f3-4e11-b7ac-8e6b0ca9e07f	Room Program Code	TEXT		927	1		1	
+PARAM	805d643c-d3ed-420f-8ce7-1433590c9a94	Room Program Zone	TEXT		927	1		1	
+PARAM	cdafdf06-7a58-4c1f-820f-264a9d5af216	Serial Number	TEXT		927	1		1	
+PARAM	c16e1ee7-d44c-4516-9855-047c416f2763	Service Type	TEXT		927	1		1	
+PARAM	e3bc86d4-a43e-4dde-a4cb-476dfa34a1cf	Shipping Weight	FORCE		927	1		1	
+PARAM	a7acb97e-605b-4a6e-8719-be065ae87dfe	Sign Comments	TEXT		927	1		1	
+PARAM	7493ea7c-4db0-4a91-950e-1d891e9136da	Sign Description	TEXT		927	1		1	
+PARAM	c84227fb-0cbe-49b2-a1b0-2b9598c1ea70	Sign Message Side A	TEXT		927	1		1	
+PARAM	811386fe-0bde-456f-a4b5-351becfc630f	Sign Message Side B	TEXT		927	1		1	
+PARAM	3a11d329-e94a-4199-aee0-0ea61f44a2b9	Sign Type	TEXT		927	1		1	
+PARAM	07574c61-1a8b-4e6d-a76b-80f8350086ea	Space Planning ID	TEXT		927	1		1	
+PARAM	8f4bbe84-53e3-4004-a7e5-f2d91336c955	Specification Section	TEXT		927	1		1	
+PARAM	127aedf9-b181-46c6-bb98-c5c967c5155a	Structure Name	TEXT		927	1		1	
+PARAM	3e8bcc5c-b0c2-4e09-9e32-8069c85af83a	Style	TEXT		927	1		1	
+PARAM	0e4028df-7a13-4649-811c-901a5c88e63d	System Served	TEXT		927	1		1	
+PARAM	23024995-53b9-47e6-9686-5b6af1ea23a3	Tag	TEXT		927	1		1	
+PARAM	ba7fa50a-a7d8-430f-80e0-41f463aea9f4	Typical Comment	TEXT		927	1		1	
+PARAM	d439a705-9d67-4477-83c9-555d657c3207	VA Building Number	TEXT		927	1		1	
+PARAM	df35969c-a115-472c-a9c3-83bb941ac30e	VFD Type	TEXT		927	1		1	
+PARAM	8e180998-2bec-4f31-87df-24e9b11a60a9	Ballast Factor	TEXT		928	1		1	
+PARAM	51436f31-e185-41ae-a180-3010c4a507ba	Ballast Quantity	TEXT		928	1		1	
+PARAM	90e60a6a-3407-4508-9424-10232006ea1b	Ballast Type	TEXT		928	1		1	
+PARAM	399e6359-7923-4c5e-bc2e-9ed3940f6902	Control Device	TEXT		928	1		1	
+PARAM	7c605de1-6371-49c4-b4d8-8f4bb172769c	Control Schedule	TEXT		928	1		1	
+PARAM	74654112-0a3f-483d-ab58-eabc9ae6e343	Control Schedule Notes	TEXT		928	1		1	
+PARAM	c7dd57f5-62dc-4d47-a84f-b39464d89b85	Control Smoking Zone	TEXT		928	1		1	
+PARAM	6a1500f0-3261-458c-bb88-1395930a18c4	Lamp Quantity	TEXT		928	1		1	
+PARAM	c14d2f1e-7f7e-4124-89c0-8ea5ea64b000	Lamp Wattage	TEXT		928	1		1	
+PARAM	efd66816-c403-459b-8b99-d4d1f310101f	Luminaire Mounting Height	TEXT		928	1		1	
+PARAM	e454b3b9-cede-4939-a30a-e2310286bdee	Override Duration	TEXT		928	1		1	
+PARAM	aec5ec73-c0c7-4a6e-8633-f97e2e07c1ca	AffinityProjID	TEXT		929	1		1	
+PARAM	89f128b0-d1a2-4066-a11b-01e51c4864b7	AffinityRefID	TEXT		929	1		1	
+PARAM	e8695480-220c-4bb7-b0b6-2232c3e95277	AffinityType	TEXT		929	1		1	
+PARAM	e1dc88be-b646-44d2-8547-05638010fda0	Author	TEXT		929	1		1	
+PARAM	a188e289-3eb2-4a25-869e-1c6c49878cd7	Author Email	TEXT		929	1		1	
+PARAM	5a62dabf-e0d9-440b-b600-1358bc37a9af	Author Practice Group	TEXT		929	1		1	
+PARAM	9c683a2e-7c0a-4701-a5d8-7062416a2668	Client Number	TEXT		929	1		1	
+PARAM	a33af543-3cb7-4027-89d3-4fffcfeca6ee	Design Pressure	TEXT		929	1		1	
+PARAM	4d161e57-98f9-4c06-8dac-4f644a2a0a1e	GlobalAffinityProjID	TEXT		929	1		1	
+PARAM	928538ac-b15b-4060-9947-40412b3377d3	GlobalAffinitySettings	TEXT		929	1		1	
+PARAM	3bbfff94-8102-4237-8b26-accf016f0a16	JSN_ID	TEXT		929	1		1	
+PARAM	420e1851-27d2-4b80-9763-ad79ee8b93fc	JSN_name	TEXT		929	1		1	
+PARAM	8e8345ab-1afc-456d-9d2d-00a5e92f805a	JSN_util_1	TEXT		929	1		1	
+PARAM	ee48f924-9a4a-443c-8000-e48126987e4a	JSN_util_2	TEXT		929	1		1	
+PARAM	b24a5f2f-5405-46b9-90e1-c40f96e8822b	JSN_util_3	TEXT		929	1		1	
+PARAM	6f216c49-522b-499f-9f47-1330b65bd2e4	JSN_util_4	TEXT		929	1		1	
+PARAM	fa1deb49-67d9-4c5d-95c8-013103a33e08	JSN_util_5	TEXT		929	1		1	
+PARAM	8c689179-caa9-48f0-a732-d9e1aafd1c78	JSN_util_6	TEXT		929	1		1	
+PARAM	c3b48712-7770-49b1-afc5-9dd3d2d6d279	logcat	TEXT		929	1		1	
+PARAM	3d047e41-4cf4-481a-af26-d53d9b08c57f	Project Description	TEXT		929	1		1	
+PARAM	b26c060a-fc02-4f61-8a57-1c0728666879	Schedule Filtering Value	TEXT		929	1		1	
+PARAM	7f95adca-52ec-4a71-94ab-748e66efba12	SHEET COUNT	TEXT		929	1		1	
+PARAM	1096c2ec-5890-422a-83de-6c80bc90d4e4	SHEET COUNT TOTAL	TEXT		929	1		1	
+PARAM	8bcbb47e-6239-4bc1-b109-6f9490833ff7	SHEET TITLE 1	TEXT		929	1		1	
+PARAM	8f32990c-7671-4a2d-8083-f8625eb0f5f8	SHEET TITLE 2	TEXT		929	1		1	
+PARAM	34b88e92-46ad-4651-9b3d-251b4120f0d1	SHEET TITLE 3	TEXT		929	1		1	
+PARAM	930f7e37-0d24-40b8-a3b2-023678e477f2	SHEET TITLE 4	TEXT		929	1		1	
+PARAM	d7dab66a-2f3a-4bdd-88b6-7dd846f80a1b	Sign Schedule Filtering Value	TEXT		929	1		1	
+PARAM	35b38cda-3c12-4229-a20a-a1ffbb2ea452	Source	TEXT		929	1		1	
+PARAM	b2d60ad3-80a5-438b-9110-ae102b4729bb	Team 1	TEXT		929	1		1	
+PARAM	068fe1ff-9038-41ff-b471-8c5e7cb5ca22	Team 2	TEXT		929	1		1	
+PARAM	a7151ef3-efd2-44a2-8ea4-55f50ec0975c	Team 3	TEXT		929	1		1	
+PARAM	6c566efb-6bf0-43f6-b9b7-01e4945d2785	Team 4	TEXT		929	1		1	
+PARAM	0ea40c88-211a-4e8a-b160-bfa0a80b85b3	Team 5	TEXT		929	1		1	
+PARAM	c58892ca-56f9-4eb1-abaf-55ee6311f147	Team 6	TEXT		929	1		1	
+PARAM	136a6222-aefe-4ddf-b663-fa734863bb3a	Team 7	TEXT		929	1		1	
+PARAM	3e9928c1-dc3b-432a-8e6d-5f37c93a0f9c	Version	TEXT		929	1		1	
+PARAM	136a7015-b4b3-4a16-9417-095f1335dcf7	Absorption Distance	LENGTH		930	1		1	
+PARAM	bdfa552f-1bad-4ec5-867e-684e573adce9	Air Connection Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	e0fdf073-fe3a-4803-885b-345e6d7b5d86	Air Connection Height	HVAC_DUCT_SIZE		930	1		1	
+PARAM	2583b0b6-0635-49fe-be49-911e1d82cf5f	Air Connection Width	HVAC_DUCT_SIZE		930	1		1	
+PARAM	13420862-7de3-4b8c-bcd6-1c9c7af524e3	Air Terminal Connection Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	a5151c9b-c71a-41f3-98d6-f2eee6e294e8	Air Terminal Connection Height	HVAC_DUCT_SIZE		930	1		1	
+PARAM	775400bc-a4b3-40e0-8efc-03b94e0a7e8d	Air Terminal Connection Width	HVAC_DUCT_SIZE		930	1		1	
+PARAM	f34ebd89-d247-42d8-8a53-9edfc2ac6315	Air Terminal Face Height	LENGTH		930	1		1	
+PARAM	f2ded8a2-be2b-40e6-a3d5-8050816da362	Air Terminal Face Width	LENGTH		930	1		1	
+PARAM	210636f3-47ed-4f6e-af9a-2d9939c2026d	Bell Diameter	LENGTH		930	1		1	
+PARAM	c63203ac-f149-43f7-bde3-c58a739f8e5d	Ceiling Height	LENGTH		930	1		1	
+PARAM	9e15efe2-aeac-40fa-9d06-65b58139fc76	Chilled Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	c204d2c2-ba39-484c-b976-8e69d781f2ce	Clearance Back	LENGTH		930	1		1	
+PARAM	aeaeb9a8-1197-46ee-b180-e0c87ed2002c	Clearance Front	LENGTH		930	1		1	
+PARAM	d2ad0b79-122a-42f3-8def-25d302cb07d7	Clearance Left 	LENGTH		930	1		1	
+PARAM	0c5c2562-1b0b-4228-9528-ea61aa36792d	Clearance Right	LENGTH		930	1		1	
+PARAM	67ff0d95-2199-45e9-bec9-56d3a6b797ff	Clearance Top	LENGTH		930	1		1	
+PARAM	d624e001-c693-41c7-b54d-5cb00d13222a	Cold Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	3d7a268a-5abb-4f16-9623-72ffa7d32a51	Condensate Drain Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	132cc913-b3ae-45e8-a6e4-f82c6c1a57bf	Condenser Relief Valve Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	45279535-09da-4a72-9428-d844ac202e7f	Condenser Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	3e8f18c9-316d-4461-80b6-a83b6d00e44f	Cooling Coil Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	b1050f1f-e7ff-4fac-9b84-99d6b666c228	Curb Height	LENGTH		930	1		1	
+PARAM	74e19a8b-bf7e-491e-998a-a0bb3b7e4630	Depth of Cover	LENGTH		930	1		1	
+PARAM	bf05dffd-1666-4b81-8d8d-074ff06cea3a	Egress	YESNO		930	1		1	
+PARAM	14d63a92-6a0c-4bd3-a8aa-9a01daef417e	Egress Clear Width Door	LENGTH		930	1		1	
+PARAM	452389ee-cc42-40c9-acfc-a4019cc2f975	Egress Width Provided	LENGTH		930	1		1	
+PARAM	b5519773-a606-4aaa-8b8b-7c59f424be33	Egress Width Required	LENGTH		930	1		1	
+PARAM	0e4bfcc9-7137-4f33-992a-e70cf17334af	Evaporator Relief Valve Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	e1b291e1-80ba-45c9-9da8-dc83f36a0c17	Evaporator Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	c4618c33-d47d-4c7a-a2de-adae18ff04d0	Exhaust Air Connection Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	c11b572e-4890-45c6-a255-c7b48e7f9b48	Exhaust Air Connection Height	HVAC_DUCT_SIZE		930	1		1	
+PARAM	f6b3a3ea-3d2d-4553-bd02-3ce7ddd7ad81	Exhaust Air Connection Width	HVAC_DUCT_SIZE		930	1		1	
+PARAM	fa63cb0e-8c63-46ec-929a-d64137331b47	Fan Wheel Diameter	LENGTH		930	1		1	
+PARAM	da3a8e3a-61b4-49ce-9bd9-9806d5219de7	Filter 2 Height	LENGTH		930	1		1	
+PARAM	513ddfbe-b6fc-408f-a3c9-3ae2d0e2071e	Filter 2 Length	LENGTH		930	1		1	
+PARAM	07ea2fa7-2d52-4f94-898e-3b1eb3b02473	Filter 2 Width	LENGTH		930	1		1	
+PARAM	a3a1de3e-ff98-464d-8d0d-6ec936f6b39b	Filter Height	LENGTH		930	1		1	
+PARAM	b7177d3b-99ec-44fe-a702-27efbbeadbef	Filter Length	LENGTH		930	1		1	
+PARAM	894284e4-ba70-4b89-8725-467fd975c041	Filter Width	LENGTH		930	1		1	
+PARAM	5dea26af-42b5-4f1c-bdc8-460681e6280a	Fin Size Length	LENGTH		930	1		1	
+PARAM	d5a0b241-d04a-438f-a725-1ae94853d06d	Fin Size Width	LENGTH		930	1		1	
+PARAM	64c8c839-8dad-4515-b754-73cb7098ff89	Finned Length	LENGTH		930	1		1	
+PARAM	88935420-0aff-4460-83fc-61128298b0b4	Finned Tube Diameter	PIPE_SIZE		930	1		1	
+PARAM	5a214d26-ca58-4cdd-a0ff-282fe47156d7	Finned Tube Enclosure Length	LENGTH		930	1		1	
+PARAM	bddc7d35-e7ec-44b1-b884-4a3be0e8e099	Finned Tube Mounting Height	LENGTH		930	1		1	
+PARAM	32294a07-cce7-49df-b0f8-ca6a05ae52e3	Flue Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	47ccccbf-2920-42c2-85b9-f2d5bdf41b71	Frame Depth	LENGTH		930	1		1	
+PARAM	03a51ea6-d6ad-4d55-b3ad-691f6521eb4c	Frame Inset	LENGTH		930	1		1	
+PARAM	e9e053f4-fc31-4199-9c71-5c95409634ad	Frame Sidelight Sill Height	LENGTH		930	1		1	
+PARAM	5d21c5eb-4c08-4468-8df0-471306afe84e	Frame Width Head	LENGTH		930	1		1	
+PARAM	d1709b48-5351-4198-bcb5-c0b1d7f40a21	Frame Width Hinge	LENGTH		930	1		1	
+PARAM	ea6fffa1-0779-4913-993c-2f1cc87befae	Frame Width Jamb	LENGTH		930	1		1	
+PARAM	887f14fe-ab47-43da-bd71-eea1e380693d	Frame Width Latch	LENGTH		930	1		1	
+PARAM	47e55403-14cc-45b2-90d4-01d7347ce05e	Frame Width Sidelight	LENGTH		930	1		1	
+PARAM	9dfaef15-c90e-4b33-9849-7ab7666b44f0	Frame Width Sill	LENGTH		930	1		1	
+PARAM	acb411b0-dd6b-4fe6-bc02-8482e2a57f1e	Heating Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	bf6e0a9d-ed6a-4e65-a0d0-6c25cff01b00	High and Low Pressure Gas Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	19ff419e-bf03-4f7c-8380-e6808e563b53	Hold Down Rod Diameter	LENGTH		930	1		1	
+PARAM	39d09315-298f-4c65-a20d-367885b6adbb	Hot Gas Bypass 2 Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	f516d24f-701a-4655-8e1f-1ed5266dff66	Hot Gas Bypass Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	3838f8c2-4f5c-4986-9000-fb036d720325	Hot Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	31016f7f-4559-4ca3-8377-59dcb1ff74d0	Insulation Thickness	LENGTH		930	1		1	
+PARAM	3f120472-1f3d-4789-ac95-6b9190b34b31	Isolator Minimum Static Deflection	LENGTH		930	1		1	
+PARAM	2922a78d-5c46-4326-9f7f-acb0bb212a1a	Louver Height	LENGTH		930	1		1	
+PARAM	54a8a1c8-aa38-41d9-89b9-72f8c3ee6b06	Louver Width	LENGTH		930	1		1	
+PARAM	441053d1-6414-4643-92f7-03088bacd990	Mounting Height	LENGTH		930	1		1	
+PARAM	33a8d4cf-6fea-4e1b-8aff-7cded2e520d9	Orifice Size	PIPE_SIZE		930	1		1	
+PARAM	890ec871-b1a1-4e60-abdd-bd98dc2eb5ef	Other Connection Diameter 1	PIPE_SIZE		930	1		1	
+PARAM	f2802715-4a1a-4c34-92eb-3a51f50798b6	Other Connection Diameter 2	PIPE_SIZE		930	1		1	
+PARAM	66e060b3-0192-4a19-af93-afe29f527340	Panel Style Width Jamb	LENGTH		930	1		1	
+PARAM	0a776f46-b5a5-4cc5-bda8-2804d57417ac	Panel Style Width Strike	LENGTH		930	1		1	
+PARAM	54d87c53-8b0e-4f8e-b00f-d2fd770eef5d	Panel Swing	ANGLE		930	1		1	
+PARAM	fd7d2597-f61d-4cbb-98d1-cb3904a7f722	Panel Width Secondary	LENGTH		930	1		1	
+PARAM	bd2a4db8-1a1d-461a-8c34-2255eb749d3d	Pier Diameter	LENGTH		930	1		1	
+PARAM	e2ef1516-36e5-409b-943a-8e6df74d2971	Radiant Panel Tube Diameter	PIPE_SIZE		930	1		1	
+PARAM	8ddd76a0-f610-4ff0-8550-4b95d0c3e311	Refrigerant Liquid Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	aad7c100-5cd6-46de-a224-3bb04707986a	Refrigerant Suction Gas Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	7d8fe7a6-5f2e-4567-ae3e-2defcff8bba8	Reheat Coil Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	e8a128bb-d75a-40f3-931d-591de2fab947	Relief Valve Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	28424bb3-165d-400d-857f-daa57a727186	Return Air Connection Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	a09ccf5e-8773-4e9b-8064-3078b2131430	Return Air Connection Height	HVAC_DUCT_SIZE		930	1		1	
+PARAM	53770139-9d6b-4ad4-bb48-a24f483ee8be	Return Air Connection Width	HVAC_DUCT_SIZE		930	1		1	
+PARAM	f78deb55-3803-41aa-95db-444008758622	Reverse Osmosis Element Size	LENGTH		930	1		1	
+PARAM	4cd521dd-be12-451b-9f24-e9d7826de25a	Room Program Area	AREA		930	1		1	
+PARAM	f0bf5576-a162-4c29-9b3b-4e15f8ba3354	Safety Relief Inlet Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	ee74e4d4-d81f-4295-a4d4-574718764422	Safety Relief Outlet Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	7e982fdc-6969-4ddb-bb01-d6ac4998c2c7	Sidelight Width Hinge Side	LENGTH		930	1		1	
+PARAM	e16ae8bc-8845-44c8-b604-3832bd144d36	Sidelight Width Latch Side	LENGTH		930	1		1	
+PARAM	37f92d7c-43e8-4083-9535-b0bdd03061b3	Sign Anchor Distance	LENGTH		930	1		1	
+PARAM	0668e840-8e64-4465-9614-9bbd3999810e	Sign Anchor Distance Side	LENGTH		930	1		1	
+PARAM	4d2d47ea-739a-4c50-809d-67499795a08a	Steam Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	3e7ff71c-1dc1-4024-96cd-206608bcf725	Structure Thickness	LENGTH		930	1		1	
+PARAM	d20d9934-4fd5-47fb-9b73-184e06f8e427	Suction Relief Valve Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	7c600087-15cb-4abb-bed5-9841adba3459	Supply Air Connection Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	929db387-33ff-45fc-af15-aa10763afb3b	Supply Air Connection Height	HVAC_DUCT_SIZE		930	1		1	
+PARAM	47dc5633-5872-46d7-8bdb-45417098a233	Supply Air Connection Width	HVAC_DUCT_SIZE		930	1		1	
+PARAM	ef1853f5-1972-49d9-8ebc-7cb275cbb747	Supply Duct Runout Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	c0a8f2b6-376c-4121-97f7-94735666af50	Tank Diameter	LENGTH		930	1		1	
+PARAM	82051006-0d06-4e01-9b38-e2187e28f149	Tank Inner Wall Gauge	INTEGER		930	1		1	
+PARAM	1bd1ed5b-1ea7-4aab-965e-d427795d793f	Tank Outer Wall Gauge	INTEGER		930	1		1	
+PARAM	9b9b4895-88ec-422b-a427-c566a46cdbca	Tempered Hot Water Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	0a8b4194-da15-40dc-aac5-718fc167e12a	Transom Height	LENGTH		930	1		1	
+PARAM	d3b24536-dcd7-4636-9a97-d8fcb3b60823	Transom Width Height	LENGTH		930	1		1	
+PARAM	407ef3bb-2d45-4027-884a-c4633bb36c8e	Travel Distance	LENGTH		930	1		1	
+PARAM	5de49362-497b-43c5-bb5d-e5686023c8a0	Triple Duty Valve Size	PIPE_SIZE		930	1		1	
+PARAM	b2300c01-c951-4c76-8b07-dc53970d3ef4	Undercut	LENGTH		930	1		1	
+PARAM	36aa7b74-b8ac-4f6a-8a56-6115f35100cc	Unit Size	TEXT		930	1		1	
+PARAM	e38f51d5-23a7-4323-a212-5ab17c2bea2c	Vent Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	dc41e7d7-c860-4fed-ab0a-d9aef1c59ffa	Ventilation Air Connection Diameter	HVAC_DUCT_SIZE		930	1		1	
+PARAM	b3b5a310-96b3-451e-bc69-b57d2d49f50b	Ventilation Air Connection Height	HVAC_DUCT_SIZE		930	1		1	
+PARAM	2f7220ae-2cd8-4b61-a32a-451942a1c70c	Ventilation Air Connection Width	HVAC_DUCT_SIZE		930	1		1	
+PARAM	24cfe414-7b62-4bfb-a664-b2c38d2f1554	Waste Connection Diameter	PIPE_SIZE		930	1		1	
+PARAM	bfaa424a-404b-4fdb-a8ba-de88940048c1	Actual Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	137c6e04-d89d-469f-9fa9-b926e1d1104a	Actual Exhaust Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	a588f307-7b30-415e-bd0f-4cf681c73432	Actual Fan Powered Box Primary Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	d45f2f61-1500-4ec2-b215-2b87f1656f3e	Actual Measuring Station Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	5a1f4e4f-8f10-4e75-bdcc-cde05d0a2b85	Actual Return Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	2cfaf887-8ec9-4aa2-85af-62413c884f95	Actual Supply Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	78ce7ce3-aba8-4570-a7d7-038e46cd3b71	Actual Ventilation Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	8412337d-5b32-471f-a5f3-e46f43deb555	Air Terminal Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	3e9656b2-3626-40ec-97c9-68b519a405ca	Air Terminal Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	0bdf04bf-5d9d-4f79-b9d9-e8c361275daf	Air Terminal Total Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	7cb8149b-ab87-4a5e-9338-289c4e4a6e62	Air Terminal Velocity Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	6a596a51-8abe-4038-b0c8-a561522bf90c	Ambient Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	db212a4b-10f6-4cbe-a61b-0ad178a43535	Ambient Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	21c594f5-ffa6-4744-a300-989626a13672	Cooling Coil Air Pressure Drop	HVAC_PRESSURE		931	1		1	
+PARAM	ab9bb6b8-60d4-4e34-9270-2c26aeeb600d	Cooling Entering Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	8f224f61-3399-4837-bf64-200445f5579b	Cooling Entering Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	cc30149a-f7b4-46cc-a02d-eb9165ca485e	Cooling Leaving Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	30119abb-1162-4912-a265-9adf521da240	Cooling Leaving Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	56940692-3592-4329-8a33-12cb6f0f2405	Cooling Tower Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	a7b0ca20-b7ee-46d8-b79e-3151def4d4c2	Damper Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	9725f69e-600c-44d9-99c3-6938c1a0c3cc	Damper Pressure Drop	HVAC_PRESSURE		931	1		1	
+PARAM	2caf3855-d401-4ac2-b552-7f5270487283	Demand Control Ventilation	YESNO		931	1		1	
+PARAM	3ff4068f-5bf9-44e9-9cf9-90b096d8d041	Design Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	75fd1a9f-3d4b-4eee-bc23-04fe2ed8c174	Design Exhaust Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	7f208f83-877e-4925-b4ea-c05e34775189	Design Exhaust Purge Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	4c02a9fa-1adb-42d2-9c33-bf37871bd94d	Design Fan Powered Box Primary Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	edb35baa-a004-4f8a-915e-f30f2e081c6f	Design Measuring Station Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	521d5d79-9948-46b9-86c4-344c86b188b5	Design Return Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	de163cc0-f0ec-4db4-841c-9e8d501a560e	Design Supply Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	dbc575db-b197-485f-aa81-ba2b79c84a25	Design Supply Purge Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	15b2198b-2177-491f-83ef-4e64d8d36156	Design Ventilation Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	d2188f99-9698-47cd-836d-41e861fb70d2	Exhaust Entering Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	d8dd7d21-19f1-4ec7-8d6c-9bce82800ef5	Exhaust Entering Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	bcc7dccc-a5e6-4a64-bba1-309bdbc94d46	Exhaust External Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	622755d0-909f-44a4-b6fe-fc42ce020a37	Exhaust Leaving Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	5101c18b-d0a3-498f-b993-03bd413c7987	Exhaust Leaving Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	d49c4c9a-b0a5-4a13-a2cc-b1a4580b55c6	Exhaust Total Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	6e85f5c1-710b-49f0-bc0e-6ff7cb7d36f5	Fan Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	5df563d8-778d-44d2-b0f3-058ccfe732fc	Filter Description	TEXT		931	1		1	
+PARAM	94683fbc-f392-4424-a998-aa129ce4a6da	Filter Efficiency	TEXT		931	1		1	
+PARAM	1d64eeb1-97b5-423c-8cbe-497d6d3cb989	Filter Face Area	AREA		931	1		1	
+PARAM	da663325-504d-4c6f-a086-029717cf1403	Filter Pressure Drop Final	HVAC_PRESSURE		931	1		1	
+PARAM	7991845d-f49e-4cab-8b74-827c136ffb11	Filter Pressure Drop Initial	HVAC_PRESSURE		931	1		1	
+PARAM	64cc6ab5-e9e5-44f5-a328-49a0319df1dc	Filter Quantity	NUMBER		931	1		1	
+PARAM	0abef57f-156d-4c53-bb19-ffa01df1864b	Filter Size	TEXT		931	1		1	
+PARAM	c3d26b9b-b0b0-4bc6-921d-e9c17773e89d	Fluid Cooler Fan Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	3a082139-17a9-4400-83f6-e3b48113762b	Heating Coil Air Pressure Drop	HVAC_PRESSURE		931	1		1	
+PARAM	3dbef606-8ca1-4c48-a678-38d84262de86	Heating Entering Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	51d103ef-fd9b-439a-8f73-ed6439a02a36	Heating Entering Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	fb071134-1c1a-46fe-b2a6-3b42a1eae4da	Heating Leaving Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	8b8ec2cb-f268-49d1-9fda-534b91e54583	Heating Leaving Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	e9c27670-8d7d-4501-9afc-053727154677	Hood Intake Velocity	HVAC_VELOCITY		931	1		1	
+PARAM	5f4788a3-d71b-41c4-9744-a34c75f218d1	Hood Throat Velocity	HVAC_VELOCITY		931	1		1	
+PARAM	2e7f55ed-ce8a-47d9-b59b-ea80e0b17b2f	Humidifier Entering Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	b41d1c26-b9d9-41fe-920f-af0aadb95c20	Humidifier Entering Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	19bfd8ea-5f14-4623-ba76-1b880e48e1ea	Humidifier Leaving Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	574bb85a-583b-4bba-ae24-c2be6c62c662	Humidifier Leaving Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	5a126792-0eaf-425e-a10f-5976a9c9eef0	Maximum Air Pressure Drop	HVAC_PRESSURE		931	1		1	
+PARAM	df8c952f-aea8-404f-b261-9a5fe77ab143	Maximum Air Velocity	HVAC_VELOCITY		931	1		1	
+PARAM	06b36486-aafc-4cde-ac5c-d54281e4bae8	Minimum Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	89f9cb0b-3bad-4b98-978b-696c6db41dfe	Minimum Outdoor Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	2fc83dd2-9aca-4fdc-85e3-338818e1aa04	Minimum Percent Air Flow	NUMBER		931	1		1	
+PARAM	a4c2f5d2-d3df-4785-9e6c-8ac0f3aca3c4	Nominal Air Flow	HVAC_AIR_FLOW		931	1		1	
+PARAM	40f9d3b0-a274-42a5-b990-80ae2aa13671	PreFilter Description	TEXT		931	1		1	
+PARAM	4ddd66ad-1b99-4ade-b6bf-9a73dc34010a	PreFilter Efficiency	TEXT		931	1		1	
+PARAM	5f4621a6-a54f-4583-9639-ba858ccbc19e	PreFilter Face Area	AREA		931	1		1	
+PARAM	24594f19-d09e-4f4d-8bfb-18c058b02158	PreFilter Quantity	INTEGER		931	1		1	
+PARAM	4b2e80a5-e0de-463d-ac06-da0c48378d45	PreFilter Size	TEXT		931	1		1	
+PARAM	ad17b208-8987-4c58-b5d3-2b5bac288248	Return External Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	47439af8-c7fe-45ef-9341-eaab85594311	Return Total Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	3feadde1-cb09-482f-a0d6-2bcf40b36c50	Supply Entering Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	493bbf23-c154-47c4-bcc8-f5ea3025a560	Supply Entering Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	f6eb65fc-3548-4622-8cbf-423c32d7b2f4	Supply External Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	6cf0e345-8b2f-4de8-91e1-e6282b6a9204	Supply Leaving Dry Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	fb24b87b-fdb4-4600-9107-4bd56a621b97	Supply Leaving Wet Bulb Temperature	HVAC_TEMPERATURE		931	1		1	
+PARAM	a24ebc50-8568-42d0-a3c5-b3b0272e2c74	Supply Total Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	3bb7a9b7-ebbf-4bfb-990d-5b7a1ed8db57	Throw Distance High Velocity	LENGTH		931	1		1	
+PARAM	4de027bf-c4c2-4220-a7cc-55337537a245	Throw Distance Low Velocity	LENGTH		931	1		1	
+PARAM	ab0e8a5d-e0f1-4eb0-82ae-298a98c158c2	Throw Distance Medium Velocity	LENGTH		931	1		1	
+PARAM	56780b62-88ff-4b79-8abe-46a3dfb513f8	Ventilation Air Flow Range	TEXT		931	1		1	
+PARAM	11b6a9cc-c9a2-4aba-86cd-d0601e07c827	Ventilation External Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	ccd8666c-bfbb-46cb-807c-b42413e62d5a	Ventilation Total Static Pressure	HVAC_PRESSURE		931	1		1	
+PARAM	e4f14a34-9c56-4f6c-b17a-18c67711daf7	Actual Chilled Water Flow	PIPING_FLOW		932	1		1	
+PARAM	c116acef-6cc2-4737-9fdb-8aa0af3cfc50	Actual Condenser Flow	PIPING_FLOW		932	1		1	
+PARAM	163a2cd4-c83f-4559-8130-838e1f024258	Actual Evaporator Flow	PIPING_FLOW		932	1		1	
+PARAM	d9de76e7-da89-45ae-a699-a4d564c103ec	Actual Fluid Cooler Flow	PIPING_FLOW		932	1		1	
+PARAM	f4a7854e-af78-4da1-ac1c-7e46a46e1fd7	Actual Heater Gas Flow	PIPING_FLOW		932	1		1	
+PARAM	cac0907c-6c48-451c-b354-56b4641c1e96	Actual Heating Water Flow	PIPING_FLOW		932	1		1	
+PARAM	a46d8a09-e6b2-4ac9-9771-fa05c0888dc1	Actual Hot Gas 2 Flow	PIPING_FLOW		932	1		1	
+PARAM	dd5ade3c-9f68-4848-ad73-fa3226dc311f	Actual Hot Gas Flow	PIPING_FLOW		932	1		1	
+PARAM	09cad502-74ab-4945-9a53-5522ab109284	Actual Refrigerant 2 Flow	PIPING_FLOW		932	1		1	
+PARAM	59b1ab8c-3f72-4a7b-8715-3a0124d7bf9d	Actual Refrigerant Flow	PIPING_FLOW		932	1		1	
+PARAM	0306298b-809c-416d-bf05-ce12ae968e40	Actuator Type	TEXT		932	1		1	
+PARAM	c1351fc6-5382-4008-b7b7-b17a8c1e8375	Air Terminal Frame Type	TEXT		932	1		1	
+PARAM	65407963-0b3d-40a7-813f-bc293a6d7ec3	Air Terminal Mounting Location	TEXT		932	1		1	
+PARAM	d0096963-5ed4-4e09-8b11-780b9362b57a	Boiler Firing Rate Gas	PIPING_FLOW		932	1		1	
+PARAM	8b2772f2-599b-4034-b030-0ef5f90e4a1e	Boiler Firing Rate Oil	PIPING_FLOW		932	1		1	
+PARAM	a66ce4ea-9966-4361-85e3-61c5f8d34071	Boiler Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	898ef91d-3a9f-4ffe-87dc-43791d623313	Chilled Water Entering Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	435d6179-dbf0-426a-a380-8eb617e01de4	Chilled Water Leaving Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	34ef8c4f-3a5f-4b73-aae5-58d9e10baeec	Cold Side Entering Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	271724ed-2689-4c63-826b-80a7a22cfd4c	Cold Side Leaving Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	0a280bf4-bb69-45d8-94de-044c93afd843	Cold Side Water Flow	PIPING_FLOW		932	1		1	
+PARAM	fc8fdc41-efa3-4256-a9af-975cac3a3846	Cold Side Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	3832215f-7871-4841-88a7-eef2207e2d8b	Compressor Efficiency	NUMBER		932	1		1	
+PARAM	3322e901-ca02-42fe-a7f2-db576614a4d7	Compressor Quantity	INTEGER		932	1		1	
+PARAM	0a05e1ec-f8e1-4887-873f-6ae71e40ee5e	Compressor Steps Each	INTEGER		932	1		1	
+PARAM	50379a1b-a0c1-4d8f-8c95-80e9c11ce5da	Compressor Total Steps	INTEGER		932	1		1	
+PARAM	ca1cea9a-ef12-40d6-b2c6-f800376726e0	Compressor Type	TEXT		932	1		1	
+PARAM	f598e4f0-f835-4aca-9ecd-ce1160cb384e	Condenser Entering Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	d804d2a7-58d1-4da4-9775-e84eeb510621	Condenser Entering Temperature for Cooling	PIPING_TEMPERATURE		932	1		1	
+PARAM	9131a4d6-b41c-4164-b228-b05186f54fab	Condenser Entering Temperature for Heating	PIPING_TEMPERATURE		932	1		1	
+PARAM	cfe780e6-b3a0-461a-a628-2b8c0059d913	Condenser Fan Quantity	INTEGER		932	1		1	
+PARAM	328971eb-c691-4921-bea9-abd0308db9aa	Condenser Fouling Factor	NUMBER		932	1		1	
+PARAM	7dbbaff0-b55a-4f33-8fd4-9dc33f59a280	Condenser Leaving Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	4ba76a78-2f46-48dd-8af4-6bb8e5af7084	Condenser Leaving Temperature for Cooling	PIPING_TEMPERATURE		932	1		1	
+PARAM	0fb442c5-a6c0-4903-87fb-b4d764c734d1	Condenser Leaving Temperature for Heating	PIPING_TEMPERATURE		932	1		1	
+PARAM	99b8d6bf-e093-4286-b71a-5c3339920684	Condenser Number of Circuits	INTEGER		932	1		1	
+PARAM	1eaae59d-f074-4611-b835-998bdf91c32d	Condenser Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	326628ac-3eda-49fe-a9d1-5a225554a0dd	Cooling Coil Face Area	AREA		932	1		1	
+PARAM	2aef75e5-a454-4e57-9c20-03d15aed2d0a	Cooling Coil Face Velocity	HVAC_VELOCITY		932	1		1	
+PARAM	1ec5740c-f29d-483b-9d22-f8f6ed99db44	Cooling Coil Fin Density per Inch	NUMBER		932	1		1	
+PARAM	62a48f3b-b0d8-49dd-a2b4-cf9d155aa543	Cooling Coil Row Count	NUMBER		932	1		1	
+PARAM	e7826969-5392-43f1-9179-8810377b3d40	Cooling Coil Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	c333493b-46fb-440b-9a58-423bb9fca41a	Cooling Media	TEXT		932	1		1	
+PARAM	1a1020e7-aa94-4833-931c-cf252860c383	Cooling Tower Fan Type	TEXT		932	1		1	
+PARAM	5af969ea-7474-4138-9bf6-ef39e1fe04e1	Cooling Tower Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	75fc4aa8-ed88-4de3-a893-9b2751a0e144	Damper Blade Type	TEXT		932	1		1	
+PARAM	90fead9e-1268-4e73-a756-360a2b4b50c6	Damper Configuration	TEXT		932	1		1	
+PARAM	59d56497-cbbf-45a7-9a2c-30039a7979a1	Design Chilled Water Flow	PIPING_FLOW		932	1		1	
+PARAM	c801a656-e896-4b07-9d7b-17e8eb3a911d	Design Condenser Flow	PIPING_FLOW		932	1		1	
+PARAM	6aa52afe-b294-4f4f-ade0-fe45695e3f9a	Design Evaporator Flow	PIPING_FLOW		932	1		1	
+PARAM	1137fd72-a74e-485f-aa32-c77cb2872630	Design Fluid Cooler Flow	PIPING_FLOW		932	1		1	
+PARAM	6ce8ab4d-b56a-4a36-978d-9dcd4077e158	Design Heater Gas Flow	PIPING_FLOW		932	1		1	
+PARAM	5dabce42-a666-4644-b6b8-ce339a600de5	Design Heating Water Flow	PIPING_FLOW		932	1		1	
+PARAM	b027f171-f822-455c-98a4-2475f8970727	Duct Shape	TEXT		932	1		1	
+PARAM	987ca005-e391-496b-8440-338a8ef9dff8	Economizer	YESNO		932	1		1	
+PARAM	4a1b0e5e-e593-4599-9512-315a54cf43e6	Economizer Dry Bulb Limit	HVAC_TEMPERATURE		932	1		1	
+PARAM	0168881d-60ad-4f20-b0a5-ac47b70aede7	Economizer Enthaply Limit	NUMBER		932	1		1	
+PARAM	b9a6b5f2-1be8-465f-9046-648da0d48c01	Economizer Type	TEXT		932	1		1	
+PARAM	d449ed06-9ce0-425b-9f6c-a75630dafad0	Equivalent Direct Radiation	AREA		932	1		1	
+PARAM	d7f2c1f0-f3d3-4d8f-a898-035d75e2f6f0	Evaporator Coil Temperature	HVAC_TEMPERATURE		932	1		1	
+PARAM	70dcae75-94be-4980-b62c-dc81bb14ff93	Evaporator Entering Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	c1b618be-baef-4a77-8c0a-b485a353e20e	Evaporator Fouling Factor	NUMBER		932	1		1	
+PARAM	11be8753-3808-4799-bb18-bb0ce40491d3	Evaporator Leaving Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	70a6d08c-f384-428e-b950-1a741c86b400	Evaporator Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	ced7b602-d099-4061-8fc5-10774f7d8808	Exhaust Fan	YESNO		932	1		1	
+PARAM	cd8265bd-6b4d-433e-9016-2f589b2ee661	Exhaust Fan Blade Speed	NUMBER		932	1		1	
+PARAM	7c4328ca-5fff-4f4e-b951-af0ee1c37d55	Exhaust Fan Drive	TEXT		932	1		1	
+PARAM	f596bfac-a2be-460e-96ba-09d9c1aaa72f	Exhaust Fan Motor Speed	NUMBER		932	1		1	
+PARAM	cf827670-7a4c-4d5a-a651-79570bfb1f76	Exhaust Fan Quantity	INTEGER		932	1		1	
+PARAM	bbbe2983-5687-4f7a-b851-1857c68bfcb3	Exhaust Fan Type	TEXT		932	1		1	
+PARAM	97139494-0886-4d7b-90f0-f0f5d9865447	Expansion Tank Acceptance Volume	PIPING_VOLUME		932	1		1	
+PARAM	7a8ef8f4-6708-4125-8066-8863ce88b70e	Expansion Tank Bladder Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	58dc3499-bd46-4ec7-97f2-4beaf130dc7e	Expansion Tank Maximum Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	a5bbd297-c57c-4593-89cb-c73bb0ffe79e	Expansion Tank Maximum Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	11cafa5a-9686-41d6-9c2b-1fe5ae3b970c	Expansion Tank Minimum Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	d22fbef9-a9f3-4cb1-a9ca-cedd3a37bcb6	Expansion Tank Minimum Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	07a15c5a-ebab-4982-b11c-935ff26cfd6c	Expansion Tank Volume	PIPING_VOLUME		932	1		1	
+PARAM	590873d5-dd04-455f-a9cf-d434fafdf9c1	Fan Blade Speed	NUMBER		932	1		1	
+PARAM	aafa6e32-4760-4b9d-bb36-a503dedd7bb9	Fan Blade Type	TEXT		932	1		1	
+PARAM	a012d5a2-c038-46cb-9b7c-aa89448d18d9	Fan Control Type	TEXT		932	1		1	
+PARAM	20f0ddf8-a78f-4af8-b83e-cb94b6b6208a	Fan Drive	TEXT		932	1		1	
+PARAM	464905bf-ca40-43c1-86eb-dd4b9b02c479	Fan Motor Speed	NUMBER		932	1		1	
+PARAM	f6c083e7-f98f-4237-b820-612a76a88ce8	Fan Type	TEXT		932	1		1	
+PARAM	a272e187-0271-4572-b3f4-b2783042b384	Filter 2 Quantity	NUMBER		932	1		1	
+PARAM	ea026c6d-deac-4457-9557-1345f95a7366	Finned Tube Fin Density per Inch	NUMBER		932	1		1	
+PARAM	cbc88866-e474-4bdf-803c-a51e415680f6	Finned Tube Mounting Type	TEXT		932	1		1	
+PARAM	76808070-3f8e-41ee-bcc3-a19419289daa	Finned Tube Row Count	INTEGER		932	1		1	
+PARAM	250365ba-b6e8-4a56-8ce7-1528525a4ece	Finned Tube Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	609d5f7b-3de6-40b9-9dce-475b9ce00c8e	Fluid Cooler Entering Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	7b6d4128-b6b9-43b1-9bbc-3327ba92eb74	Fluid Cooler Leaving Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	c0c3c876-90d5-463c-82c2-befbd1fd1c92	Fluid Cooler Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	182a0880-9337-49f7-9ef9-3673505c4c47	Glycol Percentage	NUMBER		932	1		1	
+PARAM	b0671c69-552f-4586-82be-a31092dc32c2	Glycol Type	TEXT		932	1		1	
+PARAM	5ff8b5b6-a719-4ba8-9574-dd5388eb82de	Heat Pump Coil Face Area	AREA		932	1		1	
+PARAM	87319162-182d-4198-856f-da8ee80d8cc1	Heat Pump Coil Face Velocity	HVAC_VELOCITY		932	1		1	
+PARAM	abac2d62-ad16-4cef-ba0b-e611bf94da30	Heat Pump Coil Fin Density per Inch	NUMBER		932	1		1	
+PARAM	56d0c854-1a60-489d-9755-6a4d7e71f882	Heat Pump Coil Row Count	NUMBER		932	1		1	
+PARAM	b8b61d44-e6d1-459d-a25c-cc358fa745fb	Heating Coil Face Area	AREA		932	1		1	
+PARAM	0e539bdb-5a35-4573-98cc-324c793721bd	Heating Coil Face Velocity	HVAC_VELOCITY		932	1		1	
+PARAM	2c3fd1de-c872-405f-8170-8339fa8146f8	Heating Coil Fin Density per Inch	NUMBER		932	1		1	
+PARAM	2d482694-1287-40bd-917e-ef53c664aecb	Heating Coil Row Count	NUMBER		932	1		1	
+PARAM	93b857b0-f65a-4cba-9db9-98a23c2710dc	Heating Coil Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	7bbe7609-fbeb-4e09-80af-e55f5b8d76ac	Heating Efficiency	NUMBER		932	1		1	
+PARAM	20819cfb-7c5f-411d-bdcc-b1d94392e651	Heating Type	TEXT		932	1		1	
+PARAM	b0779f34-7bf1-4d4a-8d9a-93ffefe55978	Heating Water Average Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	f3c06f3e-174b-4508-89c2-a5896f3a5352	Heating Water Entering Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	471333f0-d333-44ee-830f-fb34165b342a	Heating Water Leaving Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	1fe76003-9ca3-4ca9-b24b-20b870f92b8b	Hot Side Entering Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	f324ea3b-5870-473b-bd12-1638341b5582	Hot Side Leaving Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	e875b79b-5d53-4eb4-9940-d564ae67a2b6	Hot Side Water Flow	PIPING_FLOW		932	1		1	
+PARAM	eeecdd8a-ad07-4984-895f-42d19739f51b	Hot Side Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	2d4afbdb-2d08-4d25-beaa-1c756e9d87af	Length of Interconnecting Refrigerant Pipe	LENGTH		932	1		1	
+PARAM	f8a34f10-6a59-4977-89b8-07441ad76912	Louver Elevation	TEXT		932	1		1	
+PARAM	3d871859-1204-4802-9898-caa2ef0884eb	Louver Screen Type	TEXT		932	1		1	
+PARAM	37a96e11-fbbf-413a-8c0d-b4f930128365	Maximum Noise Criteria	INTEGER		932	1		1	
+PARAM	b121251e-6513-4ea6-bd88-d448bdb33ef2	Maximum Sound Power Discharge	INTEGER		932	1		1	
+PARAM	40f8d4bd-8ac4-4a13-bc7e-f5a546749de1	Maximum Sound Power Radiated	INTEGER		932	1		1	
+PARAM	e31d9b81-ad50-4124-b110-d926efcac733	Maximum Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	0fb0493c-02e3-4b54-9ce4-512e10acabcb	Minimum Ambient Temperature	HVAC_TEMPERATURE		932	1		1	
+PARAM	27739772-bd2d-429d-9d05-d720fad32707	Motor Control Type	TEXT		932	1		1	
+PARAM	cdd6db13-a000-49b3-a532-300388205813	Noise Flow Direction	TEXT		932	1		1	
+PARAM	0bba3eb5-f9eb-4fce-8460-2e8b6f5075d3	Number of Cells	INTEGER		932	1		1	
+PARAM	06c75b59-18df-4572-bcef-6196f32dcc5c	Number of Fan Stages	INTEGER		932	1		1	
+PARAM	79e998b4-4e21-46b4-8a33-706c20878507	Number of Fans	INTEGER		932	1		1	
+PARAM	8c9327a4-651a-4b07-8171-c60240a5ff6b	Number of Motors	INTEGER		932	1		1	
+PARAM	2f19e671-46ac-4696-b691-6c4391bba53b	Number of Pumps	INTEGER		932	1		1	
+PARAM	fefa6537-8e7a-4469-920a-1f79f529f7e0	Number of Tubes	INTEGER		932	1		1	
+PARAM	9ad1c60d-d0a9-4385-b623-fc762cd0d8f1	Operating Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	c319a9de-c921-4c80-ae38-7b0f3e496aa1	Pressure Rating	HVAC_PRESSURE		932	1		1	
+PARAM	bdfc2474-1e49-4043-aa63-1a3edb3aac71	Primary Side Entering Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	9c13134b-e871-4acc-af41-b6fad2d522a7	Primary Side Leaving Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	082297b4-daa9-48c2-a35e-e8995731f791	Primary Side Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	e0b40b7c-e994-43c0-9d1b-5d40ed8225da	Primary Side Steam Flow	PIPING_FLOW		932	1		1	
+PARAM	52e073c3-306f-4f01-b30d-bc83b3d264b5	Primary Side Water Flow	PIPING_FLOW		932	1		1	
+PARAM	953a896e-d90e-407f-bab0-7aed3e38e4b1	Primary Side Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	4110b081-25da-48dc-b9ce-585e39c18db4	Pump Efficiency	NUMBER		932	1		1	
+PARAM	108cb6a1-7d8c-4c3d-9784-2f292e189386	Pump Head	PIPING_PRESSURE		932	1		1	
+PARAM	507b374e-b423-463c-8cc6-9bc5b1568212	Pump Speed	NUMBER		932	1		1	
+PARAM	8fa5be48-9835-4dab-a23d-d5aa0eefb10c	Reference ID Air Cooled Condenser	TEXT		932	1		1	
+PARAM	aa92adf7-0e68-4ea8-b9d0-1fac66727eaf	Reference ID Air Handling Unit	TEXT		932	1		1	
+PARAM	5e7bc81d-353d-46a1-a16a-2fdf3b9c37a3	Reference ID Cooling Coil	TEXT		932	1		1	
+PARAM	ff4ad2b5-4da4-451c-9e8a-e77e3c4b9619	Reference ID Final Filter	TEXT		932	1		1	
+PARAM	928d68eb-1157-4988-b8b9-f3e0b9ff8fb3	Reference ID Heating Coil	TEXT		932	1		1	
+PARAM	7582a023-1cff-4d88-87af-50ff61544544	Reference ID Humidifier	TEXT		932	1		1	
+PARAM	5450ef94-c58d-490c-9a9e-7c452093bfc7	Reference ID Other Coil	TEXT		932	1		1	
+PARAM	5a0b8c73-a2df-4f17-9aa3-f082c4d08471	Reference ID PreFilter	TEXT		932	1		1	
+PARAM	b0ff7156-b06d-437f-a9cc-98a5965d4bd7	Reference ID Return Fan	TEXT		932	1		1	
+PARAM	90486831-755f-4084-9de0-79389e5be365	Reference ID Sound Attenuator	TEXT		932	1		1	
+PARAM	71d42962-9e5b-4fa4-a3ca-784c2d34845a	Reference ID Supply Fan	TEXT		932	1		1	
+PARAM	8ed442ca-c809-497c-93b3-c50b57115d3d	Refrigerant Charge	FORCE		932	1		1	
+PARAM	37956de2-c78c-419d-bdfa-96de64244eb3	Refrigerant Saturated Suction Temperature	HVAC_TEMPERATURE		932	1		1	
+PARAM	509e8924-4ee4-41b8-b4f7-5469c998894d	Reheat Coil Face Area	AREA		932	1		1	
+PARAM	6cd30496-effd-42f8-ac53-6070c94425c6	Reheat Coil Face Velocity	HVAC_VELOCITY		932	1		1	
+PARAM	af994823-637a-4805-bd4a-500e8176c3e7	Reheat Coil Fin Density per Inch	NUMBER		932	1		1	
+PARAM	8a15f723-ceb5-42b0-87b5-8a54f96acf77	Reheat Coil Row Count	NUMBER		932	1		1	
+PARAM	cac3d17b-b805-4478-a1c3-b79ce8769966	Reheat Coil Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	ff0990e0-f4fd-4f87-8919-7383edb4b24a	Return Fan Blade Speed	NUMBER		932	1		1	
+PARAM	2c5eeaa7-7031-42c4-896b-ea58bba2572d	Return Fan Drive	TEXT		932	1		1	
+PARAM	8c2655ba-30b9-487c-a520-d6d056fef1f4	Return Fan Motor Speed	NUMBER		932	1		1	
+PARAM	5a002a15-059a-420d-863d-7d3a1395ba88	Return Fan Quantity	NUMBER		932	1		1	
+PARAM	cb4bfe2d-0aba-4475-9629-20379916d128	Return Fan Type	TEXT		932	1		1	
+PARAM	5f432fa8-8652-415d-a4aa-4734f2113b96	Safety Relief Capacity	HVAC_HEAT_GAIN		932	1		1	
+PARAM	39ed277b-41b1-40e1-ac71-b0a11f2dc6e3	Safety Relief Capacity Steam	HVAC_HEAT_GAIN		932	1		1	
+PARAM	39d4b589-d911-4dcb-9929-f8d44ba610b0	Safety Relief Capacity Water	HVAC_HEAT_GAIN		932	1		1	
+PARAM	886664d6-0e8c-4852-ac43-9797a740f24c	Safety Relief Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	a51104ca-4745-4d42-8722-485c3c809aa8	Screen Type	TEXT		932	1		1	
+PARAM	da0d35da-392f-4cd4-b51e-ed58969bea2e	Secondary Side Entering Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	efbf198f-0143-42f2-b829-b213c4b064d2	Secondary Side Leaving Water Temperature	PIPING_TEMPERATURE		932	1		1	
+PARAM	52e60e25-fc57-49db-848e-b363f3704b61	Secondary Side Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	61ecacc3-f973-435f-a874-e83125b9c2a8	Secondary Side Steam Flow	PIPING_FLOW		932	1		1	
+PARAM	40111e68-a5ff-43fb-8179-58943a80fba7	Secondary Side Water Flow	PIPING_FLOW		932	1		1	
+PARAM	bdeb86f9-d284-4944-bcc7-9b5e17c9ce3f	Secondary Side Water Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	0b05b251-9f3c-47ad-a30f-ff12766b748d	Steam Boiler Water Capacity	VOLUME		932	1		1	
+PARAM	0ff6716e-77b2-4207-9c99-cb6db8325678	Steam Output	NUMBER		932	1		1	
+PARAM	44b842cb-f812-4ff5-af8a-7fd21770d127	Steam Pressure	PIPING_PRESSURE		932	1		1	
+PARAM	a9395c09-4d77-4c60-9cae-74a955d7aa21	Steam Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	99586131-af91-4d37-8fd3-5cab11cb0bd4	Suction Diffuser	YESNO		932	1		1	
+PARAM	d946e857-d09b-40ff-8d71-41169d12b26c	Suction Temperature	HVAC_TEMPERATURE		932	1		1	
+PARAM	ee99c872-31b3-4d63-ab6d-8b6bbfb88d6c	Supply Fan Blade Speed	NUMBER		932	1		1	
+PARAM	6ab9a598-d840-4d13-baa1-e3c04bd5d0ac	Supply Fan Drive	TEXT		932	1		1	
+PARAM	b73604ce-3cea-4230-b348-1986a7918fae	Supply Fan Motor Speed	NUMBER		932	1		1	
+PARAM	6c63a328-d517-4259-91fb-b226af0144ae	Supply Fan Quantity	INTEGER		932	1		1	
+PARAM	ddeb4880-8d29-4d55-b376-4c4aff051b14	Supply Fan Type	TEXT		932	1		1	
+PARAM	afd04a0e-d0dd-4a84-912c-a7a2880f87fe	System Volume	PIPING_VOLUME		932	1		1	
+PARAM	df2279e7-23e4-4876-a7f2-a6aa5f2c2b19	Valve Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	f850f9ee-b3e1-4373-aed6-b37eda1751ef	Water Treatment Pressure Drop	PIPING_PRESSURE		932	1		1	
+PARAM	9ef3af4a-777f-4865-b52f-cde3428e6e2b	Actual Condensate Drain Flow	PIPING_FLOW		933	1		1	
+PARAM	d51b36c3-31d4-41d6-b3cc-9d3620691707	Actual Humidification Steam Flow	PIPING_FLOW		933	1		1	
+PARAM	04631523-ece5-442c-9c23-5d14dc6b4472	Actual Pump Water Flow	PIPING_FLOW		933	1		1	
+PARAM	484e4ed5-0236-492c-8560-0d8fb9288c04	Actual Steam Flow	PIPING_FLOW		933	1		1	
+PARAM	065f89c6-e350-4159-9aed-6820196ed201	Actual Valve Water Flow	PIPING_FLOW		933	1		1	
+PARAM	ebcbc605-a422-4696-825e-2178062e7140	Actual Water Flow	PIPING_FLOW		933	1		1	
+PARAM	adef5bdd-c4e9-45d9-8c8c-6f0d80e8b69e	Basin Shape	TEXT		933	1		1	
+PARAM	afcba335-0887-43c6-a1c0-4cde23c3c45b	Bowl Shape	TEXT		933	1		1	
+PARAM	284fb794-c547-46da-8464-a494f13a0a14	Brine Tank Capacity	FORCE		933	1		1	
+PARAM	8be376db-d9d6-476f-8f60-ef73623c17b0	Continuous Water Flow	PIPING_FLOW		933	1		1	
+PARAM	fedffc11-c85a-4d4a-84d7-a1ec2d5bd52c	Design Humidification Steam Flow	PIPING_FLOW		933	1		1	
+PARAM	19215695-f34b-4f04-8e6a-676afaf8d7f9	Design Pump Water Flow	PIPING_FLOW		933	1		1	
+PARAM	61de729a-0e27-4bb0-a0f3-8a710041c677	Design Steam Flow	PIPING_FLOW		933	1		1	
+PARAM	9767caef-2a2a-4744-b7fd-bafc09b113f0	Design Valve Water Flow	PIPING_FLOW		933	1		1	
+PARAM	b686fa65-c77a-433e-b13a-8fec8d587754	Design Water Flow	PIPING_FLOW		933	1		1	
+PARAM	ffc6ae7f-93fe-4e80-badb-61bbc0bbfc85	Flush Rate	TEXT		933	1		1	
+PARAM	2bee6a07-d014-4303-ba02-a73157ba6cf8	Flushing Technology	TEXT		933	1		1	
+PARAM	17d53254-a00a-429c-b291-5d6422428843	Makeup Water Flow	PIPING_FLOW		933	1		1	
+PARAM	fce778c0-c0b9-4302-8178-a5db9eb7651e	Maximum Exchange Capacity	FORCE		933	1		1	
+PARAM	2e56d510-9a44-4671-bdde-79a9a45b6668	Maximum Pressure	PIPING_PRESSURE		933	1		1	
+PARAM	9e9783a9-c6f7-45f8-a395-ab8361ef81b8	Maximum Vacuum	PIPING_PRESSURE		933	1		1	
+PARAM	f131415c-62e6-41fc-ae69-520e66c1c912	Minimum Exchange Capacity	FORCE		933	1		1	
+PARAM	d9a0fbbe-3114-4123-8836-9ed5f0783a85	Orifice Flow Coefficient	NUMBER		933	1		1	
+PARAM	85c42923-75f1-445e-938c-797036fbdc8a	Percent Recovery	NUMBER		933	1		1	
+PARAM	f2d4b2fd-5946-4745-9aed-4a9e181122d9	Pressure Entering	PIPING_PRESSURE		933	1		1	
+PARAM	58c3cae7-cdb3-40e9-bd73-9f6006d82cd2	Pressure Leaving	PIPING_PRESSURE		933	1		1	
+PARAM	567230a9-93cd-44e9-bce9-2c3783f58ecb	Receiver Capacity	PIPING_VOLUME		933	1		1	
+PARAM	c2f2c1e2-a484-4ac3-a952-17c0c0359b7f	Recovery Rate	PIPING_FLOW		933	1		1	
+PARAM	1f8a43fd-af3b-4b32-9444-a6b6091f6036	Resin Quantity	PIPING_VOLUME		933	1		1	
+PARAM	657275a0-f3d8-4b08-9d2d-b3f90c8b1849	Reverse Osmosis Capacity	PIPING_VOLUME		933	1		1	
+PARAM	16adaa20-e4b1-4242-8c47-f9cfd1b1dbfc	Reverse Osmosis Element Quantity	INTEGER		933	1		1	
+PARAM	ef1875e6-1a1f-451a-bc45-8241e5a0256a	Spray Pump Flow	PIPING_FLOW		933	1		1	
+PARAM	98383433-41d2-4b6f-a697-4de5f30c4ab4	Stack Draft	PIPING_PRESSURE		933	1		1	
+PARAM	17ac6df5-bd55-4627-b405-1e46e8c16521	Steam Condensate Flow Capacity	PIPING_FLOW		933	1		1	
+PARAM	f581cae4-9d13-456b-a180-fca24d87b9c6	Tank Type	TEXT		933	1		1	
+PARAM	aab79c88-0480-4b55-a490-9c653068449a	Tank Volume	PIPING_VOLUME		933	1		1	
+PARAM	5f5bf221-85dd-4791-91f9-1245d8da32b3	Total Cold Water Demand Load	FIXTUREUNIT		933	1		1	
+PARAM	44fba406-b5cc-469a-a41a-57b4714c369b	Waste Stack ID	TEXT		933	1		1	
+PARAM	605fbcca-4ccf-47e2-8150-aeba577d0024	Water Connection Diameter	PIPE_SIZE		933	1		1	
+PARAM	bd695b46-e36a-425d-9be3-e1530bb66530	Water Temperature Rise	PIPING_TEMPERATURE		933	1		1	
+PARAM	c761797b-b4d1-4011-9d14-d8cb91d59dc2	Working Pressure	PIPING_PRESSURE		933	1		1	
+PARAM	02cb52d9-dfe7-48bf-a204-f1fb839e39f4	Working Vacuum	PIPING_PRESSURE		933	1		1	
+PARAM	79d2b8c7-52dc-4b88-b859-29d8988c97b2	AffinityPID	TEXT		934	1		1	
+PARAM	645ae6e8-f7ee-4e69-bab7-44581d144da8	Air Leakage	NUMBER		935	1		1	
+PARAM	e6d72293-7fbe-4792-adc5-561e74c62910	Average Annual Operating Cost	CURRENCY		935	1		1	
+PARAM	24452f06-fde6-42b5-8cd5-8d44e579f382	Coefficient of Performance	NUMBER		935	1		1	
+PARAM	9cf1e9d1-ba10-4d28-86ee-59e0a25a6ab2	Design Ambient Summer Dry Bulb Temperature	HVAC_TEMPERATURE		935	1		1	
+PARAM	f151021b-8c09-46d7-8d72-f4ec2f192452	Design Ambient Summer Wet Bulb Temperature	HVAC_TEMPERATURE		935	1		1	
+PARAM	67470118-e2b5-4c5a-b7c8-31a98da5423a	Design Ambient Winter Dry Bulb Temperature	HVAC_TEMPERATURE		935	1		1	
+PARAM	895ddb0d-6098-42d1-8167-4b1e021de954	Energy Efficiency Rating	NUMBER		935	1		1	
+PARAM	b88593a9-0cea-483c-8a7a-afb58bb3f979	Full Load Efficiency	NUMBER		935	1		1	
+PARAM	6d3c6004-dce9-4ccf-9320-148946c8b5bc	Heating Seasonal Performance Factor	NUMBER		935	1		1	
+PARAM	a09335e6-e752-425c-ba68-3e8235f530c2	Integrated Part Load Value	NUMBER		935	1		1	
+PARAM	ee98d0d1-ed87-46ff-9dd3-e93dd3ff6789	Nominal Part Load Value	NUMBER		935	1		1	
+PARAM	1f9cbaba-0477-489e-a406-ee3dcf7a59ec	R Value	NUMBER		935	1		1	
+PARAM	385f6cda-3461-4827-bd85-8c4cc494366d	Seasonal Energy Efficiency Rating	NUMBER		935	1		1	
+PARAM	d75a5244-58b1-4b0b-b833-994d890842e5	Solar Heat Gain Coefficient	NUMBER		935	1		1	
+PARAM	76c3739a-a466-43a6-b343-b04a5c8f773e	U Value	NUMBER		935	1		1	
+PARAM	aa634fbd-1a84-4967-945a-4cf15c250032	Visible Light Transmission	NUMBER		935	1		1	
+PARAM	d18ae175-6b0f-4132-a271-21c34ccb3252	Air Side Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	035c49e7-10c6-4131-a811-45df08e76af9	Compressor Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	b1814775-9619-4b72-80e9-882e512cf476	Cooling Stages	INTEGER		936	1		1	
+PARAM	261ed6da-7043-4241-ba2c-fbd1ca0053d7	Heat of Absorption	HVAC_HEATING_LOAD		936	1		1	
+PARAM	f41a71b8-c54b-49dd-8245-9327a406d97c	Heat of Rejection	HVAC_COOLING_LOAD		936	1		1	
+PARAM	e862759b-7d8a-4c70-9863-791062221fcd	Heating Input	HVAC_HEATING_LOAD		936	1		1	
+PARAM	f3831d8c-b76a-4c2c-87fe-f659f1bd8328	Heating Stages	INTEGER		936	1		1	
+PARAM	94769bc1-9237-4b9a-87eb-b6bf6a6b0e9e	Latent Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	11e64c2c-8d59-4161-a22f-f8402804965e	Nominal Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	cf0fb191-a948-4162-914b-556ce1d7b762	Powered	YESNO		936	1		1	
+PARAM	37d4f848-55fb-4116-8f06-7cd8917b0147	Reheat Coil Capacity	HVAC_HEATING_LOAD		936	1		1	
+PARAM	7e9d6a1c-f3b6-4692-8774-5b877eecb068	Sensible Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	cfbc2275-17b1-4975-b9d9-768bb87fe0e9	Sensible Heat Recovery Capacity	HVAC_HEATING_LOAD		936	1		1	
+PARAM	a7d41a3f-8280-456e-a6bf-2c88f67df231	Total Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	99dd75ca-1a2f-4044-9e6f-860ccf1fcc26	Total Heat Recovery Capacity	HVAC_HEATING_LOAD		936	1		1	
+PARAM	37d0209d-d4ad-4422-8959-2967b0323d20	Total Heating Capacity	HVAC_HEATING_LOAD		936	1		1	
+PARAM	a294339c-450f-49aa-9174-493a5fde7693	Total Heating Rate per Linear Foot	HVAC_HEATING_LOAD		936	1		1	
+PARAM	efb403a4-c9c6-4cc1-87e5-af9a6a9edd75	Water Side Cooling Capacity	HVAC_COOLING_LOAD		936	1		1	
+PARAM	4cebcdb2-ae3e-4eed-8899-f5b5c8578bca	Ballast Pad Weight	FORCE		937	1		1	
+PARAM	7ee6d562-ec2a-40d6-9c2a-629aee2c178f	Filter by Type	TEXT		937	1		1	
+PARAM	988f13e9-c5f2-4144-baab-69b97bda6826	Hold Down Rod Quantity	INTEGER		937	1		1	
+PARAM	f36c1c8e-326b-46a9-aec5-32644c684321	Tank Buoyant Force	FORCE		937	1		1	
+PARAM	4866e4de-ea16-4733-bd96-caf683062f98	Tank Weight	FORCE		937	1		1	
+PARAM	0dc3f29a-4d5a-4372-b301-6dd70e7cfa37	Build Number Used by Project	TEXT		938	1		1	
+PARAM	7c98ac42-dca2-4eeb-8a8b-0df992f50286	Copy Monitor In Use	YESNO		938	1		1	
+PARAM	55cd781d-f6a8-4253-abec-f458e5741dc4	Design Options In Use	YESNO		938	1		1	
+PARAM	8a958b59-a065-4d77-bf17-5e7714540e38	Design Options Used By	TEXT		938	1		1	
+PARAM	74ad7759-3a34-4cc0-879a-a729394c2691	Shared Coordinates In Use	YESNO		938	1		1	
+PARAM	8f0bf0d1-8280-45a5-9457-84c2a837034b	Shared Coordinates Origin File	TEXT		938	1		1	
+PARAM	77607bf5-aeed-45f5-a24e-6836a4281d4c	Civil Engineer	TEXT		939	1		1	
+PARAM	66b46378-0784-4230-acb2-8aa472da4dc0	Content Coordinator	TEXT		939	1		1	
+PARAM	fbf585d2-1fc9-4bf3-929f-551a545bcf1d	Current Print Description	TEXT		939	1		1	
+PARAM	f41e83d0-18b7-4d78-a5be-790612648a4a	Electrical Engineer	TEXT		939	1		1	
+PARAM	a8c4de08-6e68-4d04-b00f-c8bf1b902bab	Equipment Planner	TEXT		939	1		1	
+PARAM	19c843aa-4ff8-4df1-b33b-b50d4aa20e7c	File Name	TEXT		939	1		1	
+PARAM	54285578-ae9d-4ab9-8bbe-20ad23a43c31	Firm Registration Expiration	TEXT		939	1		1	
+PARAM	e0b00d69-113f-4788-8394-d51813315977	Firm Registration ID	TEXT		939	1		1	
+PARAM	d778f9f1-ff24-4213-8a25-e39d8353db9e	Interior Designer	TEXT		939	1		1	
+PARAM	d962bc7c-5339-4e47-92bf-5bc538814734	Landscape Architect	TEXT		939	1		1	
+PARAM	9a4ecd40-2b36-4a10-b863-07d8bd0d5670	Legal Entity Name	TEXT		939	1		1	
+PARAM	fbac3a4a-353a-4a9f-afad-735df734a00f	Mechanical Engineer	TEXT		939	1		1	
+PARAM	dfb05fe0-a79a-44eb-9d15-ffde189053e9	Office Address	TEXT		939	1		1	
+PARAM	67173f8f-d38a-43e1-a826-7efc24ccdd36	Office Address 2	TEXT		939	1		1	
+PARAM	f2008f09-5963-416a-b72f-eeafce6a0172	Office Address 3	TEXT		939	1		1	
+PARAM	45149620-7eb7-401f-871e-4605763e27a9	Page Number	INTEGER		939	1		1	
+PARAM	caa33849-6a45-46fa-b17a-608b8f9709f1	Page Total	INTEGER		939	1		1	
+PARAM	2b7c7828-0b1e-407c-b4ba-9b18bbf8f0cb	Plumbing Engineer	TEXT		939	1		1	
+PARAM	b79269f9-9414-4c54-8eaa-9ec001abf7d1	Project Architect	TEXT		939	1		1	
+PARAM	f17d39b1-a84f-47d6-bf66-32851a1175ae	Project Designer	TEXT		939	1		1	
+PARAM	2e4a8d73-e0c6-4eec-a567-9a9f01cc6c35	Project Manager	TEXT		939	1		1	
+PARAM	4a75c2dd-051d-4d2b-a054-dcd9daca431c	Project Model Manager	TEXT		939	1		1	
+PARAM	400d253e-6701-4cc9-9249-d5718e153555	Project Model Manager Home Office	TEXT		939	1		1	
+PARAM	16b910f2-8923-42ef-9288-b8ff70347136	Project Principal	TEXT		939	1		1	
+PARAM	5e996664-33e5-471b-9995-3de070474cf8	Sheet Coordinator	TEXT		939	1		1	
+PARAM	0ad91884-b98c-43ff-80f3-f1f1cf2d9ba6	Structural Engineer	TEXT		939	1		1	
+PARAM	4566d611-75ca-48b5-ac69-4b284f39faf7	Wayfinding	TEXT		939	1		1	
+PARAM	fa57491c-e537-4b63-8fb6-ae4476acdbd9	Cladding	TEXT		940	1		1	
+PARAM	0e738bca-c404-402b-b3d4-7c7d4944efe6	Color	TEXT		940	1		1	
+PARAM	aca72272-7681-4524-bc78-26fd91914668	Finish	TEXT		940	1		1	
+PARAM	21d1f2d4-8bfa-4b76-8207-b8d07df0628d	Frame Finish	MATERIAL		940	1		1	
+PARAM	2ad920c8-c123-4d16-af45-d8d0ea80a23f	Frame Material	TEXT		940	1		1	
+PARAM	a97c5f78-13b3-4cc9-8ca8-cb69273f5bd8	Glazing	TEXT		940	1		1	
+PARAM	20b699b0-3d5a-4426-bdd0-b34a25c51621	Glazing Material	MATERIAL		940	1		1	
+PARAM	2fe0a033-ae1e-4e62-9ea9-f08bd99bfe26	Interior Finish	TEXT		940	1		1	
+PARAM	2c0d1024-31d5-418d-a3df-eacfc848ad09	Mass Material ID	MATERIAL		940	1		1	
+PARAM	ee35ad84-b029-481a-b600-c9e17da63d7d	Material	TEXT		940	1		1	
+PARAM	9e140003-d197-4394-8518-c5262fb94c85	Panel Finish	MATERIAL		940	1		1	
+PARAM	16699f26-89a4-462a-963b-688b05ae42f0	Panel Material	TEXT		940	1		1	
+PARAM	20dd7c12-7bd4-44e1-ae17-e642078e46e8	Sign Color	TEXT		940	1		1	
+PARAM	01fe0efb-3eb0-47da-973d-08347333fe37	Tank Construction Material	MATERIAL		940	1		1	
+PARAM	aaaa2d79-1682-4fad-8699-da9ed9de2c15	Tank Lining Material	MATERIAL		940	1		1	
+PARAM	7b72a5cf-ec71-497d-b09f-d6df276aac85	Clearance Space Required	YESNO		941	1		1	
+PARAM	7115f569-d598-4805-90c9-398b27cef2ed	Construction	LENGTH		941	1		1	
+PARAM	11d9f747-2659-445e-a438-5a264ee83e69	Door Operation	TEXT		941	1		1	
+PARAM	589236c5-a1b9-49f5-bf29-1ef90fb60311	Door Panel Count	INTEGER		941	1		1	
+PARAM	8d6a567e-9733-4b55-9072-83e7362fe566	Fire Rating HDR	TEXT		941	1		1	
+PARAM	2e8bb56d-8da5-4eb1-909b-51ec1ba62765	Fire Rating in Hours	INTEGER		941	1		1	
+PARAM	6e92f5e9-3f1d-4025-bfad-cb7b6e3389a3	Fire Rating in Minutes	INTEGER		941	1		1	
+PARAM	14644fb4-f2d9-47c8-aa83-6071b0a92e1b	Fire Test Reference	TEXT		941	1		1	
+PARAM	26c6a9b0-0f57-4d7a-a12d-d31c1b82ea6e	Flexible Connection Type	TEXT		941	1		1	
+PARAM	d1b639f6-d7c4-4714-b4d5-361198ca4c0e	Frame Terminated Stop	YESNO		941	1		1	
+PARAM	1635031b-6a72-4d3c-b6c2-4b1655ca7eab	Frame Type	TEXT		941	1		1	
+PARAM	c3f13be2-5b69-477e-aa6b-c587c2d852ed	Furnished By	TEXT		941	1		1	
+PARAM	06161d4e-3ae7-4f9f-8986-019f61eb04b9	Hardware Set	TEXT		941	1		1	
+PARAM	4bb069af-e98d-4159-aaeb-dc3a434c0bc5	Installation Type	TEXT		941	1		1	
+PARAM	547173ea-dda4-458c-86d1-2263a5222cb9	Isolator Type	TEXT		941	1		1	
+PARAM	5b061af4-cf62-4186-bf49-4cc7e8709e41	No Sound Attenuation Indicator	TEXT		941	1		1	
+PARAM	0de94fe2-a9a2-4d77-85f7-4b40adb87fe5	Panel Type	TEXT		941	1		1	
+PARAM	25ac2849-09d5-4e4d-84c7-5f83b7ee0147	Panel Type Primary	FAMILYTYPE	-2000023	941	1		1	
+PARAM	b6666cbd-2542-42c3-ac23-e3553629259b	Panel Type Secondary	FAMILYTYPE	-2000023	941	1		1	
+PARAM	c200e6f0-a731-400e-aed1-dbb10f1da9ca	Partition Modifier	TEXT		941	1		1	
+PARAM	22b0f768-d079-4e43-b250-71e29575f4d6	Partition Modifier II	TEXT		941	1		1	
+PARAM	e49da248-b737-4069-a5c9-bf81a706eaf6	Radiation Resistant	YESNO		941	1		1	
+PARAM	96b99d18-b769-4360-991c-b45abc38f789	Requires Data Connection	YESNO		941	1		1	
+PARAM	5ca2ef8e-001e-49b5-82f1-8a1b086f8276	Requires Electrical Connection	YESNO		941	1		1	
+PARAM	d6963355-05df-4399-8ec0-56c9d7b9d29d	Requires Strainer	YESNO		941	1		1	
+PARAM	0084a084-4cba-4ca9-9d66-40293fccd976	Restraint Type	TEXT		941	1		1	
+PARAM	60be1af1-67be-492c-9ad0-fdd8da2186ce	Sign Mounting	TEXT		941	1		1	
+PARAM	e2dbfa7c-1e8d-4634-a6e5-46d506877198	STC Rating No SAB	TEXT		941	1		1	
+PARAM	55b827db-5dfb-4ae2-bece-7289658bac83	STC Rating Openings	TEXT		941	1		1	
+PARAM	bafa7b66-42cc-456f-9b6d-69582f2c4235	STC Rating With SAB	TEXT		941	1		1	
+PARAM	7af87440-5a26-433e-bd57-fb2d277c2ddf	STC Test Ref No SAB	TEXT		941	1		1	
+PARAM	68cbc4ed-73b2-477a-8066-e9e327ca31d2	STC Test Ref With SAB	TEXT		941	1		1	
+PARAM	6900a60f-76dc-4034-85d8-89aa7aca4b36	Surface Type	TEXT		941	1		1	
+PARAM	a0b76a22-260c-422e-927a-fa914dc6bdd9	Vibration Isolation Base Frame Type	TEXT		941	1		1	
+PARAM	e3ffcb31-bc56-4f22-a581-5688689eb1f6	Critical Emergency	YESNO		942	1		1	
+PARAM	de61f6a4-bb0c-4ece-b961-33029c29b18f	Electrical Equipment	YESNO		942	1		1	
+PARAM	820b5b65-71d8-41a9-95d9-2b9cf5d12c79	Equipment Branch Battery Emergency	YESNO		942	1		1	
+PARAM	7b66c5ff-b4f4-41c6-9602-f5287592dd18	Life Safety Battery Emergency	YESNO		942	1		1	
+PARAM	551f42f0-92b6-4590-8f8e-7baf546077db	Life Safety Emergency	YESNO		942	1		1	
+PARAM	2710cf11-5a2f-42f6-ac10-b489d48c376a	Normal	YESNO		942	1		1	
+PARAM	e4e2181e-57e3-4d4a-b659-35f06d5042fa	Show Annotation	YESNO		942	1		1	
+PARAM	b0bac7af-1c60-4ac7-88c1-91f592a636e8	Sign Room Anchor	YESNO		942	1		1	
+PARAM	429e1cc0-906c-4552-b0d7-4f8da4a5e280	UPS	YESNO		942	1		1	
+PARAM	2a91b0fd-1d30-4460-a431-a7a28aa69007	Energy Star Zone	TEXT		943	1		1	
+PARAM	14a4a813-1981-4853-a05c-0c553b8be5a1	LEED Credit	TEXT		943	1		1	
+PARAM	98b23aae-da02-4041-9030-6ca49b6e8c2d	Low Emitting Finish	YESNO		943	1		1	
+PARAM	8ff8cdda-f8c3-4dc4-a3f8-70f82280de22	Low Emitting Material	YESNO		943	1		1	
+PARAM	0dc29f95-b31e-45b7-b63b-80eea3303c48	Percentage of Recycled Content	NUMBER		943	1		1	
+PARAM	c23643bd-8129-4d1b-9217-4aa52a05633f	Salvage or Reuse	YESNO		943	1		1	
+PARAM	a0e72b9c-b545-4cf5-939b-bbdef2fed580	Light Source Height	LENGTH		944	1		1	
+PARAM	9ee3239c-a312-44e6-95f8-44b61c3e610d	Occupancy Area Number	TEXT		945	1		1	
+PARAM	03f68ff1-cfaf-4cca-b449-e8207801a94a	Occupancy Classification	TEXT		945	1		1	
+PARAM	1143ee2d-a97f-42bb-8359-e5ea6169dfad	Occupancy Description	TEXT		945	1		1	
+PARAM	c0de524d-ef9d-4895-90e9-b11e40db76ba	Occupancy Load Factor	NUMBER		945	1		1	
+PARAM	3e7324b0-6ced-45c2-beb6-b1f92ea81802	Original Issue Package	TEXT		945	1		1	
+PARAM	16c77e17-d145-43d2-b792-fcf8534098d3	Reference Package	TEXT		945	1		1	
+PARAM	1a6f2ec7-3368-448b-a4b9-44d9cfb5be79	Reference Sheet	TEXT		945	1		1	
+PARAM	7edf1cfb-9436-4155-9eb2-4608f23b240a	Project Sequence	TEXT		946	1		1	
+PARAM	cbdc9475-2ac8-4309-9d9a-789c40ad2315	Egress Capacity Factor Door	NUMBER		947	1		1	
+PARAM	29bf642c-537a-459f-ab08-8ffebb5627aa	Egress Capacity Factor Stairs	NUMBER		947	1		1	
+PARAM	b2162e88-af09-4015-ada6-b4c817ee3157	Egress Capacity Load Door	NUMBER		947	1		1	
+PARAM	12e008f7-b374-472f-80e4-d4914ac208a2	Egress Capacity Load Stairs	NUMBER		947	1		1	
+PARAM	368d99cb-a5f6-4056-904b-77f68d0ad65e	Occupant Load Factor_Shared	NUMBER		947	1		1	
+PARAM	4628056a-93bf-4c15-a809-f533dcc782e5	Occupant Load	NUMBER		948	1		1	
+PARAM	0b827f45-562c-4171-9465-c8be13eb2802	Occupant Load Factor	NUMBER		948	1		1	
+PARAM	2ae600ed-ec12-404b-a2f3-0a6644335fc5	Space Classification	TEXT		948	1		1	

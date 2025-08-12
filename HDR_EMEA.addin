@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>HDR_EMEA</Name>
+    <Assembly>HDR_EMEA\HDR_EMEA.dll</Assembly>
+    <FullClassName>HDR_EMEA.App</FullClassName>
+    <ClientId>67420a70-a30c-47d2-8741-a261d62183cc</ClientId>
+    <VendorId>com.HDR</VendorId>
+    <VendorDescription>HDR</VendorDescription>
+  </AddIn>
+</RevitAddIns>

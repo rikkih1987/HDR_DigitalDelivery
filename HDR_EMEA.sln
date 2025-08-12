@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDR_EMEA", "HDR_EMEA.csproj", "{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug R23|Any CPU = Debug R23|Any CPU
+		Debug R23|x64 = Debug R23|x64
+		Debug R24|Any CPU = Debug R24|Any CPU
+		Debug R24|x64 = Debug R24|x64
+		Debug R25|Any CPU = Debug R25|Any CPU
+		Debug R25|x64 = Debug R25|x64
+		Release R23|Any CPU = Release R23|Any CPU
+		Release R23|x64 = Release R23|x64
+		Release R24|Any CPU = Release R24|Any CPU
+		Release R24|x64 = Release R24|x64
+		Release R25|Any CPU = Release R25|Any CPU
+		Release R25|x64 = Release R25|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R23|Any CPU.ActiveCfg = Debug R23|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R23|Any CPU.Build.0 = Debug R23|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R23|x64.ActiveCfg = Debug R23|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R23|x64.Build.0 = Debug R23|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R24|Any CPU.ActiveCfg = Debug R24|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R24|Any CPU.Build.0 = Debug R24|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R24|x64.ActiveCfg = Debug R24|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R24|x64.Build.0 = Debug R24|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R25|Any CPU.ActiveCfg = Debug R25|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R25|Any CPU.Build.0 = Debug R25|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R25|x64.ActiveCfg = Debug R25|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Debug R25|x64.Build.0 = Debug R25|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R23|Any CPU.ActiveCfg = Release R23|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R23|Any CPU.Build.0 = Release R23|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R23|x64.ActiveCfg = Release R23|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R23|x64.Build.0 = Release R23|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R24|Any CPU.ActiveCfg = Release R24|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R24|Any CPU.Build.0 = Release R24|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R24|x64.ActiveCfg = Release R24|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R24|x64.Build.0 = Release R24|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R25|Any CPU.ActiveCfg = Release R25|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R25|Any CPU.Build.0 = Release R25|Any CPU
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R25|x64.ActiveCfg = Release R25|x64
+		{7F2724B5-158E-4D0C-BA91-24DF33CD8CC0}.Release R25|x64.Build.0 = Release R25|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C94FAF-672D-4095-A510-20C8A19E5F41}
+	EndGlobalSection
+EndGlobal
